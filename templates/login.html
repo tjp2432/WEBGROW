@@ -16,9 +16,22 @@
                 </div>
                 <div class="mb-4">
                     <label class="form-label">Contraseña *</label>
-                    {{ form.password(class="form-control", placeholder="Tu contraseña") }}
+                    <div class="input-group">
+                        {{ form.password(class="form-control", placeholder="Tu contraseña") }}
+                        <button class="btn btn-outline-secondary toggle-pass" type="button" title="Ver contraseña"><i class="bi bi-eye"></i></button>
+                    </div>
                     {% for error in form.password.errors %}<small class="text-danger">{{ error }}</small>{% endfor %}
                 </div>
+                <script>
+                document.querySelectorAll('.toggle-pass').forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        var input = btn.parentElement.querySelector('input');
+                        var show = input.type === 'password';
+                        input.type = show ? 'text' : 'password';
+                        btn.querySelector('i').className = show ? 'bi bi-eye-slash' : 'bi bi-eye';
+                    });
+                });
+                </script>
                 <button type="submit" class="btn btn-primary btn-lg w-100">Ingresar</button>
             </form>
             <p class="text-center mt-3 mb-0">¿No tenés cuenta? <a href="{{ url_for('register') }}">Registrate</a></p>

@@ -21,14 +21,30 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Contraseña *</label>
-                    {{ form.password(class="form-control", placeholder="Mínimo 6 caracteres") }}
+                    <div class="input-group">
+                        {{ form.password(class="form-control", placeholder="Mínimo 6 caracteres") }}
+                        <button class="btn btn-outline-secondary toggle-pass" type="button" title="Ver contraseña"><i class="bi bi-eye"></i></button>
+                    </div>
                     {% for error in form.password.errors %}<small class="text-danger">{{ error }}</small>{% endfor %}
                 </div>
                 <div class="mb-4">
                     <label class="form-label">Repetir Contraseña *</label>
-                    {{ form.confirm(class="form-control", placeholder="Repetí tu contraseña") }}
+                    <div class="input-group">
+                        {{ form.confirm(class="form-control", placeholder="Repetí tu contraseña") }}
+                        <button class="btn btn-outline-secondary toggle-pass" type="button" title="Ver contraseña"><i class="bi bi-eye"></i></button>
+                    </div>
                     {% for error in form.confirm.errors %}<small class="text-danger">{{ error }}</small>{% endfor %}
                 </div>
+                <script>
+                document.querySelectorAll('.toggle-pass').forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        var input = btn.parentElement.querySelector('input');
+                        var show = input.type === 'password';
+                        input.type = show ? 'text' : 'password';
+                        btn.querySelector('i').className = show ? 'bi bi-eye-slash' : 'bi bi-eye';
+                    });
+                });
+                </script>
                 <button type="submit" class="btn btn-primary btn-lg w-100">Registrarme</button>
             </form>
             <p class="text-center mt-3 mb-0">¿Ya tenés cuenta? <a href="{{ url_for('login') }}">Ingresar</a></p>
