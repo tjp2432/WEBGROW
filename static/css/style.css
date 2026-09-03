@@ -206,6 +206,19 @@ img { max-width: 100%; height: auto; }
 }
 
 .hero-title .brand-text { display: block; }
+.hero-title .smoke-s {
+    display: inline-block;
+    background: linear-gradient(180deg, #ffffff 10%, #cfc4f5 55%, rgba(139, 123, 184, 0.15) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: blur(0.4px) drop-shadow(0 0 14px rgba(200, 190, 240, 0.65));
+    animation: smoke-drift 4s ease-in-out infinite;
+}
+@keyframes smoke-drift {
+    0%, 100% { transform: translateY(0) skewX(0deg); }
+    50% { transform: translateY(-7px) skewX(-5deg); }
+}
 .hero-title .brand-inc {
     font-size: 2.5rem;
     display: block;
