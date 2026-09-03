@@ -1189,6 +1189,7 @@ body.age-locked { overflow: hidden; }
 }
 
 .feature-card h4 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+.feature-card p { color: #cfcfcf !important; }
 
 .contact-info { padding: 2rem; }
 
