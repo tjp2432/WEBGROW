@@ -1208,6 +1208,8 @@ body.age-locked { overflow: hidden; }
 
 .feature-card h4 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
 .feature-card p { color: #cfcfcf !important; }
+.blog-card .btn-link { color: #8b7bb8; text-decoration: none; }
+.blog-card .btn-link:hover { color: #b9aee0; }
 
 .contact-info { padding: 2rem; }
 
