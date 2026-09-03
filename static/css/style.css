@@ -133,8 +133,8 @@ img { max-width: 100%; height: auto; }
 
 .cart-badge {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -2px;
+    right: -8px;
     background: var(--accent);
     color: #000;
     font-size: 0.65rem;
