@@ -137,7 +137,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .hero-bg-logo img {
-    width: min(85vmin, 720px);
+    width: min(80vmin, 600px);
     height: auto;
     opacity: 0.3;
     filter: brightness(0.55) saturate(1);
