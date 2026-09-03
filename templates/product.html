@@ -4,14 +4,6 @@
 {% block content %}
 <section class="page-header">
     <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="{{ url_for('products') }}">Productos</a></li>
-                <li class="breadcrumb-item"><a href="{{ url_for('products', categoria=product.category.slug) }}">{{ product.category.name }}</a></li>
-                <li class="breadcrumb-item active">{{ product.name[:40] }}{% if product.name|length > 40 %}...{% endif %}</li>
-            </ol>
-        </nav>
     </div>
 </section>
 
