@@ -3,7 +3,6 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
-from app import app
 from models import db, Category, Product, BlogPost
 
 categories_data = [
@@ -645,36 +644,37 @@ blog_posts_data = [
 
 
 def seed():
-    with app.app_context():
-        db.create_all()
+    db.create_all()
 
-        if Category.query.first():
-            print("La base de datos ya tiene datos. Ejecutá 'drop all' si querés reseedear.")
-            return
+    if Category.query.first():
+        print("La base de datos ya tiene datos. Ejecutá 'drop all' si querés reseedear.")
+        return
 
-        for cat_data in categories_data:
-            cat = Category(**cat_data)
-            db.session.add(cat)
-        db.session.commit()
-        print(f"Categorías creadas: {len(categories_data)}")
+    for cat_data in categories_data:
+        cat = Category(**cat_data)
+        db.session.add(cat)
+    db.session.commit()
+    print(f"Categorías creadas: {len(categories_data)}")
 
-        cat_map = {c.slug: c.id for c in Category.query.all()}
+    cat_map = {c.slug: c.id for c in Category.query.all()}
 
-        for prod_data in products_data:
-            category_slug = prod_data.pop('category')
-            product = Product(**prod_data, category_id=cat_map[category_slug])
-            db.session.add(product)
-        db.session.commit()
-        print(f"Productos creados: {len(products_data)}")
+    for prod_data in products_data:
+        category_slug = prod_data.pop('category')
+        product = Product(**prod_data, category_id=cat_map[category_slug])
+        db.session.add(product)
+    db.session.commit()
+    print(f"Productos creados: {len(products_data)}")
 
-        for post_data in blog_posts_data:
-            post = BlogPost(**post_data)
-            db.session.add(post)
-        db.session.commit()
-        print(f"Artículos de blog creados: {len(blog_posts_data)}")
+    for post_data in blog_posts_data:
+        post = BlogPost(**post_data)
+        db.session.add(post)
+    db.session.commit()
+    print(f"Artículos de blog creados: {len(blog_posts_data)}")
 
-        print("Base de datos poblada exitosamente!")
+    print("Base de datos poblada exitosamente!")
 
 
 if __name__ == '__main__':
-    seed()
+    from app import app
+    with app.app_context():
+        seed()
