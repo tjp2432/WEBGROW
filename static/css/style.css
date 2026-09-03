@@ -1167,7 +1167,7 @@ body.age-locked { overflow: hidden; }
     justify-content: center;
 }
 .about-logo {
-    width: min(90%, 320px);
+    width: 100%;
     margin-bottom: 0;
 }
 .about-image-placeholder .brand-text,
