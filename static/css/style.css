@@ -1286,7 +1286,7 @@ body.age-locked { overflow: hidden; }
 .btn-close { filter: invert(1) brightness(0.5); }
 
 /* ADMIN STYLES */
-.admin-layout { display: flex; padding-top: 46px; min-height: 100vh; }
+.admin-layout { display: flex; padding-top: 112px; min-height: 100vh; }
 
 .admin-sidebar {
     width: 240px;
@@ -1294,7 +1294,7 @@ body.age-locked { overflow: hidden; }
     border-right: 1px solid var(--border);
     padding: 1rem 0;
     position: fixed;
-    top: 46px;
+    top: 112px;
     bottom: 0;
     left: 0;
     overflow-y: auto;
