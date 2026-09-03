@@ -27,6 +27,19 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: url('../images/brand/logo-hero.png') center center / min(90vmin, 640px) no-repeat;
+    opacity: 0.07;
+    filter: brightness(0.5);
+}
+
+main, .footer { position: relative; z-index: 1; }
+
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }
 ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
@@ -215,7 +228,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .bg-dark-section {
-    background: var(--bg-secondary);
+    background: rgba(17, 17, 17, 0.88);
 }
 
 .section-header {
