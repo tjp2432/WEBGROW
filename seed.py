@@ -592,7 +592,7 @@ blog_posts_data = [
     {
         'title': 'Guía de Nutrientes: Qué Darle a tus Plantas en Cada Etapa',
         'slug': 'guia-nutrientes-cada-etapa',
-        'image': 'images/blog/nutrients-guide.svg',
+        'image': 'images/blog/guia-principiantes.jpg',
         'excerpt': 'Conocé qué nutrientes necesita tu planta en vegetación, floración y precosecha.',
         'content': """<h2>La Alimentación de tus Plantas</h2>
 <p>Una nutrición adecuada es la diferencia entre una cosecha mediocre y una espectacular. Cada etapa del ciclo de vida requiere un perfil nutricional específico.</p>
