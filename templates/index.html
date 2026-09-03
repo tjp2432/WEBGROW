@@ -14,7 +14,9 @@
                     <span class="brand-text">PERRONE'<span class="smoke-s">S</span></span>
                     <svg width="0" height="0" style="position:absolute" aria-hidden="true">
                         <filter id="smokeS" x="-30%" y="-30%" width="160%" height="160%">
-                            <feTurbulence type="fractalNoise" baseFrequency="0.02 0.05" numOctaves="3" seed="7" result="n"/>
+                            <feTurbulence type="fractalNoise" baseFrequency="0.02 0.05" numOctaves="3" seed="7" result="n">
+                                <animate attributeName="baseFrequency" values="0.02 0.05;0.028 0.075;0.02 0.05" dur="6s" repeatCount="indefinite"/>
+                            </feTurbulence>
                             <feDisplacementMap in="SourceGraphic" in2="n" scale="24"/>
                         </filter>
                     </svg>

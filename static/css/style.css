@@ -209,6 +209,7 @@ img { max-width: 100%; height: auto; }
 .hero-title .smoke-s {
     display: inline-block;
     color: #e8e1fa;
+    opacity: 0.8;
     filter: url(#smokeS) drop-shadow(0 0 14px rgba(190, 175, 235, 0.7));
 }
 .hero-title .brand-inc {
