@@ -18,7 +18,7 @@ def out_file(route):
 
 
 def build_routes():
-    routes = ['/', '/productos', '/blog', '/nosotros', '/contacto', '/carrito']
+    routes = ['/', '/productos', '/blog', '/nosotros', '/contacto', '/carrito', '/login', '/registro']
     with app.app_context():
         for p in Product.query.filter_by(active=True).all():
             routes.append(f'/producto/{p.slug}')

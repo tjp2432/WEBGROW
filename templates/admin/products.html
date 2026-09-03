@@ -28,7 +28,12 @@
                 <td>{{ product.name[:40] }}{% if product.name|length > 40 %}...{% endif %}</td>
                 <td>{{ product.category.name }}</td>
                 <td>${{ "{:,.0f}".format(product.price) }}</td>
-                <td>{{ product.stock }}</td>
+                <td>
+                    <form method="POST" action="{{ url_for('admin_product_stock', id=product.id) }}" class="d-flex gap-1 align-items-center">
+                        <input type="number" name="stock" value="{{ product.stock }}" min="0" class="form-control form-control-sm" style="width:70px;">
+                        <button type="submit" class="btn btn-sm btn-outline-success" title="Guardar stock"><i class="bi bi-check-lg"></i></button>
+                    </form>
+                </td>
                 <td>{% if product.featured %}<i class="bi bi-check-circle-fill text-success"></i>{% else %}<i class="bi bi-x-circle-fill text-muted"></i>{% endif %}</td>
                 <td>{% if product.active %}<i class="bi bi-check-circle-fill text-success"></i>{% else %}<i class="bi bi-x-circle-fill text-danger"></i>{% endif %}</td>
                 <td>

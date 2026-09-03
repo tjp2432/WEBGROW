@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 
 from config import Config
 from models import db, User, Category, Product, Order, OrderItem, BlogPost, Contact
-from forms import (LoginForm, ProductForm, BlogForm, ContactForm, CheckoutForm)
+from forms import (LoginForm, RegisterForm, ProductForm, BlogForm, ContactForm, CheckoutForm)
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -19,8 +19,8 @@ app.config.from_object(Config)
 db.init_app(app)
 
 login_manager = LoginManager(app)
-login_manager.login_view = 'admin_login'
-login_manager.login_message = 'Inicia sesión para acceder al panel.'
+login_manager.login_view = 'login'
+login_manager.login_message = 'Iniciá sesión para continuar.'
 
 with app.app_context():
     db.create_all()
@@ -325,6 +325,54 @@ def contact():
         return redirect(url_for('contact'))
     return render_template('contact.html', form=form)
 
+@app.route('/registro', methods=['GET', 'POST'])
+def register():
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    form = RegisterForm()
+    if form.validate_on_submit():
+        if User.query.filter_by(username=form.username.data).first():
+            flash('Ese usuario ya existe.', 'error')
+        elif User.query.filter_by(email=form.email.data).first():
+            flash('Ese email ya está registrado.', 'error')
+        else:
+            user = User(username=form.username.data, email=form.email.data, is_admin=False)
+            user.set_password(form.password.data)
+            db.session.add(user)
+            db.session.commit()
+            login_user(user)
+            flash(f'Bienvenido, {user.username}.', 'success')
+            return redirect(url_for('index'))
+    return render_template('register.html', form=form)
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if current_user.is_authenticated:
+        return redirect(url_for('admin_dashboard' if current_user.is_admin else 'index'))
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first()
+        if user and user.check_password(form.password.data):
+            login_user(user)
+            flash(f'Hola de nuevo, {user.username}.', 'success')
+            return redirect(url_for('admin_dashboard' if user.is_admin else 'index'))
+        flash('Credenciales inválidas.', 'error')
+    return render_template('login.html', form=form)
+
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('index'))
+
+@app.route('/cuenta')
+@login_required
+def account():
+    orders = []
+    if current_user.is_authenticated:
+        orders = Order.query.filter_by(user_id=current_user.id).order_by(Order.created_at.desc()).all()
+    return render_template('account.html', orders=orders)
+
 @app.route('/admin/login', methods=['GET', 'POST'])
 def admin_login():
     if current_user.is_authenticated and current_user.is_admin:
@@ -447,6 +495,20 @@ def admin_product_delete(id):
         db.session.commit()
         flash('Producto eliminado.', 'success')
     return redirect(url_for('admin_products'))
+
+@app.route('/admin/productos/stock/<int:id>', methods=['POST'])
+@login_required
+@admin_required
+def admin_product_stock(id):
+    product = db.session.get(Product, id)
+    if product:
+        try:
+            product.stock = max(0, int(request.form.get('stock', product.stock)))
+        except (TypeError, ValueError):
+            pass
+        db.session.commit()
+        flash(f'Stock de "{product.name}" actualizado a {product.stock}.', 'success')
+    return redirect(request.referrer or url_for('admin_products'))
 
 @app.route('/admin/pedidos')
 @login_required
