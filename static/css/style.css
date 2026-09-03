@@ -1159,7 +1159,7 @@ body.age-locked { overflow: hidden; }
 .about-image-placeholder {
     background: linear-gradient(135deg, #1a1a1a, #222);
     border-radius: 24px;
-    padding: 0.5rem 1rem;
+    padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
