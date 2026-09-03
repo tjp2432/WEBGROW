@@ -210,9 +210,9 @@ img { max-width: 100%; height: auto; }
     font-size: 2.5rem;
     display: block;
 }
-.hero-title .inc-i { color: #d49645; }
-.hero-title .inc-n { color: #8b7bb8; }
-.hero-title .inc-c { color: var(--accent); }
+.inc-i { color: #d49645; }
+.inc-n { color: #8b7bb8; }
+.inc-c { color: var(--accent); }
 
 .hero-desc {
     color: var(--text-secondary);
