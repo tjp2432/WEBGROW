@@ -1159,7 +1159,7 @@ body.age-locked { overflow: hidden; }
 .about-image-placeholder {
     background: linear-gradient(135deg, #1a1a1a, #222);
     border-radius: 24px;
-    padding: 4rem 3rem;
+    padding: 2.5rem 2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1168,8 +1168,8 @@ body.age-locked { overflow: hidden; }
     min-height: 400px;
 }
 .about-logo {
-    width: min(60%, 280px);
-    margin-bottom: 1.5rem;
+    width: min(80%, 320px);
+    margin-bottom: 1rem;
 }
 }
 
