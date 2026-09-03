@@ -617,7 +617,7 @@ img { max-width: 100%; height: auto; }
 .whatsapp-float:hover { transform: scale(1.1); color: #fff; }
 
 .page-header {
-    padding: 5.5rem 0 3rem;
+    padding: 7rem 0 1.5rem;
     background: var(--bg-secondary);
     border-bottom: 1px solid var(--border);
     text-align: center;
