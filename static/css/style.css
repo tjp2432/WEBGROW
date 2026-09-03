@@ -657,7 +657,7 @@ img { max-width: 100%; height: auto; }
     border-radius: 20px;
     padding: 2.5rem 2rem;
 }
-.age-gate-box img { width: 120px; margin-bottom: 1rem; }
+.age-gate-box img { width: 200px; margin-bottom: 1rem; }
 .age-gate-box h2 { font-weight: 800; margin-bottom: 1rem; }
 .age-gate-box p { color: var(--text-secondary); }
 .age-gate-actions {
