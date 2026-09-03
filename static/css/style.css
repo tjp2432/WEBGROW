@@ -86,8 +86,21 @@ img { max-width: 100%; height: auto; }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
-    color: #8b7bb8 !important;
-    text-shadow: 0 0 12px rgba(139, 123, 184, 0.6);
+    color: #cfc4f5 !important;
+    animation: nav-glow 1.6s ease-in-out infinite;
+}
+
+@keyframes nav-glow {
+    0%, 100% {
+        text-shadow: 0 0 6px rgba(207, 196, 245, 0.8),
+                     0 0 18px rgba(139, 123, 184, 0.7),
+                     0 0 42px rgba(139, 123, 184, 0.45);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(230, 220, 255, 1),
+                     0 0 30px rgba(139, 123, 184, 0.95),
+                     0 0 70px rgba(139, 123, 184, 0.7);
+    }
 }
 
 .dropdown-menu {
