@@ -1172,6 +1172,7 @@ body.age-locked { overflow: hidden; }
 .about-logo {
     width: 100%;
     margin-bottom: 0;
+    transform: translateY(-24px);
 }
 .about-brand {
     position: absolute;
