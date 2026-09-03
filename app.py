@@ -82,7 +82,7 @@ def inject_globals():
 
 @app.route('/')
 def index():
-    featured_products = Product.query.filter_by(featured=True, active=True).limit(8).all()
+    featured_products = Product.query.filter_by(featured=True, active=True).order_by(Product.id.desc()).limit(8).all()
     latest_products = Product.query.filter_by(active=True).order_by(Product.created_at.desc()).limit(4).all()
     blog_posts = BlogPost.query.filter_by(published=True).order_by(BlogPost.created_at.desc()).limit(3).all()
     categories = Category.query.all()

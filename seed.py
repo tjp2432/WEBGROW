@@ -676,6 +676,18 @@ def seed():
     print("Base de datos poblada exitosamente!")
 
 
+FEATURED_CANDY = [
+    'lion-circus-banana-freak-33h',
+    'tips-carton-raw-x-50-original',
+    'migy08-bong-pyb-plastico-20cm',
+    '3rayos-pipa-aluminio-lucky-rojo',
+    'et001-encendedor-tactil-blunt-rey',
+    'lion-hemp-wrap-x2-strawberry',
+    'bandeja-raw-mini-girl-12-5-x-18cm',
+    'vaporizador-escritorio-arizer-extreme-q',
+]
+
+
 def _seed_candy():
     import json
     import re
@@ -735,7 +747,7 @@ def _seed_candy():
             price=price,
             stock=20 if it['stock'] else 0,
             category_id=cat_ids[it['cat']],
-            featured=False,
+            featured=slug in FEATURED_CANDY,
             active=True,
             image=img,
         ))
