@@ -45,7 +45,7 @@
                                 <img src="{{ url_for('static', filename=product.image) }}" alt="{{ product.name }}" style="width:100%;height:100%;object-fit:cover;">
                                 {% else %}
                                 <div class="product-img-placeholder" data-category="{{ product.category.slug }}">
-                                    {% set emojis = {'bongs': '🏺', 'pipas': '🚬', 'picadores': '⚙️', 'papeles': '📄', 'vaporizadores': '💨', 'iluminacion': '💡', 'fertilizantes': '🧪', 'accesorios': '🔧'} %}
+                                    {% set emojis = {'bongs': '🏺', 'pipas': '🚬', 'picadores': '⚙️', 'papeles': '📄', 'vaporizadores': '💨', 'iluminacion': '💡', 'fertilizantes': '🧪', 'accesorios': '🔧', 'filtros': '🧫', 'encendedores': '🔥', 'blunts': '🌯'} %}
                                     <span class="placeholder-emoji">{{ emojis.get(product.category.slug, '📦') }}</span>
                                 </div>
                                 {% endif %}

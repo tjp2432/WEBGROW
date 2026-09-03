@@ -671,7 +671,77 @@ def seed():
     db.session.commit()
     print(f"Artículos de blog creados: {len(blog_posts_data)}")
 
+    _seed_candy()
+
     print("Base de datos poblada exitosamente!")
+
+
+def _seed_candy():
+    import json
+    import re
+
+    path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'candy_products.json')
+    if not os.path.exists(path):
+        return
+    if Product.query.filter(Product.image.like('images/candy/%')).first():
+        return
+
+    def slugify(text):
+        text = text.lower().strip()
+        text = re.sub(r'[^\w\s-]', '', text)
+        text = re.sub(r'[\s_]+', '-', text)
+        return re.sub(r'-+', '-', text)[:150].strip('-')
+
+    with open(path, encoding='utf-8') as f:
+        data = json.load(f)
+
+    cat_ids = {c.slug: c.id for c in Category.query.all()}
+    for slug, (name, desc) in data['categories'].items():
+        if slug not in cat_ids:
+            cat = Category(name=name, slug=slug, description=desc)
+            db.session.add(cat)
+            db.session.flush()
+            cat_ids[slug] = cat.id
+
+    existing = {p.name for p in Product.query.with_entities(Product.name).all()}
+    slugs = {p.slug for p in Product.query.with_entities(Product.slug).all()}
+    imgdir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static', 'images', 'candy')
+    n = 0
+    for it in data['items']:
+        if it['name'] in existing:
+            continue
+        slug = (slugify(it['slug']) or f"candy-{it['candy_id']}")[:150]
+        base, k = slug, 2
+        while base in slugs:
+            base = f'{slug}-{k}'
+            k += 1
+        slug = base
+        slugs.add(slug)
+        units = it['units'] or 1
+        price = max(100, round((it['cost'] / units * 2) / 10) * 10)
+        box = f"Display x {it['units']}" if it['units'] else 'Unidad'
+        desc = it['desc'] or it['name']
+        if it['brand']:
+            desc += f"\nMarca: {it['brand']}."
+        desc += f' Venta por unidad ({box}).'
+        img = f'images/candy/{slug}.jpg'
+        if not os.path.exists(os.path.join(imgdir, slug + '.jpg')):
+            img = None
+        db.session.add(Product(
+            name=it['name'],
+            slug=slug,
+            description=desc[:2000],
+            short_description=f'Por unidad · {box}'[:300],
+            price=price,
+            stock=20 if it['stock'] else 0,
+            category_id=cat_ids[it['cat']],
+            featured=False,
+            active=True,
+            image=img,
+        ))
+        n += 1
+    db.session.commit()
+    print(f"Productos CandyClub creados: {n}")
 
 
 if __name__ == '__main__':

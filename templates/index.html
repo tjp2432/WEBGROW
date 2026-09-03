@@ -52,7 +52,7 @@
             <div class="col-lg-3 col-md-4 col-6">
                 <a href="{{ url_for('products', categoria=cat.slug) }}" class="category-card">
                     <div class="category-icon">
-                        {% set icons = {'bongs': 'bi-cup-hot', 'pipas': 'bi-pip', 'papeles': 'bi-file-text', 'vaporizadores': 'bi-fan', 'iluminacion': 'bi-lightbulb', 'fertilizantes': 'bi-droplet', 'accesorios': 'bi-grid-3x3-gap', 'picadores': 'bi-gear'} %}
+                        {% set icons = {'bongs': 'bi-cup-hot', 'pipas': 'bi-pip', 'papeles': 'bi-file-text', 'vaporizadores': 'bi-fan', 'iluminacion': 'bi-lightbulb', 'fertilizantes': 'bi-droplet', 'accesorios': 'bi-grid-3x3-gap', 'picadores': 'bi-gear', 'filtros': 'bi-funnel', 'encendedores': 'bi-fire', 'blunts': 'bi-capsule'} %}
                         <i class="bi {{ icons.get(cat.slug, 'bi-box') }}"></i>
                     </div>
                     <h5>{{ cat.name }}</h5>
@@ -84,7 +84,7 @@
                         <img src="{{ url_for('static', filename=product.image) }}" alt="{{ product.name }}" style="width:100%;height:100%;object-fit:cover;">
                         {% else %}
                         <div class="product-img-placeholder" data-category="{{ product.category.slug }}">
-                            {% set emojis = {'bongs': '🏺', 'pipas': '🚬', 'picadores': '⚙️', 'papeles': '📄', 'vaporizadores': '💨', 'iluminacion': '💡', 'fertilizantes': '🧪', 'accesorios': '🔧'} %}
+                            {% set emojis = {'bongs': '🏺', 'pipas': '🚬', 'picadores': '⚙️', 'papeles': '📄', 'vaporizadores': '💨', 'iluminacion': '💡', 'fertilizantes': '🧪', 'accesorios': '🔧', 'filtros': '🧫', 'encendedores': '🔥', 'blunts': '🌯'} %}
                             <span class="placeholder-emoji">{{ emojis.get(product.category.slug, '📦') }}</span>
                         </div>
                         {% endif %}
