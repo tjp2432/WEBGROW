@@ -83,7 +83,12 @@ img { max-width: 100%; height: auto; }
     transition: color .2s;
 }
 
-.navbar .nav-link:hover { color: var(--text-primary) !important; }
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+    color: #8b7bb8 !important;
+    text-shadow: 0 0 12px rgba(139, 123, 184, 0.6);
+}
 
 .dropdown-menu {
     background: var(--bg-card);
@@ -100,7 +105,7 @@ img { max-width: 100%; height: auto; }
     font-size: 0.9rem;
 }
 
-.dropdown-item:hover { background: var(--accent-dim); color: var(--accent); }
+.dropdown-item:hover { background: rgba(139, 123, 184, 0.12); color: #8b7bb8; }
 
 .dropdown-divider { border-color: var(--border); }
 
