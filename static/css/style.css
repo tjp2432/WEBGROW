@@ -637,6 +637,38 @@ img { max-width: 100%; height: auto; }
 
 .whatsapp-float:hover { transform: scale(1.1); color: #fff; }
 
+.age-gate {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 5, 5, 0.92);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+.age-gate[hidden] { display: none; }
+.age-gate-box {
+    max-width: 520px;
+    text-align: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+}
+.age-gate-box img { width: 120px; margin-bottom: 1rem; }
+.age-gate-box h2 { font-weight: 800; margin-bottom: 1rem; }
+.age-gate-box p { color: var(--text-secondary); }
+.age-gate-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+body.age-locked { overflow: hidden; }
+
 .page-header {
     padding: 7rem 0 1.5rem;
     background: var(--bg-secondary);

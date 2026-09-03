@@ -146,18 +146,6 @@
 </section>
 {% endif %}
 
-<section class="section cta-section">
-    <div class="container">
-        <div class="cta-box">
-            <h2>¿Sos mayor de 18 años?</h2>
-            <p>Este sitio contiene contenido sobre parafernalia y cultura cannábica. Confirmá que sos mayor de edad para navegar.</p>
-            <button class="btn btn-light btn-lg" onclick="localStorage.setItem('age_verified', 'true');this.closest('.cta-box').remove();">
-                Soy Mayor de 18
-            </button>
-        </div>
-    </div>
-</section>
-
 {% if not featured_products and not blog_posts and not categories %}
 <section class="section" style="min-height: 60vh;">
     <div class="container text-center py-5">
@@ -167,12 +155,4 @@
 </section>
 {% endif %}
 
-{% endblock %}
-
-{% block extra_js %}
-<script>
-if (localStorage.getItem('age_verified') === 'true') {
-    document.querySelector('.cta-box')?.remove();
-}
-</script>
 {% endblock %}
