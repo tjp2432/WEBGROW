@@ -42,6 +42,24 @@ with app.app_context():
 def load_user(user_id):
     return db.session.get(User, int(user_id))
 
+@app.after_request
+def set_security_headers(resp):
+    resp.headers['X-Content-Type-Options'] = 'nosniff'
+    resp.headers['X-Frame-Options'] = 'SAMEORIGIN'
+    resp.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+    resp.headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
+    resp.headers['Content-Security-Policy'] = (
+        "default-src 'self' https:; "
+        "script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; "
+        "style-src 'self' https: 'unsafe-inline'; "
+        "img-src 'self' https: data:; "
+        "font-src https: data:; "
+        "frame-ancestors 'self'"
+    )
+    if app.config.get('FORCE_HTTPS'):
+        resp.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
+    return resp
+
 def admin_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):

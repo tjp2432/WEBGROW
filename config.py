@@ -11,6 +11,12 @@ def _database_uri():
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY', 'perrones-inc-secret-key-2026')
+    FORCE_HTTPS = os.environ.get('FORCE_HTTPS', '0') == '1'
+    SESSION_COOKIE_HTTPONLY = True
+    SESSION_COOKIE_SAMESITE = 'Lax'
+    SESSION_COOKIE_SECURE = FORCE_HTTPS
+    REMEMBER_COOKIE_HTTPONLY = True
+    REMEMBER_COOKIE_SECURE = FORCE_HTTPS
     SQLALCHEMY_DATABASE_URI = _database_uri()
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     WTF_CSRF_ENABLED = True

@@ -10,3 +10,5 @@ services:
         generateValue: true
       - key: PYTHON_VERSION
         value: 3.12.3
+      - key: FORCE_HTTPS
+        value: '1'
