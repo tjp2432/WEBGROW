@@ -676,6 +676,16 @@ def seed():
     print("Base de datos poblada exitosamente!")
 
 
+REMOVED_CANDY = [
+    'atsq-cenicero-vidrio-2',
+    'cat-magiclick-turbo-goma-xhd58-black',
+    'cat-magiclick-turbo-goma-xhd58-color',
+    'cat-magiclick-turbo-solid',
+    'encendedor-bencina-chalas',
+    'filtros-stamps-slim-6x15mm-x-50u-pocket-black',
+    'tq420-slider-rick-morty-20x18cm',
+]
+
 FEATURED_CANDY = [
     'lion-circus-banana-freak-33h',
     'tips-carton-raw-x-50-original',
@@ -729,6 +739,8 @@ def _seed_candy():
             k += 1
         slug = base
         slugs.add(slug)
+        if slug in REMOVED_CANDY:
+            continue
         units = it['units'] or 1
         price = max(100, round((it['cost'] / units * 2) / 10) * 10)
         box = f"Display x {it['units']}" if it['units'] else 'Unidad'
