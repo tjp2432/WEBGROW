@@ -86,20 +86,20 @@ img { max-width: 100%; height: auto; }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
-    color: #e9d5ff !important;
+    color: #f3e8ff !important;
     animation: nav-glow 1.6s ease-in-out infinite;
 }
 
 @keyframes nav-glow {
     0%, 100% {
-        text-shadow: 0 0 6px rgba(233, 213, 255, 0.9),
-                     0 0 18px rgba(168, 85, 247, 0.75),
-                     0 0 42px rgba(168, 85, 247, 0.5);
+        text-shadow: 0 0 6px rgba(243, 232, 255, 1),
+                     0 0 18px rgba(168, 85, 247, 0.85),
+                     0 0 42px rgba(168, 85, 247, 0.6);
     }
     50% {
         text-shadow: 0 0 10px rgba(255, 255, 255, 1),
-                     0 0 30px rgba(168, 85, 247, 0.95),
-                     0 0 70px rgba(168, 85, 247, 0.75);
+                     0 0 30px rgba(192, 132, 252, 1),
+                     0 0 70px rgba(168, 85, 247, 0.85);
     }
 }
 
