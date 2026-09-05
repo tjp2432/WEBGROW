@@ -249,6 +249,8 @@ img { max-width: 100%; height: auto; }
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1.5rem;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .hero-title .brand-text { display: block; }
