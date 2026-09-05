@@ -1291,7 +1291,9 @@ body.age-locked { overflow: hidden; }
 
 .feature-card h4 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
 .feature-card p { color: #cfcfcf !important; }
-.section-toggle { display: block; color: inherit; cursor: pointer; text-align: center; }
+.section-toggle { display: block; color: inherit; cursor: pointer; text-align: center; margin-bottom: 1rem; }
+.section-toggle h2 { margin-bottom: 0.25rem; }
+.section-toggle p { margin-bottom: 0; }
 .section-toggle:hover { color: inherit; opacity: 1; }
 .section-toggle .toggle-arrow { font-size: 1.4rem; transition: transform .3s; display: inline-block; }
 .section-toggle[aria-expanded="true"] .toggle-arrow { transform: rotate(180deg); }
