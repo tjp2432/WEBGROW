@@ -7,8 +7,14 @@
 .hero-title .brand-inc {
     font-weight: 400;
 }
-.hero-title .flicker {
+.hero-title .flicker-wrap {
+    position: relative;
     display: inline-block;
+}
+.hero-title .flicker-part {
+    position: absolute;
+    inset: 0;
+    clip-path: inset(30% 0 25% 55%);
     animation: neon-flicker 4.5s linear infinite;
 }
 @keyframes neon-flicker {
