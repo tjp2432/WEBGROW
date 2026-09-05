@@ -164,6 +164,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .dropdown-item:hover { background: rgba(168, 85, 247, 0.14); color: #c084fc; }
+.account-menu .dropdown-item:hover { background: rgba(212, 150, 69, 0.12); color: #d49645; }
 
 .dropdown-divider { border-color: var(--border); }
 
