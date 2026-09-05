@@ -19,6 +19,11 @@
     filter: brightness(0.8);
     animation: neon-flicker 4.5s linear infinite;
 }
+.hero-title .flicker-part.top {
+    -webkit-mask-image: radial-gradient(ellipse 45% 26% at 50% 12%, #000 35%, transparent 70%);
+    mask-image: radial-gradient(ellipse 45% 26% at 50% 12%, #000 35%, transparent 70%);
+    animation-delay: 2.2s;
+}
 @keyframes neon-flicker {
     0%, 6.5%, 8%, 41%, 44.5%, 70.5%, 73%, 100% { opacity: 1; }
     7%, 7.5% { opacity: 0.2; }
