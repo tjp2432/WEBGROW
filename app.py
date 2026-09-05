@@ -53,7 +53,7 @@ def set_security_headers(resp):
         "script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; "
         "style-src 'self' https: 'unsafe-inline'; "
         "img-src 'self' https: data:; "
-        "font-src https: data:; "
+        "font-src 'self' https: data:; "
         "frame-ancestors 'self'"
     )
     if app.config.get('FORCE_HTTPS'):
