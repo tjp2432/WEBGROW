@@ -7,6 +7,16 @@
 .hero-title .brand-inc {
     font-weight: 400;
 }
+.hero-title .flicker {
+    display: inline-block;
+    animation: neon-flicker 4.5s linear infinite;
+}
+@keyframes neon-flicker {
+    0%, 6.5%, 8%, 41%, 44.5%, 70.5%, 73%, 100% { opacity: 1; }
+    7%, 7.5% { opacity: 0.2; }
+    43% { opacity: 0.35; }
+    72% { opacity: 0.1; }
+}
 
 :root {
     --bg-primary: #0a0a0a;
