@@ -221,8 +221,7 @@ img { max-width: 100%; height: auto; }
 .inc-n { color: #c084fc; }
 .inc-c { color: var(--accent); }
 .hero-title .brand-text {
-    color: transparent;
-    -webkit-text-stroke: 1.5px #dff1ff;
+    color: #eaf4ff;
     text-shadow: 0 0 8px rgba(190, 225, 255, 0.8),
                  0 0 28px rgba(130, 185, 255, 0.55),
                  0 0 70px rgba(110, 170, 255, 0.35);
@@ -232,20 +231,17 @@ img { max-width: 100%; height: auto; }
     letter-spacing: 6px;
 }
 .hero-title .inc-i {
-    color: transparent;
-    -webkit-text-stroke: 1px #7cc0ff;
+    color: #9cc8ff;
     text-shadow: 0 0 8px rgba(124, 192, 255, 0.8),
                  0 0 26px rgba(90, 169, 255, 0.55);
 }
 .hero-title .inc-n {
-    color: transparent;
-    -webkit-text-stroke: 1px #7dffb0;
+    color: #8dffb9;
     text-shadow: 0 0 8px rgba(0, 230, 118, 0.8),
                  0 0 26px rgba(0, 230, 118, 0.55);
 }
 .hero-title .inc-c {
-    color: transparent;
-    -webkit-text-stroke: 1px #ffcf8a;
+    color: #ffd9a0;
     text-shadow: 0 0 8px rgba(230, 165, 80, 0.8),
                  0 0 26px rgba(212, 150, 69, 0.55);
 }
