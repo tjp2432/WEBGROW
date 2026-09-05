@@ -174,7 +174,7 @@ img { max-width: 100%; height: auto; }
     padding: 0.3rem;
 }
 
-.cart-icon:hover { color: var(--accent); }
+.cart-icon:hover { color: #d8b4fe !important; animation: nav-glow 1.6s ease-in-out infinite; }
 
 .cart-badge {
     position: absolute;
@@ -1283,7 +1283,7 @@ body.age-locked { overflow: hidden; }
 .blog-card .btn-link { color: #c084fc; text-decoration: none; }
 .blog-card .btn-link:hover { color: #e9d5ff; }
 .account-icon { color: var(--text-primary); }
-.account-icon:hover { color: #d49645; }
+.account-icon:hover, .account-icon:focus { color: #d8b4fe !important; animation: nav-glow 1.6s ease-in-out infinite; }
 .auth-card {
     max-width: 460px;
     margin: 0 auto;
