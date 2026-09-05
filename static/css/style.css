@@ -1,7 +1,11 @@
 @font-face {
     font-family: 'NeoNeon';
-    src: url('../fonts/NeoNeon.otf') format('opentype');
+    src: url('../fonts/NeoNeon-Light.otf') format('opentype');
     font-display: swap;
+}
+.hero-title .brand-text,
+.hero-title .brand-inc {
+    font-weight: 400;
 }
 
 :root {
