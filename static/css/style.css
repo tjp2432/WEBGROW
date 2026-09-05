@@ -745,7 +745,7 @@ img { max-width: 100%; height: auto; }
 body.age-locked { overflow: hidden; }
 
 .page-header {
-    padding: 7rem 0 1.5rem;
+    padding: 7.7rem 0 0.8rem;
     background: var(--bg-secondary);
     border-bottom: 1px solid var(--border);
     text-align: center;
