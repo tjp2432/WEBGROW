@@ -126,6 +126,12 @@ img { max-width: 100%; height: auto; }
     font-size: 0.7rem;
     padding: 0.12rem 0.8rem !important;
     transition: color .2s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.navbar .dropdown-item {
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .navbar .nav-link:hover,
