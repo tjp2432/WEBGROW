@@ -1284,6 +1284,11 @@ body.age-locked { overflow: hidden; }
 .feature-card p { color: #cfcfcf !important; }
 .blog-card .btn-link { color: #c084fc; text-decoration: none; }
 .blog-card .btn-link:hover { color: #e9d5ff; }
+.product-img img {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
 .account-icon { color: var(--text-primary); }
 .account-icon:hover, .account-icon:focus { color: #d49645 !important; text-shadow: 0 0 12px rgba(168, 85, 247, 0.8); }
 .auth-card {
