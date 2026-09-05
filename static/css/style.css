@@ -156,13 +156,25 @@ img { max-width: 100%; height: auto; }
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0d0d0d 100%);
 }
 
+.hero-title { position: relative; }
+.hero-title::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    bottom: -3rem;
+    left: -6rem;
+    right: -10%;
+    background: linear-gradient(to right, #000 0%, #101010 45%, #1a1a1a 75%, transparent 100%);
+    z-index: 0;
+    pointer-events: none;
+}
 .hero-logo-img {
+    position: relative;
+    z-index: 1;
     height: 9rem;
     width: auto;
     max-width: 100%;
     mix-blend-mode: screen;
-    -webkit-mask-image: linear-gradient(to right, #000 55%, transparent 98%);
-    mask-image: linear-gradient(to right, #000 55%, transparent 98%);
 }
 
 .hero-bg-logo {
