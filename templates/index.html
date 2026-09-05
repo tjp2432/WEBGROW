@@ -35,23 +35,25 @@
 {% if categories %}
 <section class="section">
     <div class="container">
-        <div class="section-header">
-            <h2>Categorías</h2>
+        <a class="section-header section-toggle" data-bs-toggle="collapse" href="#collapseCats" role="button" aria-expanded="false" aria-controls="collapseCats">
+            <h2>Categorías <i class="bi bi-chevron-down toggle-arrow"></i></h2>
             <p>Explorá nuestra variedad de productos</p>
-        </div>
-        <div class="row g-3">
-            {% for cat in categories %}
-            <div class="col-lg-3 col-md-4 col-6">
-                <a href="{{ url_for('products', categoria=cat.slug) }}" class="category-card">
-                    <div class="category-icon">
-                        {% set icons = {'bongs': 'bi-cup-hot', 'pipas': 'bi-pip', 'papeles': 'bi-file-text', 'vaporizadores': 'bi-fan', 'iluminacion': 'bi-lightbulb', 'fertilizantes': 'bi-droplet', 'accesorios': 'bi-grid-3x3-gap', 'picadores': 'bi-gear', 'filtros': 'bi-funnel', 'encendedores': 'bi-fire', 'blunts': 'bi-capsule'} %}
-                        <i class="bi {{ icons.get(cat.slug, 'bi-box') }}"></i>
-                    </div>
-                    <h5>{{ cat.name }}</h5>
-                    <span class="category-count">{{ cat.products|length }} productos</span>
-                </a>
+        </a>
+        <div class="collapse" id="collapseCats">
+            <div class="row g-3">
+                {% for cat in categories %}
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="{{ url_for('products', categoria=cat.slug) }}" class="category-card">
+                        <div class="category-icon">
+                            {% set icons = {'bongs': 'bi-cup-hot', 'pipas': 'bi-pip', 'papeles': 'bi-file-text', 'vaporizadores': 'bi-fan', 'iluminacion': 'bi-lightbulb', 'fertilizantes': 'bi-droplet', 'accesorios': 'bi-grid-3x3-gap', 'picadores': 'bi-gear', 'filtros': 'bi-funnel', 'encendedores': 'bi-fire', 'blunts': 'bi-capsule'} %}
+                            <i class="bi {{ icons.get(cat.slug, 'bi-box') }}"></i>
+                        </div>
+                        <h5>{{ cat.name }}</h5>
+                        <span class="category-count">{{ cat.products|length }} productos</span>
+                    </a>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 </section>

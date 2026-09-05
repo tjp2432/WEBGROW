@@ -1291,6 +1291,10 @@ body.age-locked { overflow: hidden; }
 
 .feature-card h4 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
 .feature-card p { color: #cfcfcf !important; }
+.section-toggle { display: block; color: inherit; cursor: pointer; }
+.section-toggle:hover { color: inherit; opacity: 1; }
+.section-toggle .toggle-arrow { font-size: 1.4rem; transition: transform .3s; display: inline-block; }
+.section-toggle[aria-expanded="true"] .toggle-arrow { transform: rotate(180deg); }
 .blog-card .btn-link { color: #c084fc; text-decoration: none; }
 .blog-card .btn-link:hover { color: #e9d5ff; }
 .product-img img {
