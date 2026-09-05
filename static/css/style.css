@@ -161,6 +161,8 @@ img { max-width: 100%; height: auto; }
     width: auto;
     max-width: 100%;
     mix-blend-mode: screen;
+    -webkit-mask-image: linear-gradient(to right, #000 55%, transparent 98%);
+    mask-image: linear-gradient(to right, #000 55%, transparent 98%);
 }
 
 .hero-bg-logo {
