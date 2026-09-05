@@ -259,6 +259,9 @@ img { max-width: 100%; height: auto; }
 .inc-i { color: #d49645; }
 .inc-n { color: #c084fc; }
 .inc-c { color: var(--accent); }
+.footer-brand .inc-i { color: #c084fc; }
+.footer-brand .inc-n { color: var(--accent); }
+.footer-brand .inc-c { color: #d49645; }
 .hero-title .brand-text {
     color: #eaf4ff;
     text-shadow: 0 0 18px rgba(190, 225, 255, 0.75);
