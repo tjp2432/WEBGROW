@@ -156,13 +156,6 @@ img { max-width: 100%; height: auto; }
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0d0d0d 100%);
 }
 
-.hero-logo-img {
-    height: 9rem;
-    width: auto;
-    max-width: 100%;
-    mix-blend-mode: screen;
-}
-
 .hero-bg-logo {
     position: absolute;
     inset: 0;
