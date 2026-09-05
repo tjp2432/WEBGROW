@@ -33,6 +33,7 @@
 .hero-title .flicker-part.full {
     -webkit-mask-image: none;
     mask-image: none;
+    filter: none;
     animation-delay: 3.1s;
 }
 @keyframes neon-flicker {
