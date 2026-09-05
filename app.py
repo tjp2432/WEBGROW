@@ -311,8 +311,8 @@ def blog():
         query = query.filter_by(category=category)
     posts = query.order_by(BlogPost.created_at.desc()).paginate(
         page=page, per_page=app.config['PER_PAGE'], error_out=False)
-    categories = db.session.query(BlogPost.category).filter_by(published=True).distinct().all()
-    return render_template('blog.html', posts=posts, categories=[c[0] for c in categories if c[0]])
+    blog_cats = db.session.query(BlogPost.category).filter_by(published=True).distinct().all()
+    return render_template('blog.html', posts=posts, blog_categories=[c[0] for c in blog_cats if c[0]])
 
 @app.route('/blog/<slug>')
 def blog_post(slug):

@@ -11,10 +11,10 @@
 
 <section class="section">
     <div class="container">
-        {% if categories %}
+        {% if blog_categories %}
         <div class="blog-filters mb-4">
             <a href="{{ url_for('blog') }}" class="blog-filter-btn {% if not request.args.get('categoria') %}active{% endif %}">Todas</a>
-            {% for cat in categories %}
+            {% for cat in blog_categories %}
             <a href="{{ url_for('blog', categoria=cat) }}" class="blog-filter-btn {% if request.args.get('categoria') == cat %}active{% endif %}">{{ cat }}</a>
             {% endfor %}
         </div>
