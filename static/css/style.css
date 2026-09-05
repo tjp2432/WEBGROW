@@ -1339,6 +1339,9 @@ body.age-locked { overflow: hidden; }
     flex-shrink: 0;
 }
 
+.contact-item .ci-mail { color: var(--info); }
+.contact-item .ci-pin { color: var(--danger); }
+.contact-item .ci-clock { color: #fff; }
 .contact-item strong { display: block; margin-bottom: 0.15rem; }
 .contact-item p { color: var(--text-secondary); margin: 0; font-size: 0.9rem; }
 
