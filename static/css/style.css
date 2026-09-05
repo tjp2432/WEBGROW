@@ -1283,7 +1283,7 @@ body.age-locked { overflow: hidden; }
 .blog-card .btn-link { color: #c084fc; text-decoration: none; }
 .blog-card .btn-link:hover { color: #e9d5ff; }
 .account-icon { color: var(--text-primary); }
-.account-icon:hover { color: var(--accent); }
+.account-icon:hover { color: #d49645; }
 .auth-card {
     max-width: 460px;
     margin: 0 auto;
