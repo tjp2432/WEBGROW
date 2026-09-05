@@ -114,6 +114,8 @@ img { max-width: 100%; height: auto; }
     border-bottom: 1px solid var(--border);
     padding: 0.12rem 0;
     min-height: 90px;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .navbar .navbar-brand { display: flex; align-items: center; gap: 2px; padding: 0; margin: 0; font-size: .85rem; }
