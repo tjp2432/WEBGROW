@@ -528,7 +528,7 @@ blog_posts_data = [
 </ul>
 
 <h2>La Cultura Hoy</h2>
-<p>La cultura cannábica moderna es diversa e inclusiva. Desde growers que comparten conocimientos en redes sociales, hasta chefs que crean experiencias gastronómicas, pasando por la moda y el arte.</p>
+<p>La cultura moderna es diversa e inclusiva. Desde growers que comparten conocimientos en redes sociales, hasta chefs que crean experiencias gastronómicas, pasando por la moda y el arte.</p>
 
 <p>En Perrone's INC celebramos esta cultura con respeto y pasión. Nuestro objetivo es ofrecer productos de calidad mientras educamos y construimos una comunidad responsable.</p>""",
         'category': 'Cultura',
