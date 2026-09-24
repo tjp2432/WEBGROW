@@ -1324,7 +1324,6 @@ body.age-locked { overflow: hidden; }
 .about-image-placeholder .brand-inc {
     line-height: 1.1;
 }
-}
 
 .feature-card {
     text-align: center;
@@ -1557,10 +1556,39 @@ body.age-locked { overflow: hidden; }
     .admin-content { margin-left: 0; }
     .page-header { padding: 6rem 0 2rem; }
     .page-header h1 { font-size: 2rem; }
+    .navbar-collapse {
+        background: rgba(10, 10, 10, 0.98);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 0.75rem;
+        margin-top: 0.75rem;
+        max-height: calc(100vh - 140px);
+        max-height: calc(100svh - 140px);
+        overflow-y: auto;
+    }
+    .navbar .navbar-nav { gap: 0.15rem; }
+    .navbar .nav-link { border-radius: 10px; }
+    .navbar .nav-link:hover, .navbar .nav-link:focus { background: rgba(168, 85, 247, 0.1); }
+    .navbar .dropdown-menu {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        padding: 0 0 0.25rem 0.75rem;
+        margin: 0;
+    }
+    #navbarMain > .d-flex {
+        padding: 0.75rem 0.5rem 0.25rem;
+        border-top: 1px solid var(--border);
+        margin-top: 0.5rem;
+    }
 }
 
 @media (max-width: 767px) {
     .section { padding: 3rem 0; }
+    .hero { min-height: 100svh; text-align: center; }
+    .hero-bg-logo { justify-content: center; align-items: flex-start; padding: 120px 1rem 0; }
+    .hero-bg-logo img { width: min(68vw, 320px); opacity: 0.35; }
+    .hero-desc { margin-left: auto; margin-right: auto; }
     .hero-title { font-size: 2.5rem; }
     .hero-title .brand-inc { font-size: 1.5rem; }
     .hero-desc { font-size: 1rem; }
