@@ -1606,7 +1606,7 @@ body.age-locked { overflow: hidden; }
     .hero-title .brand-inc { font-size: 1.7rem; }
     .hero-desc { font-size: 1rem; }
     .hero-actions { flex-direction: column; }
-    .hero-actions .btn { width: 100%; margin: 0 !important; font-size: 0.82rem; padding: 0.3rem 0.6rem; }
+    .hero-actions .btn { width: 70%; margin: 0 auto !important; font-size: 0.82rem; padding: 0.3rem 0.6rem; }
     .section-header h2 { font-size: 1.6rem; }
     .category-card { padding: 1.25rem; }
     .product-actions-lg { flex-direction: column; }
