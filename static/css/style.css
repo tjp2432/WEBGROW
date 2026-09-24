@@ -1592,7 +1592,7 @@ body.age-locked { overflow: hidden; }
     .section { padding: 3rem 0; }
     .hero { min-height: 100svh; text-align: center; flex-direction: column; justify-content: center; padding: 100px 0 5rem; }
     .hero-content { order: 1; width: 100%; }
-    .hero-bg-logo { position: static; order: 2; padding: 2.5rem 1rem 0; justify-content: center; }
+    .hero-bg-logo { position: static; order: 2; padding: 0.75rem 1rem 0; justify-content: center; margin-top: -1rem; }
     .hero-bg-logo img {
         width: min(70vw, 300px);
         opacity: 0.95;
