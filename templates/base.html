@@ -28,6 +28,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('index') }}">Inicio</a>
                     </li>
+                    {% if not HIDE_STORE %}
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Productos
@@ -40,6 +41,7 @@
                             {% endfor %}
                         </ul>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('blog') }}">Blog</a>
                     </li>
@@ -50,6 +52,7 @@
                         <a class="nav-link" href="{{ url_for('contact') }}">Contacto</a>
                     </li>
                 </ul>
+                {% if not HIDE_STORE %}
                 <div class="d-flex align-items-center gap-3">
                     <a href="{{ url_for('cart') }}" class="cart-icon position-relative">
                         <i class="bi bi-bag fs-5"></i>
@@ -76,6 +79,7 @@
                     </a>
                     {% endif %}
                 </div>
+                {% endif %}
             </div>
         </div>
     </nav>
@@ -112,6 +116,7 @@
                         <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
+                {% if not HIDE_STORE %}
                 <div class="col-lg-2 col-md-4">
                     <h5>Productos</h5>
                     <ul class="footer-links">
@@ -121,13 +126,16 @@
                         <li><a href="{{ url_for('products') }}">Ver Todos</a></li>
                     </ul>
                 </div>
+                {% endif %}
                 <div class="col-lg-2 col-md-4">
                     <h5>Navegación</h5>
                     <ul class="footer-links">
                         <li><a href="{{ url_for('about') }}">Nosotros</a></li>
                         <li><a href="{{ url_for('blog') }}">Blog</a></li>
                         <li><a href="{{ url_for('contact') }}">Contacto</a></li>
+                        {% if not HIDE_STORE %}
                         <li><a href="{{ url_for('cart') }}">Carrito</a></li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4">

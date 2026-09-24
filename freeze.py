@@ -10,6 +10,10 @@ DIST = os.path.join(HERE, 'dist')
 from app import app
 from models import Product, BlogPost
 
+# En la versión pública estatica se oculta la tienda (solo blog e institucional).
+# En local HIDE_STORE no existe (=falsy) y la tienda se muestra normal.
+app.jinja_env.globals['HIDE_STORE'] = True
+
 
 def out_file(route):
     if route == '/':
@@ -18,10 +22,8 @@ def out_file(route):
 
 
 def build_routes():
-    routes = ['/', '/productos', '/blog', '/nosotros', '/contacto', '/carrito', '/login', '/registro']
+    routes = ['/', '/blog', '/nosotros', '/contacto']
     with app.app_context():
-        for p in Product.query.filter_by(active=True).all():
-            routes.append(f'/producto/{p.slug}')
         for b in BlogPost.query.filter_by(published=True).all():
             routes.append(f'/blog/{b.slug}')
     return routes

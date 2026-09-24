@@ -36,11 +36,13 @@
                             {% endif %}
                         </div>
                     </div>
+                    {% if not HIDE_STORE %}
                     <div class="sidebar-widget sidebar-cta">
                         <h5>Visitá nuestra Tienda</h5>
                         <p>Equipate con los mejores productos para cultivo y parafernalia.</p>
                         <a href="{{ url_for('products') }}" class="btn btn-primary w-100">Ver Productos</a>
                     </div>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-lg-6">
