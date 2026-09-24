@@ -1246,7 +1246,7 @@ body.age-locked { overflow: hidden; }
 @media (min-width: 992px) {
     .blog-post-top .col-lg-3 { position: relative; left: calc((100% - 100vw) / 4); }
     .navbar .navbar-brand { position: relative; left: calc((100% - 100vw) / 4); }
-    .navbar #navbarMain > .d-flex { position: relative; left: calc((100vw - 100%) / 4); }
+    .navbar #navbarMain > .d-flex { position: relative; left: calc((100vw - 100%) / 4); margin-left: auto; }
     .navbar #navbarMain { position: relative; }
     .navbar #navbarMain > .navbar-nav {
         position: absolute;
