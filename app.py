@@ -37,6 +37,9 @@ with app.app_context():
     if not Category.query.first():
         from seed import seed
         seed()
+    else:
+        from seed import sync_managed_posts
+        sync_managed_posts()
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -321,7 +324,8 @@ def blog_post(slug):
         BlogPost.published == True,
         BlogPost.id != post.id
     ).order_by(BlogPost.created_at.desc()).limit(3).all()
-    return render_template('blog_post.html', post=post, recent=recent)
+    sidebar_cats = [c[0] for c in db.session.query(BlogPost.category).filter_by(published=True).distinct().all() if c[0]]
+    return render_template('blog_post.html', post=post, recent=recent, sidebar_cats=sidebar_cats)
 
 @app.route('/nosotros')
 def about():

@@ -639,12 +639,455 @@ blog_posts_data = [
         'tags': 'nutrientes, fertilizantes, cultivo, floracion, vegetacion',
         'published': True,
         'featured': False
+    },
+    {
+        'title': 'Dry Sift y Kief: Guía completa de extracción en seco',
+        'slug': 'extraccion-en-seco-dry-sift-kief',
+        'image': 'images/blog/extraccion-seco.jpg',
+        'excerpt': 'Aprendé a separar tricomas en seco con mallas y tamices: qué micronaje usar, cómo prensar kief y errores a evitar.',
+        'content': """<h2>Qué es la Extracción en Seco</h2>
+<p>La extracción en seco, también llamada <strong>dry sift</strong>, es el método más antiguo y simple: se separan los tricomas de la flor usando fricción suave sobre mallas calibradas. El resultado es el <strong>kief</strong>, un polvo dorado lleno de cannabinoides y terpenos.</p>
+<p>Ventajas: no usa solventes, ni agua, ni calor. Solo necesitas mallas, frío y paciencia.</p>
+<figure class="blog-figure"><img src="/static/images/blog/extraccion-seco-cuerpo.jpg" alt="Tricomas curados y concentrados" loading="lazy"><figcaption>Tricomas curados y concentrados, la base del dry sift. Foto: Mjpresson, Wikimedia Commons (CC BY-SA 3.0).</figcaption></figure>
+
+<h2>Qué Necesitás</h2>
+<ul>
+<li><strong>Mallas o tamices:</strong> 70u, 110u y 160u son el estándar. A menor micraje, mayor pureza.</li>
+<li><strong>Material bien seco y curado:</strong> humedad 55-62%. Si está húmedo, se apelmaza.</li>
+<li><strong>Frío:</strong> trabajá en ambiente frío o meté el material 30 min al freezer. El tricoma se vuelve quebradizo y se suelta fácil.</li>
+<li><strong>Tarjeta o pincel suave</strong> para mover el material sin romperlo.</li>
+</ul>
+
+<h2>Paso a Paso</h2>
+<h3>1. Primera pasada (160u)</h3>
+<p>Colocá una pequeña cantidad sobre la malla y mové en círculos suaves 2-3 minutos. Lo que cae es tu primera calidad, más vegetal pero abundante.</p>
+<h3>2. Refinado (110u y 70u)</h3>
+<p>Pasá lo recolectado por mallas más finas. La fracción de 70-110u suele ser la <strong>full melt</strong>: se derrite al calor, color rubio claro.</p>
+<h3>3. Limpieza estática</h3>
+<p>Truco pro: envolvé el kief en papel manteca y pasá un guante de látex con estática por encima. Los contaminantes vegetales se pegan al guante y el kief puro queda abajo.</p>
+
+<h2>Calidades y Colores</h2>
+<ul>
+<li><strong>Rubio claro:</strong> cabezas de tricomas puras, máxima calidad.</li>
+<li><strong>Verdoso:</strong> tiene materia vegetal, ideal para prensar o cocinar.</li>
+<li><strong>Marrón oscuro:</strong> oxidado o viejo, mejor para comestibles.</li>
+</ul>
+
+<h2>Cómo Conservarlo y Usarlo</h2>
+<p>Guardá en frasco hermético, oscuro y frío. Podés espolvorear sobre flores, prensar en hachís con calor suave, o guardar para hacer rosin después.</p>
+
+<h2>Errores Comunes</h2>
+<ol>
+<li><strong>Frotar muy fuerte:</strong> rompe materia vegetal y contamina.</li>
+<li><strong>Material húmedo:</strong> no tamiza bien y deja hongos.</li>
+<li><strong>Ambiente caluroso:</strong> los tricomas se derriten y tapan la malla.</li>
+</ol>
+
+<p>En Perrone's INC conseguís tamices, grinders recolectores y prensas manuales para llevar tu dry sift al siguiente nivel. <a href="/productos">Ver accesorios</a></p>
+<p class="img-credit">Foto de portada: 1 g de kief tamizado. Mjpresson, Wikimedia Commons (CC BY 3.0).</p>""",
+        'category': 'Extracciones',
+        'tags': 'extraccion, seco, dry sift, kief, hash, sin solventes',
+        'published': True,
+        'featured': True
+    },
+    {
+        'title': 'Bubble Hash: Extracción con Agua y Hielo Paso a Paso',
+        'slug': 'extraccion-bubble-hash-agua-hielo',
+        'image': 'images/blog/extraccion-bubble.jpg',
+        'excerpt': 'La técnica de bubble hash con bolsas de micraje: temperaturas, tiempos de batido, secado y curado para un hash premium.',
+        'content': """<h2>Qué es el Bubble Hash</h2>
+<p>El <strong>bubble hash</strong> o hash de agua usa hielo, agua fría y bolsas filtrantes (bubble bags) para separar los tricomas por densidad. Al calentarse hace burbujas — de ahí su nombre. Es sin solventes y uno de los concentrados más sabrosos.</p>
+
+<h2>Manera Casera vs Profesional</h2>
+<p>Hay dos caminos para llegar al mismo resultado, y el principio es idéntico: agua helada + agitación + filtrado por micraje. Lo que cambia es la escala y la comodidad.</p>
+<ul>
+<li><strong>Casera:</strong> un balde de 20L, un set de bubble bags, una cuchara de madera o un mixer, y mucho hielo. Ideal para arrancar y sacar tus primeros gramos.</li>
+<li><strong>Profesional:</strong> tanque de acero con válvula de descarga, <strong>lavadora de hash</strong> (agita sola con ciclos programados), cuarto frío para trabajar a temperatura estable y <strong>liofilizadora</strong> (freeze dryer) para un secado perfecto en 24h en vez de una semana.</li>
+</ul>
+<p>En esta guía te mostramos el proceso completo con fotos reales de cada etapa: se puede hacer en casa, y se puede ir profesionalizando con lavadora o equipo industrial a medida que crecés.</p>
+
+<h2>Equipo Necesario</h2>
+<ul>
+<li><strong>Bubble bags:</strong> set de 4-8 bolsas (220u, 160u, 120u, 73u, 45u, 25u). La de 73u suele dar la mejor calidad.</li>
+<li><strong>Recipiente:</strong> balde de 20L en casa, o tanque de acero con grifo a nivel pro.</li>
+<li><strong>Hielo en cantidad y agua bien fría (2-4°C).</strong></li>
+<li><strong>Agitación:</strong> cuchara de madera o batidora a baja velocidad; lavadora de hash si querés subir de nivel.</li>
+<li><strong>Malla de secado, papel manteca y microplane o tamiz para rallar.</strong></li>
+</ul>
+
+<h2>Paso a Paso con Fotos</h2>
+<h3>1. Carga del material y el hielo</h3>
+<p>Llená el recipiente con agua fría, una buena base de hielo y el material (fresco congelado = live bubble, más terpenoso; seco curado = más rendimiento). En casa un balde alcanza; a nivel pro se usa tanque de acero con descarga inferior.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-0.jpg" alt="Tanque con material vegetal y hielo" loading="lazy"><figcaption>Carga del material con abundante hielo antes del lavado.</figcaption></figure>
+<h3>2. Batido y remolino</h3>
+<p>Remové 10-15 minutos en círculos suaves hasta formar el remolino: la fricción del hielo suelta los tricomas. Descansá 20-30 minutos para que decanten. No batas de más: a partir de los 20 min aumenta el contaminante vegetal. Con lavadora, este paso lo hace la máquina con ciclos programados.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-1.jpg" alt="Remolino del lavado con hielo y material" loading="lazy"><figcaption>El remolino durante el batido: el hielo separa los tricomas del material.</figcaption></figure>
+<h3>3. Filtrado con bubble bags</h3>
+<p>Apilá las bolsas de menor a mayor micraje (25u abajo, 220u arriba) y volcá la mezcla. Cada bolsa retiene una calidad distinta: 120-73u suele ser full melt, 45-25u es más para cocinar.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-2.jpg" alt="Set de bubble bags por micraje" loading="lazy"><figcaption>Set de bolsas filtrantes identificadas por color según el micraje.</figcaption></figure>
+<h3>4. Recolección del hash</h3>
+<p>Levantá cada bolsa una por una, dejá escurrir y recolectá el hash con cuchara fría sobre papel manteca.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-3.jpg" alt="Recolección del hash con cuchara" loading="lazy"><figcaption>Recolección del hash de cada bolsa con cuchara fría.</figcaption></figure>
+<h3>5. Enjuague de las bolsas</h3>
+<p>Con manguera a presión suave, arrastrá los restos de hash hacia el centro de la malla para no perder nada. Este paso mejora el rendimiento final.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-4.jpg" alt="Enjuague de la bolsa con manguera" loading="lazy"><figcaption>Enjuague con agua a presión para juntar todo el hash en el centro.</figcaption></figure>
+<h3>6. Extendido para el secado</h3>
+<p>Esparcí el hash húmedo en capa fina sobre papel manteca en bandejas. Cuanto más extendido, mejor seca y menos riesgo de hongos.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-5.jpg" alt="Hash extendido en bandeja" loading="lazy"><figcaption>Hash húmedo extendido en bandeja con papel manteca.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-6.jpg" alt="Plancha de hash antes del secado" loading="lazy"><figcaption>Plancha de hash lista para entrar en secado.</figcaption></figure>
+<h3>7. Secado (el paso crítico)</h3>
+<p>Rallá el hash con microplane sobre papel manteca en ambiente frío y seco (15°C, 35% humedad) y secá 5-7 días. Si no se seca bien, le salen hongos. Nunca uses calor ni microondas. A nivel pro, la liofilizadora deja el hash seco y rubio en 24 horas.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-7.jpg" alt="Bandejas con hash rallado secándose" loading="lazy"><figcaption>Hash rallado en bandejas durante el secado de varios días.</figcaption></figure>
+<h3>8. Producto final</h3>
+<p>El resultado: un hash color arena, aromático y potente, listo para consumir o prensar como rosin.</p>
+<figure class="blog-figure"><img src="/static/images/blog/bubble-paso-8.jpg" alt="Bubble hash seco final" loading="lazy"><figcaption>Bubble hash seco y terminado, con su clásico color arena.</figcaption></figure>
+
+<h2>Consejos Pro</h2>
+<ul>
+<li>Usá agua de ósmosis o destilada para mejor sabor.</li>
+<li>Hacé 2-3 lavadas del mismo material: la 1ra es la más pura.</li>
+<li>Congelá todo (bolsas, cucharas, material) antes de empezar.</li>
+<li>Si te enganchás, la primera mejora que se nota es la lavadora de hash: misma calidad, cero brazo cansado.</li>
+</ul>
+
+<h2>Cómo Consumirlo</h2>
+<p>En pipa, bong, espolvoreado o dabbeado a baja temperatura (170-190°C). El full melt de 73u se puede dabear puro.</p>
+
+<p>Consultanos por bubble bags, lavadoras de hash, mallas de secado y frascos herméticos en nuestra <a href="/productos">tienda</a>.</p>
+<p class="img-credit">Fotos del proceso: gentileza Perrone's INC. Foto de portada: hash prensado por extracción con hielo. Mjpresson, Wikimedia Commons.</p>""",
+        'category': 'Extracciones',
+        'tags': 'extraccion, bubble hash, agua, hielo, hash, sin solventes',
+        'published': True,
+        'featured': True
+    },
+    {
+        'title': 'Extracción con Butano (BHO): Qué es, Riesgos y Seguridad',
+        'slug': 'extraccion-butano-bho-seguridad',
+        'image': 'images/blog/extraccion-bho.jpg',
+        'excerpt': 'Guía educativa sobre BHO: tipos (shatter, wax, budder), por qué el open blasting casero es peligroso y qué exigir en un producto seguro.',
+        'content': """<h2>Aviso Importante de Seguridad</h2>
+<p><strong>El butano es altamente inflamable y sus vapores pueden explotar.</strong> La extracción casera a cielo abierto (open blasting) ha causado accidentes graves. Este artículo es <strong>educativo</strong>: no recomendamos hacer BHO en casa. La producción segura requiere circuito cerrado, laboratorio, vacío y control profesional.</p>
+
+<h2>Qué es el BHO</h2>
+<p>El <strong>BHO (Butane Hash Oil)</strong> disuelve cannabinoides y terpenos con butano líquido. Luego se purga el solvente con vacío y calor suave. Según la purga y temperatura se obtienen texturas: <strong>shatter</strong> (vidrio), <strong>wax / budder</strong> (cremoso), <strong>live resin</strong> (de planta fresca congelada, muy terpenosa).</p>
+<figure class="blog-figure"><img src="/static/images/blog/bho-purgado.jpg" alt="Aceite de BHO purgándose en fuente de vidrio" loading="lazy"><figcaption>Aceite recién extraído purgándose en fuente de vidrio: así se ve el BHO antes del curado final.</figcaption></figure>
+
+<h2>Por Qué es Peligroso Hacerlo en Casa</h2>
+<ul>
+<li>El butano es más pesado que el aire: se acumula abajo y cualquier chispa (heladera, enchufe, encendedor) lo detona.</li>
+<li>Sin bomba de vacío no se purga bien: queda butano residual que irrita pulmones.</li>
+<li>Butano de encendedor trae impurezas (mercaptanos). El grado extracción es N-tano puro, no se vende en kioscos.</li>
+</ul>
+<p><strong>Regla de oro: si no tenés circuito cerrado, sala anti-explosión y medidor de gases, no lo hagas.</strong></p>
+
+<h2>Cómo se Hace a Nivel Profesional (resumen teórico)</h2>
+<ol>
+<li>Material congelado en columna de acero inoxidable.</li>
+<li>Paso de N-butano en circuito cerrado.</li>
+<li>Recuperación del solvente.</li>
+<li>Purgado en horno de vacío a 30-40°C por 24-72h hasta &lt;5000 ppm residual.</li>
+<li>Análisis de laboratorio de potencia y solventes.</li>
+</ol>
+<figure class="blog-figure vertical"><img src="/static/images/blog/bho-columna.jpg" alt="Columna de extracción de circuito cerrado" loading="lazy"><figcaption>Columna de extracción de circuito cerrado con manómetro: el estándar del trabajo profesional, muy lejos del blasting casero.</figcaption></figure>
+
+<h2>Cómo Reconocer un BHO Seguro</h2>
+<ul>
+<li>Color claro y translúcido, sin burbujas ni olor a gas.</li>
+<li>Análisis de laboratorio disponible.</li>
+<li>Textura estable, no chisporrotea al dabear.</li>
+</ul>
+
+<h2>Alternativas Más Seguras</h2>
+<p>Si buscás concentrados potentes sin riesgo, preferí <strong>rosin con prensa</strong>, <strong>bubble hash</strong> o <strong>dry sift</strong>: sin solventes y replicables en casa. Tenemos guías de cada una en este blog.</p>
+<p class="img-credit">Foto de portada: shatter dorado en macro, gentileza Perrone's INC.</p>""",
+        'category': 'Extracciones',
+        'tags': 'extraccion, bho, butano, shatter, wax, seguridad',
+        'published': True,
+        'featured': False
+    },
+    {
+        'title': 'Rosin con Prensa: Extracción sin Solventes en Casa',
+        'slug': 'extraccion-prensa-rosin-casera',
+        'image': 'images/blog/rosin-papel-abierto.jpg',
+        'excerpt': 'Cómo prensar rosin de flor, kief y hash: tipos de rosin, temperaturas, micrajes y los factores que definen textura, color y terpenos.',
+        'content': """<h2>Qué es el Rosin</h2>
+<p>El <strong>rosin</strong> se obtiene prensando material con <strong>calor suave + presión alta</strong>. La resina fluye y se recolecta. Sin solventes, sin agua, listo en minutos. Es la extracción más segura para hacer en casa.</p>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-fluyendo.webp" alt="Rosin recién prensado fluyendo sobre papel manteca" loading="lazy"><figcaption>Rosin recién prensado fluyendo sobre el papel: así se ve una buena extracción, dorada y burbujeante.</figcaption></figure>
+
+<h2>Tipos de Rosin: no todos se hacen con flor</h2>
+<p>Con la misma prensa podés lograr productos totalmente distintos según el material de partida. Estos son los 4 principales:</p>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-tipos-flower-hash-live.webp" alt="Comparativa de flower rosin, hash rosin y live rosin" loading="lazy"><figcaption>De izquierda a derecha: Flower Rosin, Hash Rosin y Live Rosin. Cambian color, textura y potencia según el material de partida.</figcaption></figure>
+<ul>
+<li><strong>1. Flower Rosin (rosin de flor):</strong> se prensa la flor directamente. Es el más fácil y rápido, ideal para empezar. Sabor intenso a la planta, color más ámbar/marrón y rendimiento de 10-25%. Requiere flor bien curada con 55-62% de humedad.</li>
+<li><strong>2. Kief / Dry Sift Rosin:</strong> se prensa el kief del grinder o el dry sift tamizado. Más puro y potente que el de flor, color más claro, textura más mantecosa. Se usa bolsa de 37u-73u y menos temperatura (80-100°C).</li>
+<li><strong>3. Hash Rosin (bubble hash prensado):</strong> se prensa bubble hash seco. Es el estándar de calidad en dispensarios: color rubio claro, máximo sabor y potencia, casi sin contaminantes vegetales. Se prensa a 70-90°C en doble bolsa de 37u.</li>
+<li><strong>4. Live Rosin:</strong> se hace con bubble hash de planta fresca congelada (fresh frozen), sin secar ni curar. Conserva todos los terpenos volátiles: es el más aromático, claro y caro de producir. Textura tipo badder o salsa.</li>
+</ul>
+<p>En resumen: <strong>flor = fácil y rendidor, hash/live = más puro, claro y terpenoso</strong>, pero requieren hacer hash antes.</p>
+
+<h2>Paso a Paso con fotos reales</h2>
+<ol>
+<li><strong>Prepará la bolsa:</strong> usá bolsas filtrantes limpias. Para flor 90u-120u, para kief/hash 37u-73u.</li>
+</ol>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-bolsa-vacia.png" alt="Bolsa filtrante vacía para rosin" loading="lazy"><figcaption>Bolsa filtrante vacía: el micraje define qué tan limpio sale el rosin.</figcaption></figure>
+<ol start="2">
+<li><strong>Cargá el material:</strong> llená sin apretar en exceso. Podés prensar flor molida suavemente o kief/hash bien seco.</li>
+</ol>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-carga-flor.jpg" alt="Carga de flor en papel para prensar rosin" loading="lazy"><figcaption>Carga de flor: desarmada a mano, sin moler a polvo para no arrastrar clorofila.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-carga-kief.webp" alt="Carga de kief hash para prensar rosin" loading="lazy"><figcaption>Carga de kief / hash: con este material lográs un rosin más claro y potente que con flor.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-bolsa-flor.jpg" alt="Bolsa filtrante llena de flor lista para prensar" loading="lazy"><figcaption>Bolsa llena y cerrada, lista para envolver en papel manteca y prensar.</figcaption></figure>
+<ol start="3">
+<li><strong>Prensá:</strong> precalentá las placas, envolvé la bolsa en papel manteca, pre-prensá 10 segundos a baja presión y después subí progresivo hasta el máximo.</li>
+</ol>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-prensa.jpg" alt="Prensa hidráulica prensando rosin" loading="lazy"><figcaption>Prensa hidráulica en acción: calor + presión hacen fluir la resina en 60-120 segundos.</figcaption></figure>
+<ol start="4">
+<li><strong>Recolectá:</strong> abrí el papel en caliente y recolectá en frío con dabber (1 min al freezer y se despega solo).</li>
+</ol>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-papel-abierto.jpg" alt="Papel manteca abierto con rosin dorado recién prensado" loading="lazy"><figcaption>Papel abierto con rosin dorado recién prensado: bordes cristalinos y centro fluido, señal de buena temperatura.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/rosin-recoleccion.webp" alt="Recolección de rosin con dabber" loading="lazy"><figcaption>Recolección con dabber: según cómo lo cures después, queda tipo sauce, budder o shatter.</figcaption></figure>
+
+<h2>Qué Necesitás</h2>
+<ul>
+<li><strong>Prensa:</strong> placas calientes con control de temperatura. Las manuales sirven para empezar, las hidráulicas dan más rendimiento.</li>
+<li><strong>Bolsas filtrantes:</strong> 90u-120u para flor, 37u-73u para hash/kief (doble bolsa para hash).</li>
+<li><strong>Papel manteca antiadherente, guantes resistentes al calor y dabber.</strong></li>
+<li><strong>Material con 55-62% humedad (solo para flor):</strong> si está muy seco, rinde la mitad. Hidratalo con sobres de humedad 24h antes. El hash/kief debe estar bien seco.</li>
+</ul>
+
+<h2>Temperaturas y Tiempos (guía base)</h2>
+<ul>
+<li><strong>Flor:</strong> 90-110°C, 60-120 segundos, presión progresiva.</li>
+<li><strong>Kief / dry sift:</strong> 80-100°C, 60-90 segundos, bolsa de 37u.</li>
+<li><strong>Bubble hash / Hash Rosin:</strong> 70-90°C, 45-75 segundos, doble bolsa de 37u.</li>
+<li><strong>Live Rosin:</strong> 65-85°C, 45-70 segundos, presión baja y lenta para no volar terpenos.</li>
+</ul>
+<p>Menos temperatura = más sabor y color claro, menos rendimiento. Más temperatura = más rendimiento, color más oscuro.</p>
+
+<h2>Los 8 factores que definen textura, color y terpenos</h2>
+<p>¿Por qué a veces sale rubio y mantecoso y otras oscuro y aceitoso? Por estos factores:</p>
+<ol>
+<li><strong>1. Material de partida:</strong> el factor n°1. Flor = más grasas, ceras y clorofila = color más oscuro y textura más aceitosa. Hash/kief aislado = menos contaminantes = color claro y textura budder. Live (fresco congelado) = máxima retención de monoterpenos volátiles.</li>
+<li><strong>2. Frescura, curado y oxidación:</strong> material viejo u oxidado sale oscuro y con sabor a hachís añejo. Flor fresca bien curada (2-4 semanas) o fresh frozen da colores dorados/rubios. El calor, la luz y el oxígeno degradan terpenos y oscurecen.</li>
+<li><strong>3. Humedad:</strong> flor en 55-62% HR fluye bien y rinde. Muy seca (menos de 50%) = poco rendimiento, color oscuro y sabor a quemado. Muy húmeda = vapor, chisporroteo y textura inestable.</li>
+<li><strong>4. Temperatura y tiempo:</strong> a más calor y más tiempo, más rendimiento pero se evaporan terpenos (sobre todo limoneno, mirceno, pineno), se descarboxila el THCA y el color se oscurece. Para preservar terpenos: baja temperatura + poco tiempo.</li>
+<li><strong>5. Presión:</strong> debe ser progresiva. Si apretás de golpe en frío, revientan las bolsas y arrastrás materia vegetal (color verde/oscuro). Precalentado de 10s + subida lenta = rosin limpio.</li>
+<li><strong>6. Micraje de la bolsa:</strong> micra más chica = más filtrado = más claro y puro, pero menos rendimiento. 90u-120u deja pasar más aceites (ideal flor), 37u retiene casi todo lo vegetal (ideal hash). Doble bolsa evita blowouts en hash.</li>
+<li><strong>7. Genética:</strong> cada cepa tiene distinto perfil de tricomas y terpenos. Algunas lavan bien para hash/live (tricomas grandes que se sueltan fácil), otras rinden mejor como flower rosin. Cepas resinosas y frescas = colores claros y aromas intensos.</li>
+<li><strong>8. Curado post-prensado y guardado:</strong> el rosin recién prensado es tipo shatter/sauce translúcido. Si lo batís y lo dejás 24-48h a 20°C en frasco cerrado (cold cure) se vuelve budder/badder cremoso y se intensifica el sabor. Con calor suave (40-50°C, warm cure) queda más tipo jam/sauce. Guardá siempre en frasco hermético, oscuro y frío: el calor y el aire lo oscurecen y le matan los terpenos en días.</li>
+</ol>
+
+<h2>Texturas: cómo lograr cada una</h2>
+<ul>
+<li><strong>Shatter / Sauce (vidrioso):</strong> rosin recién prensado de flor a temperatura media-alta, recolectado y guardado en frío sin batir. Translúcido y pegajoso.</li>
+<li><strong>Budder / Badder (mantecoso):</strong> batí el rosin con el dabber e introducí aire, después cold cure 24-48h a 20°C. Es la textura más buscada en hash rosin y live rosin: color rubio opaco, fácil de manipular.</li>
+<li><strong>Wax / Crumble (ceroso):</strong> prensadas a más temperatura o con material más seco/oxidado, más batido. Más seco y opaco.</li>
+<li><strong>Jam / Sauce con diamantes:</strong> warm cure largo (semanas a 35-45°C) separa THCA cristalizado del aceite terpenoso. Solo recomendable con hash rosin de alta pureza.</li>
+</ul>
+
+<h2>Color y terpenos: la regla de oro</h2>
+<ul>
+<li><strong>Rubio claro / dorado:</strong> material fresco, hash de calidad, baja temperatura, buena humedad. = más terpenos preservados.</li>
+<li><strong>Ámbar / marrón oscuro:</strong> material viejo, mucha temperatura/tiempo, flor muy seca o mucha presión de golpe. = menos terpenos, sabor más tostado.</li>
+<li><strong>Verde:</strong> arrastraste clorofila (flor molida a polvo, bolsa rota o demasiada presión). Filtrá mejor y bajá la presión inicial.</li>
+<li><strong>Para cuidar terpenos:</strong> prensá bajo (70-95°C), dabbeá/vaporizá a baja temperatura (160-200°C), y guardá el rosin en heladera en frasco hermético. El calor es el enemigo n°1 del sabor.</li>
+</ul>
+
+<h2>Trucos para Más Rendimiento</h2>
+<ul>
+<li>Prensá de a 3-5g por vez, no más.</li>
+<li>Usá <em>bottle tech</em> (bolsa vertical) para flores: rinde 10-20% más.</li>
+<li>Guardá el chip prensado para hacer comestibles: aún tiene cannabinoides.</li>
+<li>Si el rendimiento es bajo, subí 5°C o hidratá la flor 24h: suele duplicar la vuelta.</li>
+</ul>
+
+<h2>Seguridad</h2>
+<p>Las placas queman (100°C+). Usá guantes, no toques las placas y trabajá en superficie estable. Desenchufá al terminar.</p>
+
+<p>En Perrone's INC te asesoramos con prensas, bolsas de micraje, papeles y frascos para tu primera prensada. <a href="/contacto">Escribinos</a> o <a href="/productos">ver productos</a>.</p>
+<p class="img-credit">Fotos de esta guía: material propio Perrone's INC.</p>""",
+        'category': 'Extracciones',
+        'tags': 'extraccion, rosin, prensa, flower rosin, hash rosin, live rosin, sin solventes',
+        'published': True,
+        'featured': True
+    },
+    {
+        'title': 'Cultivo Outdoor en Argentina: Guía desde Semilla para Principiantes',
+        'slug': 'guia-cultivo-outdoor-argentina-desde-semilla',
+        'image': 'images/blog/outdoor-portada.jpg',
+        'excerpt': 'Cómo cultivar en exterior en Argentina desde semilla: calendario mes a mes, germinación, sustrato, riego, plagas, floración y cosecha.',
+        'content': """<h2>Por qué cultivar outdoor en Argentina</h2>
+<p>El <strong>cultivo outdoor</strong> es la forma más barata y natural de empezar: el sol es gratis, las plantas crecen más grandes que en indoor y con pocos insumos podés sacar una buena cosecha al año. A cambio, dependés del <strong>clima, las plagas y el calendario</strong>. Esta guía principiante te lleva <strong>desde la semilla hasta el curado</strong>, adaptada al hemisferio sur.</p>
+<p><strong>Ideal si:</strong> tenés patio, terraza, balcón con 6+ horas de sol directo o un campito seguro. Si solo tenés interior, mirá nuestra <a href="/blog/guia-completa-cultivo-indoor-principiantes">guía indoor</a>.</p>
+<h2>Calendario outdoor Argentina (fotoperiódicas)</h2>
+<p>En exterior mandan las horas de luz. Las variedades <strong>fotoperiódicas</strong> vegetan en primavera-verano y florecen cuando los días se acortan (febrero-marzo).</p>
+<table>
+<tr><td><strong>AGO - SEP</strong></td><td>Germinación y plantín adentro o en invernaderito. Cuidar del frío y heladas tardías.</td></tr>
+<tr><td><strong>OCT</strong></td><td>Trasplante afuera cuando pasan las heladas. Empieza el crecimiento fuerte.</td></tr>
+<tr><td><strong>NOV - ENE</strong></td><td>Vegetación: trasplantes, tutores, prevención de plagas.</td></tr>
+<tr><td><strong>FEB</strong></td><td>Preflora: sexado, últimos trasplantes. Ojo con lluvias y hongos.</td></tr>
+<tr><td><strong>MAR - ABR</strong></td><td>Floración y engorde. Menos nitrógeno, más fósforo/potasio.</td></tr>
+<tr><td><strong>ABR - MAY</strong></td><td>Cosecha, secado y curado antes de la humedad del invierno.</td></tr>
+</table>
+<p><strong>Automáticas:</strong> no dependen del fotoperíodo. Se siembran de <strong>octubre a enero</strong> y se cosechan en 70-90 días. Podés hacer 2 tandas (ej: octubre y diciembre). Son más chicas pero más rápidas y discretas.</p>
+
+<h2>1. Elegí dónde y qué sembrar</h2>
+<h3>El lugar</h3>
+<ul>
+<li><strong>Sol:</strong> mínimo 6 horas de sol directo, ideal 8+. Más sol = más producción.</li>
+<li><strong>Reparo:</strong> pared, media sombra o cerco contra viento fuerte y granizo.</li>
+<li><strong>Agua:</strong> que puedas llevar agua fácil. Evitá charcos y zonas que se inundan.</li>
+<li><strong>Discreción y seguridad:</strong> que no se vea desde la calle, olor en flora es fuerte. Ojo con mascotas y niños.</li>
+</ul>
+<h3>Fotoperiódica o automática</h3>
+<ul>
+<li><strong>Fotoperiódica (recomendada para 1 cosecha grande):</strong> plantas de 1,5-3 m, cosecha marzo-mayo. Necesitan toda la temporada.</li>
+<li><strong>Automática (recomendada si empezás tarde o querés discreción):</strong> 50-100 cm, listas en 10-12 semanas desde germinación. Menos producción por planta, pero podés poner más.</li>
+</ul>
+
+<h2>2. Germinación paso a paso</h2>
+<ol>
+<li>Poné la semilla 12-24h en un vaso con agua a temperatura ambiente, en lugar oscuro.</li>
+<li>Pasala a servilleta húmeda (no chorreando) entre dos platos, a 22-26°C. En 24-72h asoma la raíz.</li>
+<li>Plantala a 1 cm de profundidad en maceta chica (0,5-1 L) con sustrato liviano, raíz hacia abajo.</li>
+<li>Mantené húmedo con pulverizador, luz suave y 20-25°C. En 2-5 días sale el plantín.</li>
+</ol>
+<p><strong>Errores típicos:</strong> enterrar muy profundo, encharcar, usar tierra dura de jardín o ponerla al sol fuerte de golpe. Los primeros 10 días son los más delicados: mejor adentro junto a una ventana o bajo una lámpara barata.</p>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-germinacion.jpg" alt="Secuencia de germinación de semillas con raíz" loading="lazy"><figcaption>Paso 1 - Germinación: de semilla a raíz en 24-72h en servilleta húmeda a 22-26°C.</figcaption></figure>
+<h2>3. Sustrato y macetas</h2>
+<ul>
+<li><strong>Sustrato base principiante:</strong> 40% turba o tierra negra zarandeada + 30% compost o humus de lombriz + 20% perlita + 10% vermiculita. Suelto, que drene pero retenga humedad.</li>
+<li><strong>Macetas:</strong> arrancá en 1 L, pasá a 5-10 L y terminá en <strong>20-30 L</strong> (foto) o 50 L+ si querés planta grande. Más litros = más raíces = más cosecha. Las de tela (geotextil) airean mejor.</li>
+<li><strong>Suelo directo:</strong> rinde más pero solo si la tierra es buena. Hacé un pozo de 50x50x50 cm y rellenalo con el sustrato de arriba.</li>
+<li><strong>pH:</strong> en tierra, regá con pH 6.0-6.8. Si no medís nada, al menos usá agua reposada 24h y no abuses de fertilizantes.</li>
+</ul>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-sustrato.jpg" alt="Manos sosteniendo sustrato aireado con perlita" loading="lazy"><figcaption>Sustrato ideal: suelto y aireado con perlita, que drene pero retenga humedad.</figcaption></figure>
+
+<h2>4. Trasplantes y vegetación (oct-ene)</h2>
+<ol>
+<li>Trasplantá cuando las raíces asoman por abajo o la planta duplica la altura de la maceta. Regá antes para que el pan no se rompa.</li>
+<li>Afuera definitivo recién cuando <strong>no haya más heladas</strong> (en Buenos Aires y centro: después de mediados de octubre). La primera semana, sol de mañana y reparo al mediodía para aclimatar.</li>
+<li>Regá cuando los primeros 2-3 cm estén secos. Mejor poco y seguido que encharcar. En verano puede ser todos los días.</li>
+<li>Poné <strong>tutor</strong> desde chica para aguantar viento y peso futuro.</li>
+</ol>
+<p>En vege la planta quiere <strong>nitrógeno</strong>. Con humus + compost al inicio tirás varias semanas sin fertilizar. Después sumá un fertilizante de crecimiento a mitad de dosis, 1-2 veces por semana.</p>
+<figure class="blog-figure vertical"><img src="/static/images/blog/outdoor-plantin.jpg" alt="Plantín en maceta listo para trasplantar" loading="lazy" style="max-width:380px;"><figcaption>Plantín establecido en maceta chica: cuando duplica su altura o asoman raíces, es momento de trasplantar.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-trasplante.jpg" alt="Trasplante de plantín a maceta más grande" loading="lazy"><figcaption>Trasplante: con el pan entero, a maceta más grande y riego suave para asentar.</figcaption></figure>
+
+<h2>5. Podas: apical y FIM</h2>
+<p>Las dos podas básicas para frenar la altura y sacar más puntas. Se hacen solo en <strong>vegetación</strong>, nunca en flora.</p>
+<ul>
+<li><strong>Apical:</strong> cuando la planta tiene 4-5 nudos, cortá limpio el brote principal por encima del nudo con tijera desinfectada. La planta reparte energía en 2 ramas principales. Resultado: planta más baja, ancha y con 2 puntas fuertes. Ideal para terrazas y discreción. Recuperación: 7-10 días.</li>
+<li><strong>FIM (te pifiaste a propósito):</strong> en el mismo punto, en vez de cortar todo cortá solo el 70-80% del brote nuevo (pellizco con uñas o tijera). Salen 3-4 brotes en vez de 2, con menos freno de crecimiento. Es menos prolija que la apical pero da más puntas. Si sale mal, igual funciona como apical.</li>
+<li><strong>Limpieza de bajos:</strong> sacá hojas que tocan la tierra y ramitas enanas que no llegan a la luz. Mejora aireación y previene hongos.</li>
+</ul>
+<p><strong>Apical vs FIM:</strong> apical = 2 puntas parejas y estructura simétrica; FIM = 3-4 puntas, más volumen pero más desparejo. Principiante: empezá con apical, cuando le agarres la mano probá FIM en otra planta y compará. Una poda por vez, tijera limpia y 7-10 días de recupero.</p>
+
+<h2>6. Técnicas de cultivo: SCROG, LST y Supercrop</h2>
+<p>Ya no cortás: <strong>moldeás</strong> la planta para que le entre sol parejo y banque el peso. Acá van de menor a mayor dificultad.</p>
+<ul>
+<li><strong>LST (Low Stress Training / atado - fácil):</strong> doblá suavemente las ramas principales y atalas al borde de la maceta o a tutores con hilo blando. Abrís el centro al sol sin cortar nada. Se hace durante toda la vege, ajustando los atados cada semana. Ideal principiantes: cero riesgo si no quebrás.</li>
+<li><strong>SCROG (red - intermedio):</strong> colocá una red o malla 10-20 cm por encima de la maceta cuando la planta mide 25-30 cm. A medida que crece, pasá las puntas por los cuadrantes para formar un plano parejo. En outdoor sostiene contra el viento y multiplica los puntos de floración. Instalala en diciembre-enero y dejá de entrelazar cuando arranque la flora.</li>
+<li><strong>Supercrop (avanzado):</strong> con la planta en vege fuerte, pellizcá un tallo verde entre pulgar e índice hasta ablandar las fibras internas y doblalo 90° sin romper la piel. Se forma un nudo que engorda y pasa más savia. Solo 1-2 ramas por vez, nunca en flora ni en tallos leñosos. Si se quiebra, encintá con cinta aislante y bancala con tutor: se recupera.</li>
+</ul>
+<p>Combinación típica outdoor: <strong>apical + LST + red</strong>. El supercrop dejalo para tu segunda temporada o para domar una planta que se te fue muy alta.</p>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-vegetacion.jpg" alt="Cultivo outdoor en vegetación con red scrog en patio" loading="lazy"><figcaption>SCROG outdoor: red para abrir la planta al sol, mejorar aireación y bancar el peso de los cogollos.</figcaption></figure>
+
+<h2>7. Plagas y clima: lo que mata cosechas afuera</h2>
+<ul>
+<li><strong>Preventivo cada 10-15 días en vege:</strong> jabón potásico + aceite de neem. Revisá el envés de las hojas.</li>
+<li><strong>Hormigas, pulgones y trips:</strong> tierra de diatomeas en superficie, trampas amarillas, y si aparece plaga, repetí aplicación 3 veces cada 5 días.</li>
+<li><strong>Oidio y hongos (feb-abr):</strong> el enemigo de la flora. Separá plantas para que corra aire, sacá hojas muy juntas, evitá mojar los cogollos al regar. Si llueve varios días, sacudí las plantas y si podés poné techo transparente.</li>
+<li><strong>Orugas en cogollos:</strong> revisá en marzo-abril. Sacalas a mano y usá Bacillus thuringiensis en vege/preflora.</li>
+<li><strong>Granizo / tormenta:</strong> media sombra o malla antigranizo arriba vale oro. Después de tormenta, atar ramas quebradas y quitar barro.</li>
+</ul>
+<p>En flora <strong>no pulverices los cogollos</strong> con nada que no sea específico y seguro. Cortá lo afectado antes de que se expanda.</p>
+<h2>8. Preflora y sexado (febrero)</h2>
+<p>Cuando los días se acortan aparecen los primeros pelos (hembra) o bolitas (macho). Si plantaste regulares, <strong>cortá los machos ya</strong> o te llenan todo de semillas. Si son feminizadas o autos, solo confirmá que sean hembras y seguí.</p>
+<p>Es el último momento para trasplantar y poner tutores firmes: en flora duplican o triplican el tamaño.</p>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-preflor.jpg" alt="Preflor femenina con pelos blancos" loading="lazy"><figcaption>Sexado: preflor femenina con pelitos blancos. Si ves bolitas en vez de pelos, es macho y se corta.</figcaption></figure>
+
+<h2>9. Floración y engorde (mar-abr)</h2>
+<ul>
+<li>Bajá el nitrógeno y subí <strong>fósforo y potasio</strong> (fertilizante de flora) + melaza o compost tea 1 vez por semana.</li>
+<li>Regá a la mañana, sin mojar flores. En maceta grande, riegos profundos espaciados rinden más que poquito todos los días.</li>
+<li>Ojo con la <strong>humedad</strong>: si hay rocío fuerte o lluvias, ventilá, separá ramas y cosechá por partes si hace falta.</li>
+<li><strong>Cuándo cortar:</strong> mirá tricomas con lupa 60x. Mayoría lechosos + 10-20% ámbar = punto ideal (efecto equilibrado). Todos transparentes = muy temprano. Todo ámbar = efecto más sedante y menos aroma.</li>
+</ul>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-floracion.jpg" alt="Plantas outdoor en plena floración" loading="lazy"><figcaption>Floración outdoor: cogollos engordando en marzo-abril. Acá se define la cosecha: fósforo, potasio y control de hongos.</figcaption></figure>
+
+<h2>10. Cosecha, secado y curado</h2>
+<ol>
+<li>Cortá a la mañana temprano, rama por rama. Hacé una manicura gruesa (sacá hojas grandes) y colgá en lugar oscuro, 18-22°C y 50-60% humedad, con aire suave sin darles directo.</li>
+<li>En 7-14 días las ramitas crujen: pasá a frascos llenos 3/4, abrí 10 min por día la primera semana (curado).</li>
+<li>Curá mínimo 2-4 semanas. Ahí aparece el sabor y la potencia real. Guardá en frasco hermético, oscuro y fresco.</li>
+</ol>
+<p>Secar mal arruina meses de trabajo: no seques al sol ni con calor directo, y no enfrasques húmedo (hongo seguro).</p>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-secado.jpg" alt="Cogollos colgados secándose en interior oscuro" loading="lazy"><figcaption>Secado: ramas colgadas en lugar oscuro y ventilado 7-14 días, hasta que las ramitas crujen.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/outdoor-curado.jpg" alt="Frascos de vidrio con cogollos curados" loading="lazy"><figcaption>Curado: en frascos 3/4 llenos, 2-4 semanas mínimo. Ahí aparece el sabor y la potencia real.</figcaption></figure>
+
+<h2>Errores de principiante que más vemos</h2>
+<ol>
+<li><strong>Sembrar muy tarde</strong> una foto en enero y pretender planta grande: sale chica y flora enana.</li>
+<li><strong>Maceta chica todo el ciclo:</strong> en 5 L no hay milagro. Mínimo 20 L para foto outdoor.</li>
+<li><strong>Regar todos los días por rutina:</strong> meté el dedo, si está húmedo esperá.</li>
+<li><strong>Sobrefertilizar:</strong> puntas quemadas = te pasaste. Lavá con agua y retomá a mitad de dosis.</li>
+<li><strong>No prevenir plagas</strong> hasta que es tarde, sobre todo en febrero-marzo.</li>
+<li><strong>Cosechar antes por ansiedad</strong> o dejar pasar las lluvias de mayo y perder todo por hongo.</li>
+</ol>
+
+<h2>Checklist rápido por mes</h2>
+<ul>
+<li><strong>AGO-SEP:</strong> compro sustrato, macetas, neem + jabón potásico. Germino adentro.</li>
+<li><strong>OCT:</strong> trasplante afuera, tutor, primer preventivo.</li>
+<li><strong>NOV-ENE:</strong> riego, trasplantes, apical/LST, preventivos.</li>
+<li><strong>FEB:</strong> sexado, tutores finales, cambio a flora.</li>
+<li><strong>MAR-ABR:</strong> engorde, control hongos, lupa para corte.</li>
+<li><strong>ABR-MAY:</strong> cosecha escalonada, secado y curado.</li>
+</ul>
+
+<p>En Perrone's INC te armamos el kit outdoor: sustrato, macetas geotextil, micorrizas, neem, jabón potásico, fertilizantes vege/flora y lupas para cosecha. <a href="/contacto">Escribinos</a> o <a href="/productos">ver productos</a>.</p>
+<p class="img-credit">Fotos de esta guía: material propio Perrone's INC.</p>""",
+        'category': 'Cultivo',
+        'tags': 'cultivo, outdoor, exterior, argentina, calendario, semilla, principiantes',
+        'published': True,
+        'featured': True
     }
 ]
 
 
+MANAGED_BLOG_SLUGS = [
+    'extraccion-prensa-rosin-casera',
+    'guia-cultivo-outdoor-argentina-desde-semilla',
+]
+
+
+def sync_managed_posts():
+    """Crea o actualiza los posts gestionados por código (por slug).
+
+    Se ejecuta en cada arranque para que los deploys actualicen
+    el contenido aunque la base ya tenga datos.
+    """
+    n_new = n_upd = 0
+    for post_data in blog_posts_data:
+        if post_data['slug'] not in MANAGED_BLOG_SLUGS:
+            continue
+        post = BlogPost.query.filter_by(slug=post_data['slug']).first()
+        if post:
+            for k, v in post_data.items():
+                setattr(post, k, v)
+            n_upd += 1
+        else:
+            db.session.add(BlogPost(**post_data))
+            n_new += 1
+    db.session.commit()
+    if n_new or n_upd:
+        print(f"Posts sincronizados: {n_new} nuevos, {n_upd} actualizados.")
+
+
 def seed():
     db.create_all()
+
+    sync_managed_posts()
 
     if Category.query.first():
         print("La base de datos ya tiene datos. Ejecutá 'drop all' si querés reseedear.")

@@ -3,15 +3,47 @@
 {% block meta_desc %}{{ post.excerpt[:160] }}{% endblock %}
 
 {% block content %}
-<section class="page-header">
-    <div class="container">
-    </div>
-</section>
-
-<section class="section">
+<section class="section blog-post-top">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-3">
+                <div class="blog-sidebar">
+                    <div class="sidebar-widget">
+                        <h5>Artículos Recientes</h5>
+                        {% for rp in recent %}
+                        <a href="{{ url_for('blog_post', slug=rp.slug) }}" class="recent-post">
+                            <div class="recent-post-icon"><i class="bi bi-file-text"></i></div>
+                            <div>
+                                <h6>{{ rp.title[:40] }}{% if rp.title|length > 40 %}...{% endif %}</h6>
+                                <small class="text-muted">{{ rp.created_at.strftime('%d/%m/%Y') }}</small>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                    <div class="sidebar-widget">
+                        <h5>Categorías</h5>
+                        <div class="sidebar-categories">
+                            <a href="{{ url_for('blog') }}" class="cat-link">Todas</a>
+                            {% if sidebar_cats %}
+                                {% for cat in sidebar_cats %}
+                                <a href="{{ url_for('blog', categoria=cat) }}" class="cat-link">{{ cat }}</a>
+                                {% endfor %}
+                            {% else %}
+                                {% set cats = ['Cultivo', 'Cultura', 'Vaporización', 'Accesorios', 'Extracciones'] %}
+                                {% for cat in cats %}
+                                <a href="{{ url_for('blog', categoria=cat) }}" class="cat-link">{{ cat }}</a>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="sidebar-widget sidebar-cta">
+                        <h5>Visitá nuestra Tienda</h5>
+                        <p>Equipate con los mejores productos para cultivo y parafernalia.</p>
+                        <a href="{{ url_for('products') }}" class="btn btn-primary w-100">Ver Productos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
                 <article class="blog-article">
                     {% if post.image %}
                     <div class="blog-hero-image mb-4">
@@ -38,37 +70,6 @@
                         </a>
                     </div>
                 </article>
-            </div>
-            <div class="col-lg-4">
-                <div class="blog-sidebar">
-                    <div class="sidebar-widget">
-                        <h5>Artículos Recientes</h5>
-                        {% for rp in recent %}
-                        <a href="{{ url_for('blog_post', slug=rp.slug) }}" class="recent-post">
-                            <div class="recent-post-icon"><i class="bi bi-file-text"></i></div>
-                            <div>
-                                <h6>{{ rp.title[:40] }}{% if rp.title|length > 40 %}...{% endif %}</h6>
-                                <small class="text-muted">{{ rp.created_at.strftime('%d/%m/%Y') }}</small>
-                            </div>
-                        </a>
-                        {% endfor %}
-                    </div>
-                    <div class="sidebar-widget">
-                        <h5>Categorías</h5>
-                        <div class="sidebar-categories">
-                            <a href="{{ url_for('blog') }}" class="cat-link">Todas</a>
-                            {% set cats = ['Cultivo', 'Cultura', 'Vaporización', 'Accesorios'] %}
-                            {% for cat in cats %}
-                            <a href="{{ url_for('blog', categoria=cat) }}" class="cat-link">{{ cat }}</a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="sidebar-widget sidebar-cta">
-                        <h5>Visitá nuestra Tienda</h5>
-                        <p>Equipate con los mejores productos para cultivo y parafernalia.</p>
-                        <a href="{{ url_for('products') }}" class="btn btn-primary w-100">Ver Productos</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
