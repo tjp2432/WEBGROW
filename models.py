@@ -87,7 +87,7 @@ class BlogPost(db.Model):
     excerpt = db.Column(db.String(400))
     content = db.Column(db.Text, nullable=False)
     image = db.Column(db.String(200))
-    author = db.Column(db.String(100), default='Perrone\'s INC')
+    author = db.Column(db.String(100), default='Tomás Perrone')
     published = db.Column(db.Boolean, default=False)
     featured = db.Column(db.Boolean, default=False)
     category = db.Column(db.String(100))

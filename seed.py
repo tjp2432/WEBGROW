@@ -1055,6 +1055,9 @@ blog_posts_data = [
 ]
 
 
+for _p in blog_posts_data:
+    _p.setdefault('author', 'Tomás Perrone')
+
 MANAGED_BLOG_SLUGS = [
     'extraccion-prensa-rosin-casera',
     'guia-cultivo-outdoor-argentina-desde-semilla',
