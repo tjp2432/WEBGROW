@@ -18,6 +18,9 @@ app.config.from_object(Config)
 
 db.init_app(app)
 
+# Tienda oculta por ahora (archivos, rutas y datos intactos para retomarla luego).
+app.jinja_env.globals['HIDE_STORE'] = True
+
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 login_manager.login_message = 'Iniciá sesión para continuar.'
