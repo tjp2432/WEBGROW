@@ -257,7 +257,7 @@ img { max-width: 100%; height: auto; }
 
 .hero-title {
     font-family: 'NeoNeon', 'Monoton', 'Inter', sans-serif;
-    font-size: 5.5rem;
+    font-size: 6.5rem;
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1.5rem;
@@ -281,7 +281,7 @@ img { max-width: 100%; height: auto; }
     text-shadow: 0 0 18px rgba(190, 225, 255, 0.75);
 }
 .hero-title .brand-inc {
-    font-size: 3rem;
+    font-size: 3.4rem;
     letter-spacing: 6px;
 }
 .hero-title .inc-i {
@@ -332,7 +332,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .section.blog-post-top {
-    padding-top: 9rem;
+    padding-top: 7rem;
 }
 
 .bg-dark-section {
@@ -768,7 +768,7 @@ img { max-width: 100%; height: auto; }
 body.age-locked { overflow: hidden; }
 
 .page-header {
-    padding: 7.7rem 0 0.8rem;
+    padding: 5.6rem 0 0.8rem;
     background: var(--bg-secondary);
     border-bottom: 1px solid var(--border);
     text-align: center;
@@ -795,8 +795,8 @@ body.age-locked { overflow: hidden; }
     border-radius: 16px;
     padding: 1.5rem;
     position: sticky;
-    top: 130px;
-    max-height: calc(100vh - 150px);
+    top: 100px;
+    max-height: calc(100vh - 120px);
     overflow-y: auto;
 }
 
@@ -1044,7 +1044,7 @@ body.age-locked { overflow: hidden; }
     border-radius: 16px;
     padding: 1.5rem;
     position: sticky;
-    top: 130px;
+    top: 100px;
 }
 
 .summary-line {
@@ -1440,7 +1440,7 @@ body.age-locked { overflow: hidden; }
 .btn-close { filter: invert(1) brightness(0.5); }
 
 /* ADMIN STYLES */
-.admin-layout { display: flex; padding-top: 112px; min-height: 100vh; }
+.admin-layout { display: flex; padding-top: 80px; min-height: 100vh; }
 
 .admin-sidebar {
     width: 240px;
@@ -1448,7 +1448,7 @@ body.age-locked { overflow: hidden; }
     border-right: 1px solid var(--border);
     padding: 1rem 0;
     position: fixed;
-    top: 112px;
+    top: 80px;
     bottom: 0;
     left: 0;
     overflow-y: auto;
@@ -1550,11 +1550,11 @@ body.age-locked { overflow: hidden; }
 .modal-footer { border-top-color: var(--border); }
 
 @media (max-width: 991px) {
-    .hero-title { font-size: 3rem; }
-    .hero-title .brand-inc { font-size: 2rem; }
+    .hero-title { font-size: 3.4rem; }
+    .hero-title .brand-inc { font-size: 2.2rem; }
     .admin-sidebar { display: none; }
     .admin-content { margin-left: 0; }
-    .page-header { padding: 6rem 0 2rem; }
+    .page-header { padding: 4.5rem 0 2rem; }
     .page-header h1 { font-size: 2rem; }
     .navbar-collapse {
         background: rgba(10, 10, 10, 0.98);
@@ -1585,14 +1585,14 @@ body.age-locked { overflow: hidden; }
 
 @media (max-width: 767px) {
     .section { padding: 3rem 0; }
-    .hero { min-height: 100svh; text-align: center; flex-direction: column; justify-content: center; padding: 130px 0 5rem; }
+    .hero { min-height: 100svh; text-align: center; flex-direction: column; justify-content: center; padding: 100px 0 5rem; }
     .hero-content { order: 1; width: 100%; }
     .hero-bg-logo { position: static; order: 2; padding: 2.5rem 1rem 0; justify-content: center; }
     .hero-bg-logo img { width: min(70vw, 300px); opacity: 0.95; }
     .hero-scroll { display: none; }
     .hero-desc { margin-left: auto; margin-right: auto; }
-    .hero-title { font-size: 2.5rem; }
-    .hero-title .brand-inc { font-size: 1.5rem; }
+    .hero-title { font-size: 2.9rem; }
+    .hero-title .brand-inc { font-size: 1.7rem; }
     .hero-desc { font-size: 1rem; }
     .hero-actions { flex-direction: column; }
     .hero-actions .btn { width: 100%; margin: 0 !important; }
