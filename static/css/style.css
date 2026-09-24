@@ -1561,12 +1561,18 @@ body.age-locked { overflow: hidden; }
     .navbar .navbar-brand img { height: 54px; }
     .navbar .nav-link { font-size: 0.95rem; }
     .section.blog-post-top { padding-top: 6rem; }
+    .navbar .container { position: relative; }
     .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1050;
         background: rgba(10, 10, 10, 0.98);
         border: 1px solid var(--border);
         border-radius: 16px;
         padding: 0.75rem;
-        margin-top: 0.75rem;
+        margin-top: 0.5rem;
         max-height: calc(100vh - 140px);
         max-height: calc(100svh - 140px);
         overflow-y: auto;
