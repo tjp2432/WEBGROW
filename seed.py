@@ -1109,6 +1109,8 @@ def seed():
     print(f"Productos creados: {len(products_data)}")
 
     for post_data in blog_posts_data:
+        if post_data['slug'] in MANAGED_BLOG_SLUGS:
+            continue  # ya sincronizados arriba
         post = BlogPost(**post_data)
         db.session.add(post)
     db.session.commit()
