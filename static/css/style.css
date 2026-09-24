@@ -158,30 +158,40 @@ img { max-width: 100%; height: auto; }
     }
 }
 
-/* ============ Liquid Glass (componente modular, sin librerías) ============ */
+/* ============ Liquid Glass (componente modular, sin librerías) ============
+   Capas separadas: blur y refracción NO se combinan (Chromium lo anula).
+   ::before = Backdrop A (blur+saturate) | ::after = Backdrop B (refracción
+   del blur) + tinte + bisel | contenido nítido por encima */
 .dropdown-menu {
     --lg-radius: 20px;
     background: transparent;
-    border: 1px solid transparent;
+    border: none;
     border-radius: var(--lg-radius);
     padding: 0.5rem;
     z-index: 1060;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
 }
-/* Capa de vidrio: desenfoca y refracta solo el fondo (::before),
-   el contenido queda nítido por encima */
 .dropdown-menu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    -webkit-backdrop-filter: blur(25px) saturate(190%);
+    backdrop-filter: blur(25px) saturate(190%);
+    pointer-events: none;
+}
+.dropdown-menu::after {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: inherit;
     border: 1px solid transparent;
     background:
-        linear-gradient(165deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.03) 35%, rgba(255, 255, 255, 0.09)) padding-box,
+        linear-gradient(165deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.03) 35%, rgba(255, 255, 255, 0.08)) padding-box,
         linear-gradient(135deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.08) 45%, rgba(255, 255, 255, 0.35)) border-box;
-    -webkit-backdrop-filter: blur(25px) saturate(190%);
-    backdrop-filter: blur(25px) saturate(190%);
-    filter: url(#liquid-glass);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5),
+    -webkit-backdrop-filter: url(#liquid-glass);
+    backdrop-filter: url(#liquid-glass);
+    box-shadow:
         inset 0 1.5px 1px rgba(255, 255, 255, 0.75),
         inset 0 -1px 1px rgba(255, 255, 255, 0.12);
     pointer-events: none;
