@@ -1430,12 +1430,15 @@ body.age-locked { overflow: hidden; }
 
 .flash-container {
     position: fixed;
-    top: 54px;
+    top: 125px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 9999;
+    z-index: 1040;
     width: 90%;
     max-width: 600px;
+}
+@media (max-width: 991px) {
+    .flash-container { top: 85px; }
 }
 
 .alert {
