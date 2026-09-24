@@ -1247,6 +1247,12 @@ body.age-locked { overflow: hidden; }
     .blog-post-top .col-lg-3 { position: relative; left: calc((100% - 100vw) / 4); }
     .navbar .navbar-brand { position: relative; left: calc((100% - 100vw) / 4); }
     .navbar #navbarMain > .d-flex { position: relative; left: calc((100vw - 100%) / 4); }
+    .navbar #navbarMain { position: relative; }
+    .navbar #navbarMain > .navbar-nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .sidebar-widget {
