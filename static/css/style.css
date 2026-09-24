@@ -1585,9 +1585,11 @@ body.age-locked { overflow: hidden; }
 
 @media (max-width: 767px) {
     .section { padding: 3rem 0; }
-    .hero { min-height: 100svh; text-align: center; }
-    .hero-bg-logo { justify-content: center; align-items: flex-start; padding: 120px 1rem 0; }
-    .hero-bg-logo img { width: min(68vw, 320px); opacity: 0.35; }
+    .hero { min-height: 100svh; text-align: center; flex-direction: column; justify-content: center; padding: 130px 0 5rem; }
+    .hero-content { order: 1; width: 100%; }
+    .hero-bg-logo { position: static; order: 2; padding: 2.5rem 1rem 0; justify-content: center; }
+    .hero-bg-logo img { width: min(70vw, 300px); opacity: 0.95; }
+    .hero-scroll { display: none; }
     .hero-desc { margin-left: auto; margin-right: auto; }
     .hero-title { font-size: 2.5rem; }
     .hero-title .brand-inc { font-size: 1.5rem; }
