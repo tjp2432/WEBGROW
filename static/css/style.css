@@ -1374,6 +1374,7 @@ body.age-locked { overflow: hidden; }
 }
 .account-icon { color: var(--text-primary); }
 .account-icon:hover, .account-icon:focus { color: #d49645 !important; text-shadow: 0 0 12px rgba(168, 85, 247, 0.8); }
+.section.auth-section { padding-top: 9rem; }
 .auth-card {
     max-width: 460px;
     margin: 0 auto;
@@ -1571,6 +1572,7 @@ body.age-locked { overflow: hidden; }
     .navbar .navbar-brand img { height: 54px; }
     .navbar .nav-link { font-size: 0.95rem; }
     .section.blog-post-top { padding-top: 6rem; }
+    .section.auth-section { padding-top: 6rem; }
     .navbar .container { position: relative; }
     .navbar-collapse {
         position: absolute;
