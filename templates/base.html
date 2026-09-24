@@ -52,12 +52,13 @@
                         <a class="nav-link" href="{{ url_for('contact') }}">Contacto</a>
                     </li>
                 </ul>
-                {% if not HIDE_STORE %}
                 <div class="d-flex align-items-center gap-3">
+                    {% if not HIDE_STORE %}
                     <a href="{{ url_for('cart') }}" class="cart-icon position-relative">
                         <i class="bi bi-bag fs-5"></i>
                         <span class="cart-badge" id="cartBadge">{{ cart_count }}</span>
                     </a>
+                    {% endif %}
                     {% if current_user.is_authenticated %}
                     <div class="dropdown">
                         <a href="#" class="account-icon dropdown-toggle" role="button" data-bs-toggle="dropdown">
@@ -79,7 +80,6 @@
                     </a>
                     {% endif %}
                 </div>
-                {% endif %}
             </div>
         </div>
     </nav>
