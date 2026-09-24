@@ -159,19 +159,14 @@ img { max-width: 100%; height: auto; }
 }
 
 .dropdown-menu {
-    background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 30%),
-        linear-gradient(160deg, rgba(48, 48, 52, 0.82), rgba(22, 22, 24, 0.82));
-    -webkit-backdrop-filter: blur(30px) saturate(160%) brightness(1.2);
-    backdrop-filter: blur(30px) saturate(160%) brightness(1.2);
-    border: 1px solid rgba(255, 255, 255, 0.28);
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
+    -webkit-backdrop-filter: blur(30px) saturate(160%);
+    backdrop-filter: blur(30px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 22px;
     padding: 0.5rem;
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55),
-        inset 0 1px 1px rgba(255, 255, 255, 0.4),
-        inset 1px 0 1px rgba(255, 255, 255, 0.12),
-        inset -1px 0 1px rgba(255, 255, 255, 0.12),
-        inset 0 -1px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
     z-index: 1060;
     overflow: hidden;
 }
@@ -1612,17 +1607,12 @@ body.age-locked { overflow: hidden; }
         margin: 0;
     }
     .navbar .dropdown-menu.account-menu {
-        background:
-            linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 30%),
-            linear-gradient(160deg, rgba(48, 48, 52, 0.82), rgba(22, 22, 24, 0.82));
-        -webkit-backdrop-filter: blur(30px) saturate(160%) brightness(1.2);
-        backdrop-filter: blur(30px) saturate(160%) brightness(1.2);
-        border: 1px solid rgba(255, 255, 255, 0.28);
-        box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55),
-            inset 0 1px 1px rgba(255, 255, 255, 0.4),
-            inset 1px 0 1px rgba(255, 255, 255, 0.12),
-            inset -1px 0 1px rgba(255, 255, 255, 0.12),
-            inset 0 -1px 1px rgba(255, 255, 255, 0.1);
+        background: linear-gradient(160deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
+        -webkit-backdrop-filter: blur(30px) saturate(160%);
+        backdrop-filter: blur(30px) saturate(160%);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35),
+            inset 0 1px 0 rgba(255, 255, 255, 0.3);
         border-radius: 22px;
         padding: 0.5rem;
     }
