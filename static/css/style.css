@@ -159,12 +159,17 @@ img { max-width: 100%; height: auto; }
 }
 
 .dropdown-menu {
-    background: #141414;
-    border: 1px solid #2a2a2a;
-    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(58, 58, 60, 0.55), rgba(28, 28, 30, 0.55));
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
     padding: 0.5rem;
-    box-shadow: none;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.06);
     z-index: 1060;
+    overflow: hidden;
 }
 
 .dropdown-item {
@@ -174,7 +179,7 @@ img { max-width: 100%; height: auto; }
     font-size: 0.9rem;
 }
 
-.dropdown-item:hover { background: rgba(168, 85, 247, 0.14); color: #c084fc; }
+.dropdown-item:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
 .account-menu .dropdown-item:hover { background: rgba(212, 150, 69, 0.12); color: #d49645; }
 
 .dropdown-divider { border-color: var(--border); }
@@ -1568,9 +1573,14 @@ body.age-locked { overflow: hidden; }
         left: 0;
         right: 0;
         z-index: 1050;
-        background: rgba(10, 10, 10, 0.98);
-        border: 1px solid var(--border);
-        border-radius: 16px;
+        background: linear-gradient(135deg, rgba(58, 58, 60, 0.55), rgba(28, 28, 30, 0.55));
+        -webkit-backdrop-filter: blur(24px) saturate(180%);
+        backdrop-filter: blur(24px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45),
+            inset 0 1px 0 rgba(255, 255, 255, 0.25),
+            inset 0 -1px 0 rgba(255, 255, 255, 0.06);
+        border-radius: 20px;
         padding: 0.75rem;
         margin-top: 0.5rem;
         max-height: calc(100vh - 140px);
