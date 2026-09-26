@@ -1225,7 +1225,7 @@ blog_posts_data = [
         'title': 'Hidroponía Indoor Avanzada: Guía Completa por Etapas',
         'slug': 'guia-avanzada-hidroponia-indoor',
         'image': 'images/blog/grow-guide.svg',
-        'excerpt': 'Hidroponía avanzada: canastitas, racks y bateas, iluminación y PPFD, CO2, EC, pH, VPD, fertilización y ventilación regulados por etapa.',
+        'excerpt': 'Hidroponía avanzada: racks y bateas, iluminación y PPFD, CO2, EC, pH, VPD, fertilización y ventilación regulados por etapa.',
         'content': """<h2>Hidroponía avanzada: de qué trata esta guía</h2>
 <p>Esta no es una guía para Germinar tu primera semilla: es para quien ya cultiva y quiere montar una <strong>sala hidropónica seria</strong> (DWC/RDWC, NFT, ebb & flow o goteo en racks) y exprimirla con <strong>parámetros medidos por etapa</strong>. Acá no se adivina: se mide PPFD, EC, pH, temperatura, humedad y CO2, y se corrige con criterio.</p>
 <p>Si venís de tierra, primero leé la <a href="/blog/guia-completa-cultivo-indoor-principiantes">guía indoor para principiantes</a> y la <a href="/blog/medicion-ph-ec-cultivo-cannabis">guía de pH y EC</a>: acá damos por sabido lo básico.</p>
@@ -1244,15 +1244,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Seguridad eléctrica y de agua:</strong> disyuntor diferencial dedicado, enchufes altos (nunca al ras del piso), bandejas anti-derrame bajo cada conexión y un sensor de inundación con alarma: baratos y salvan cosechas.</li>
 </ul>
 
-<h2>2. La canastita: net pot y sustrato inerte</h2>
-<ul>
-<li><strong>Canastita (net pot) 3-4":</strong> la planta vive ahí todo el ciclo. Que sea calada para que las raíces salgan al agua/niebla.</li>
-<li><strong>Arlita expandida (hydroton):</strong> el relleno estándar. Lavala y estabilizá el pH (remojo 24h a pH 5.5) antes de usar: nueva suele venir alcalina.</li>
-<li><strong>Arranque:</strong> germiná en taco de lana de roca o turba, y cuando asoman raíces por abajo, pasá el taco a la canastita con arlita. El nivel de agua al inicio debe <strong>rozar la base</strong> de la canastita (no ahogarla).</li>
-<li><strong>Oxígeno es todo:</strong> en hidro las raíces no tienen tierra que las airee: dependen del oxígeno disuelto. Piedra difusora grande por planta + bomba de aire sobredimensionada (mínimo 1W por cada 4-5L).</li>
-</ul>
-
-<h2>3. Hardware: el equipo que sostiene el sistema</h2>
+<h2>2. Hardware: el equipo que sostiene el sistema</h2>
 <ul>
 <li><strong>Bomba de agua:</strong> 1 recambio total del depósito por hora como mínimo en recirculantes. Siempre tené una <strong>bomba de repuesto</strong>: si falla 6 horas en flora, perdés plantas.</li>
 <li><strong>Bomba de aire + difusores:</strong> de diafragma, silenciosa, con válvula antirretorno. Más burbujas = más oxígeno = más crecimiento.</li>
@@ -1262,7 +1254,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Backup eléctrico:</strong> al menos la bomba de aire en UPS o grupo: 2 horas sin oxígeno matan raíces en agua caliente.</li>
 </ul>
 
-<h2>4. Iluminación y PPFD por etapa</h2>
+<h2>3. Iluminación y PPFD por etapa</h2>
 <p>En hidro la planta come más rápido, así que pide <strong>más luz</strong> que en tierra. Medilo con sensor (los de celular sirven de referencia, uno cuántico es ideal).</p>
 <table>
 <tr><td><strong>Plantín / esqueje</strong></td><td><strong>200 - 300 PPFD</strong>, 18/6</td></tr>
@@ -1277,7 +1269,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>DLI orientativo:</strong> vege 25-35, flora 40-55 (hasta 65 con CO2). Subí la intensidad <strong>progresivo</strong> 10% cada 3-4 días, nunca de golpe.</li>
 </ul>
 
-<h2>5. Inyección de CO2: cuándo y cuánto</h2>
+<h2>4. Inyección de CO2: cuándo y cuánto</h2>
 <ul>
 <li><strong>Solo rinde con todo lo demás al máximo:</strong> CO2 sin PPFD 1000+ es tirar plata. Primero luz, clima y comida; el CO2 es el último 15-20% extra.</li>
 <li><strong>Niveles por etapa:</strong> vege 800-1000 ppm, flora 1000-1200 ppm (hasta 1500 solo con PPFD 1300+ y todo dializado). Ambiente normal: ~400 ppm.</li>
@@ -1286,7 +1278,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Seguridad:</strong> 1500 ppm es el techo de trabajo seguro; ventilá antes de entrar si dosificás fuerte y nunca duermas en la sala.</li>
 </ul>
 
-<h2>6. Clima por etapa: temperatura, humedad y VPD</h2>
+<h2>5. Clima por etapa: temperatura, humedad y VPD</h2>
 <table>
 <tr><td><strong>Plantín</strong></td><td>24-26°C día / 20-22 noche</td><td>65-75% HR (VPD 0.4-0.8)</td></tr>
 <tr><td><strong>Vegetación</strong></td><td>24-28°C / 20-22</td><td>55-65% HR (VPD 0.8-1.2)</td></tr>
@@ -1299,7 +1291,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Noche:</strong> que no caiga más de 5-6°C respecto al día ni la humedad se dispare: programá extracción mínima nocturna.</li>
 </ul>
 
-<h2>7. Agua: pH, EC y temperatura por etapa</h2>
+<h2>6. Agua: pH, EC y temperatura por etapa</h2>
 <table>
 <tr><td><strong>Plantín</strong></td><td>pH 5.5-5.8</td><td>EC 0.3-0.6</td><td>Agua 20-22°C</td></tr>
 <tr><td><strong>Vege</strong></td><td>pH 5.6-6.0</td><td>EC 1.2-1.6</td><td>Agua 18-22°C</td></tr>
@@ -1315,7 +1307,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Oxígeno:</strong> agua fría + muchas burbujas. Raíces blancas = todo bien; marrones y babosas = pythium: bajá temp, subí aireación, esterilizá.</li>
 </ul>
 
-<h2>8. Fertilización hidropónica por etapa</h2>
+<h2>7. Fertilización hidropónica por etapa</h2>
 <ul>
 <li><strong>Base A+B de hidro:</strong> siempre A primero, mezclar, después B. Nunca juntes concentrados entre sí.</li>
 <li><strong>Orden de mezcla:</strong> agua → corrector de EC base → calcio/magnesio si tu agua es blanda → A → B → aditivos (enraizante, enzimas, PK) → medir EC → corregir pH al final.</li>
@@ -1325,7 +1317,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Subí dosis 10-15% por vez</strong> y mirá puntas 48h: si queman, volvé atrás. Cada genética tiene su techo.</li>
 </ul>
 
-<h2>9. Ventilación y filtración</h2>
+<h2>8. Ventilación y filtración</h2>
 <ul>
 <li><strong>Sin CO2:</strong> renovación total cada 1-3 minutos + filtro de carbón a la salida (el olor en flora es mucho).</li>
 <li><strong>Con CO2:</strong> extracción mínima por temperatura/humedad, el clima lo hacen el aire y el deshumidificador. El filtro de carbón igual va.</li>
@@ -1333,7 +1325,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Entrada de aire:</strong> filtrada con malla antiplagas y trampa de luz si la sala no es 100% oscura en flora.</li>
 </ul>
 
-<h2>10. Rutina semanal y errores caros</h2>
+<h2>9. Rutina semanal y errores caros</h2>
 <ul>
 <li><strong>Todos los días:</strong> pH, EC, temp agua y aire, humedad, CO2. 5 minutos.</li>
 <li><strong>Cada semana:</strong> calibrar medidores, revisar raíces, limpiar prefiltros, chequear desagües y mangueras.</li>
