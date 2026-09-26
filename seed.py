@@ -1341,6 +1341,91 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
         'tags': 'hidroponia, indoor, avanzado, ppfd, co2, ec, ph, vpd, racks, iluminacion',
         'published': True,
         'featured': True
+    },
+    {
+        'title': 'Indoor Intermedio: De Tu Primera Cosecha al Cultivo Controlado',
+        'slug': 'guia-intermedia-cultivo-indoor',
+        'image': 'images/blog/grow-guide.svg',
+        'excerpt': 'Pasá de principiante a intermedio: carpa armada, LED y fotoperíodo, clima, nutrición por etapas, podas, SCROG y cosecha completa.',
+        'content': """<h2>De principiante a intermedio: qué cambia</h2>
+<p>Ya sacaste tu primera cosecha. Ahora dejás de improvisar y pasás a <strong>controlar</strong>: carpa armada como corresponde, luz medida, clima estable, comida por etapas y técnicas para llenar la carpa. No es hidroponía avanzada ni CO2: es sacarle el 100% a un indoor en tierra o coco con criterio.</p>
+<p>Si todavía no cultivaste nunca, empezá por la <a href="/blog/guia-completa-cultivo-indoor-principiantes">guía de principiantes</a>.</p>
+
+<h2>1. La carpa bien armada</h2>
+<ul>
+<li><strong>Medida realista:</strong> 80x80 para 2-4 plantas, 100x100 para 4-6. Más grande sin más luz es peor: la luz se diluye.</li>
+<li><strong>Piso y orden:</strong> bandeja o lona impermeable abajo, nada apoyado directo (higiene y derrames). Todo colgado o en estantes: balastros, timers y fertilizantes fuera del área de riego.</li>
+<li><strong>Hermeticidad lumínica:</strong> en flora, cero fugas: cierres, velcros y mangas bien ajustados. Una luz prendida de afuera en flora arruina cogollos.</li>
+<li><strong>Intracción y extracción:</strong> extracción arriba (el calor sube) con filtro de carbón, intracción pasiva abajo del lado opuesto. El flujo cruzado se tiene que sentir con la mano.</li>
+</ul>
+
+<h2>2. Iluminación y fotoperíodo</h2>
+<ul>
+<li><strong>LED full spectrum:</strong> 30-40W reales por pie cuadrado como regla. Para 80x80 (~7 pies²): 200-300W reales.</li>
+<li><strong>Altura y potencia:</strong> arrancá alto y al 50%, acercá y subí progresivo mirando las puntas: si se blanquean o se doblan hacia abajo, te pasaste.</li>
+<li><strong>Fotoperíodo:</strong> vege 18/6 fijo con timer (nunca a mano), flora 12/12 estricto. Un corte de luz en flora se compensa; una luz prendida de más, no.</li>
+<li><strong>Todo el ciclo con la misma lámpara:</strong> los full spectrum modernos sirven para vege y flora: no hace falta cambiar de equipo.</li>
+</ul>
+
+<h2>3. Clima: temperatura y humedad por etapa</h2>
+<table>
+<tr><td><strong>Plantín</strong></td><td>24-26°C</td><td>65-70% HR</td></tr>
+<tr><td><strong>Vegetación</strong></td><td>24-28°C</td><td>55-65% HR</td></tr>
+<tr><td><strong>Flora temprana</strong></td><td>23-26°C</td><td>45-55% HR</td></tr>
+<tr><td><strong>Flora tardía</strong></td><td>22-25°C</td><td>40-45% HR</td></tr>
+</table>
+<ul>
+<li><strong>Termohigrómetro a altura de canopia:</strong> el clima se mide donde están las plantas, no en la pared.</li>
+<li><strong>Humedad alta en flora = hongos:</strong> si no bajás con extracción, deshumidificá o achicá riego. En flora tardía, 45% es tu techo.</li>
+</ul>
+
+<h2>4. Sustrato y trasplantes</h2>
+<ul>
+<li><strong>Mezcla intermedia:</strong> turba + compost/humus + perlita + vermiculita, suelta y aireada. En coco, riego más seguido y pH 5.8.</li>
+<li><strong>Trasplantes progresivos:</strong> 1L → 5L → 10-15L final (foto) o 20L si la vege es larga. Cada trasplante renueva comida y aire.</li>
+<li><strong>pH del riego:</strong> 6.0-6.8 en tierra. Medilo siempre: la mitad de los problemas intermedios son pH. Detalles en la <a href="/blog/medicion-ph-ec-cultivo-cannabis">guía de pH y EC</a>.</li>
+</ul>
+
+<h2>5. Nutrición por etapas</h2>
+<ul>
+<li><strong>Vege:</strong> base alta en nitrógeno + enraizante al inicio. Arrancá a mitad de dosis y subí mirando el verde: verde oscuro brillante = bien; puntas quemadas = bajá.</li>
+<li><strong>Transición (1ª semana 12/12):</strong> mitad y mitad una semana, después base de flora.</li>
+<li><strong>Flora y engorde:</strong> fósforo y potasio + melaza o té de compost. Últimas 1-2 semanas: solo agua (lavado).</li>
+<li><strong>Menos es más:</strong> el error intermedio típico es sobrefertilizar por ansiedad. Ante la duda, agua.</li>
+</ul>
+
+<h2>6. Podas y SCROG básico</h2>
+<ul>
+<li><strong>Apical + LST:</strong> la base para abrir la planta y frenar altura. Una técnica por vez con 7-10 días de recupero.</li>
+<li><strong>SCROG de una red:</strong> red a 20-30 cm sobre la maceta, entrelazá puntas en vege hasta llenar el 70% y pasá a flora: la red se termina de llenar sola.</li>
+<li><strong>Limpieza de bajos:</strong> sacá lo que no llega a la luz: mejora aire y concentra energía arriba.</li>
+</ul>
+
+<h2>7. Plagas indoor</h2>
+<ul>
+<li><strong>Prevención:</strong> neem + jabón potásico cada 10-15 días en vege, malla en intracción, no entrar con ropa de exterior a la carpa.</li>
+<li><strong>Revisá el envés</strong> de las hojas una vez por semana: trips, arañuela y mosca del sustrato se agarran a tiempo o te ganan.</li>
+<li><strong>En flora no pulverices cogollos:</strong> cortá lo afectado y ventilá.</li>
+</ul>
+
+<h2>8. Floración, cosecha y secado</h2>
+<ul>
+<li><strong>Cuándo cortar:</strong> lupa 60x, mayoría de tricomas lechosos + 10-20% ámbar.</li>
+<li><strong>Secado:</strong> 7-14 días a oscuras, 18-22°C y 50-60% HR, colgado con aire suave.</li>
+<li><strong>Curado:</strong> frascos 3/4, abrir 10 min diarios la primera semana, mínimo 2-4 semanas. Acá se define el sabor final.</li>
+</ul>
+
+<h2>Errores típicos del intermedio</h2>
+<ol>
+<li><strong>Más luz sin más comida ni clima:</strong> todo sube junto o nada.</li>
+<li><strong>Carpa llena de plantas chicas:</strong> menos plantas bien trabajadas rinden más que muchas apretadas.</li>
+<li><strong>Cambiar todo a la vez</strong> (luz + fertilizante + poda) y no saber qué funcionó.</li>
+<li><strong>Cosechar apurado</strong> o secar mal después de meses de trabajo.</li>
+</ol>""",
+        'category': 'Cultivo',
+        'tags': 'indoor, intermedio, carpa, led, clima, nutricion, scrog, cosecha',
+        'published': True,
+        'featured': True
     }
 ]
 
