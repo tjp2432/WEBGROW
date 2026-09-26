@@ -1236,7 +1236,7 @@ blog_posts_data = [
 <li><strong>Racks (2 configuraciones posibles):</strong>
 <ul>
 <li><strong>Opción A - 2 niveles de bateas con plantas arriba y abajo:</strong> dos pisos productivos, cada uno con su batea, su luminaria y su riego. Duplicás plantas por m² pero cada nivel necesita su altura completa (planta + 40-60 cm a la lámpara).</li>
-<li><strong>Opción B - bateas solo abajo con 2 o más SCROG arriba:</strong> un solo piso productivo y, sobre las mismas plantas, 2 o más redes apiladas en vertical para ir guiando el crecimiento hacia arriba por etapas. Acá no hay plantas arriba: las redes de arriba son todas para las plantas de abajo.</li>
+<li><strong>Opción B - bateas solo abajo con 1, 2 o más SCROG arriba:</strong> un solo piso productivo y, sobre las mismas plantas, 1, 2 o más redes apiladas en vertical para ir guiando el crecimiento hacia arriba por etapas. Acá no hay plantas arriba: las redes de arriba son todas para las plantas de abajo.</li>
 </ul>
 Los racks pueden ser <strong>simples</strong> (estructura + pisos regulables) y sirven para cualquiera de las dos opciones: agregás bateas o redes según lo que armes. Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y bateas, porque cambian las alturas, el riego y la cantidad de luminarias.</li>
 <li><strong>Bateas y drenaje:</strong> bateas de 10-15 cm con pendiente 2% hacia el drenaje, mangueras de 25mm mínimo (las finas se tapan con raíces) y depósito <strong>fuera de la sala</strong> si podés: el agua suma calor y humedad.</li>
