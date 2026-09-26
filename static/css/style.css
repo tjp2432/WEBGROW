@@ -1171,6 +1171,7 @@ body.age-locked { overflow: hidden; }
 .blog-article { max-width: 800px; }
 
 .blog-article-header { margin-bottom: 2rem; text-align: center; }
+.blog-hero-image { margin-top: 30px; }
 .blog-article-meta { justify-content: center; }
 
 .blog-category-badge {
