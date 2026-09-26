@@ -1064,6 +1064,17 @@ blog_posts_data = [
 <li><strong>EC (electroconductividad):</strong> cuántas sales disueltas hay. Define CUÁNTO come la planta.</li>
 </ul>
 
+<h2>Por qué es importante medir (y qué pasa si no lo hacés)</h2>
+<p>La planta no come lo que le das: come <strong>lo que puede absorber</strong>. El pH es la llave y la EC es la cantidad. Si no medís, estás cultivando a ciegas:</p>
+<ul>
+<li><strong>Bloqueo de nutrientes:</strong> con pH fuera de rango las raíces no absorben aunque el fertilizante esté ahí. Ves carencias, agregás más producto, y el problema empeora: gastás plata y estresás la planta.</li>
+<li><strong>Cosecha chica y floja:</strong> una EC mal llevada achica la producción y baja la resina. Dos plantas iguales con distinta EC rinden distinto: la bien medida produce más y mejores cogollos.</li>
+<li><strong>Problemas que parecen otra cosa:</strong> el 80% de las "plagas", "hongos" o "genética mala" son en realidad pH o EC mal. Medir te ahorra semanas de diagnósticos errados.</li>
+<li><strong>Raíces sanas:</strong> sales acumuladas (EC alta en sustrato) queman raíces y frenan todo. Solo el drenaje medido te avisa antes de que sea tarde.</li>
+<li><strong>Ahorro real:</strong> fertilizás justo lo necesario, ni de más (quemás y tirás producto) ni de menos (la planta rinde poco).</li>
+</ul>
+<p>En corto: <strong>medir pH y EC es lo más barato que podés hacer por tu cosecha</strong>. Un medidor se paga solo con lo que ahorrás en fertilizantes y en la primera cosecha que no perdés.</p>
+
 <h2>Rangos ideales de pH</h2>
 <table>
 <tr><td><strong>Tierra / sustrato</strong></td><td><strong>6.0 - 6.8</strong> (ideal 6.3)</td></tr>
