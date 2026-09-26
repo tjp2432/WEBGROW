@@ -1051,6 +1051,84 @@ blog_posts_data = [
         'tags': 'cultivo, outdoor, exterior, argentina, calendario, semilla, principiantes',
         'published': True,
         'featured': True
+    },
+    {
+        'title': 'pH y EC en Cannabis: Cómo Medir y Corregir Paso a Paso',
+        'slug': 'medicion-ph-ec-cultivo-cannabis',
+        'image': 'images/blog/nutrients-guide.svg',
+        'excerpt': 'Guía de pH y EC en cannabis: rangos ideales en tierra, coco e hidro, tabla por etapa, cómo medir, calibrar y corregir excesos o carencias.',
+        'content': """<h2>pH y EC: las dos mediciones que definen tu cosecha</h2>
+<p>Podés tener la mejor genética, el mejor sustrato y los mejores fertilizantes: si el <strong>pH</strong> está mal, la planta <strong>no absorbe</strong> los nutrientes (bloqueo), y si la <strong>EC</strong> está mal, la planta se <strong>quema o pasa hambre</strong>. Medir pH y EC es lo que separa un cultivo flojo de uno profesional, y solo necesitás un medidor barato y 2 minutos por riego.</p>
+<ul>
+<li><strong>pH:</strong> qué tan ácido o alcalino está el agua/riego. Define QUÉ nutrientes puede absorber la raíz.</li>
+<li><strong>EC (electroconductividad):</strong> cuántas sales disueltas hay. Define CUÁNTO come la planta.</li>
+</ul>
+
+<h2>Rangos ideales de pH</h2>
+<table>
+<tr><td><strong>Tierra / sustrato</strong></td><td><strong>6.0 - 6.8</strong> (ideal 6.3)</td></tr>
+<tr><td><strong>Coco</strong></td><td><strong>5.5 - 6.2</strong> (ideal 5.8)</td></tr>
+<tr><td><strong>Hidroponía</strong></td><td><strong>5.5 - 6.0</strong> (ideal 5.7)</td></tr>
+</table>
+<p>Fuera de rango aparecen carencias <strong>aunque fertilices bien</strong>: con pH alto se bloquean hierro, zinc y manganeso (hojas amarillas con nervaduras verdes); con pH bajo se bloquean calcio y magnesio y se libera aluminio tóxico.</p>
+
+<h2>Tabla de EC por etapa (mS/cm)</h2>
+<table>
+<tr><td><strong>Plantín / esqueje</strong></td><td>0.3 - 0.6 (casi solo agua)</td></tr>
+<tr><td><strong>Vegetación temprana</strong></td><td>0.8 - 1.2</td></tr>
+<tr><td><strong>Vegetación plena</strong></td><td>1.2 - 1.6</td></tr>
+<tr><td><strong>Preflora</strong></td><td>1.6 - 1.8</td></tr>
+<tr><td><strong>Floración / engorde</strong></td><td>1.8 - 2.2 (algunas genéticas hasta 2.4)</td></tr>
+<tr><td><strong>Lavado final (últimas 1-2 semanas)</strong></td><td>0.0 - 0.4 (solo agua con pH correcto)</td></tr>
+</table>
+<p>Medí siempre la EC <strong>del agua base primero</strong> y restala: si tu agua de red ya trae 0.7, tenés menos margen para fertilizante. En Argentina el agua corriente suele estar entre 0.3 y 0.8 según la zona: si supera 0.8, conviene mezclar con agua de lluvia, destilada u ósmosis.</p>
+
+<h2>Cómo medir paso a paso</h2>
+<ol>
+<li><strong>Calibrá el medidor:</strong> 1 vez por mes con solución buffer (pH 7.0 y 4.0). Un medidor descalibrado miente y es peor que no medir.</li>
+<li><strong>Prepará el riego:</strong> agua + fertilizantes, mezclá bien y esperá 2 minutos.</li>
+<li><strong>Medí EC primero:</strong> si está alta, agregá agua; si está baja, sumá fertilizante de a poco.</li>
+<li><strong>Medí pH después</strong> (los fertilizantes lo cambian) y corregí gota a gota.</li>
+<li><strong>Regá y medí el drenaje</strong> cada tanto: si la EC del drenaje sale mucho más alta que la de entrada, hay acumulación de sales: regá solo con agua + pH en el próximo riego.</li>
+</ol>
+
+<h2>Cómo corregir el pH</h2>
+<ul>
+<li><strong>Para bajarlo (lo más común):</strong> gotas de corrector pH- (ácido fosfórico) o unas gotas de limón/vinagre en emergencia. De a poco: 1 gota por litro, mezclá y volvé a medir.</li>
+<li><strong>Para subirlo:</strong> corrector pH+ (potasa) o una pizca de bicarbonato. También de a poco.</li>
+<li><strong>Nunca mezcles correctores</strong> ni corrijas de golpe más de 1 punto: los cambios bruscos estresan las raíces.</li>
+</ul>
+
+<h2>Síntomas: ¿EC alta o pH mal?</h2>
+<ul>
+<li><strong>EC alta (sobrefertilización):</strong> puntas de hojas quemadas/marrón que avanzan hacia adentro, hojas en garra hacia abajo, crecimiento frenado. Solución: lavar con el triple de agua con pH correcto y retomar a mitad de dosis.</li>
+<li><strong>EC baja (hambre):</strong> amarilleo parejo desde abajo, tallos finos, poco crecimiento. Solución: subir la dosis gradualmente.</li>
+<li><strong>pH fuera de rango:</strong> manchas, amarilleo entre nervaduras, hojas retorcidas <strong>aunque la EC esté bien</strong>. Solución: corregir el pH del riego, no agregar más fertilizante.</li>
+</ul>
+<p>Regla de oro: <strong>ante un problema, medí pH y EC antes de agregar nada</strong>. El 80% de las "carencias" son bloqueos por pH.</p>
+
+<h2>Errores comunes</h2>
+<ol>
+<li><strong>Medir solo al principio y nunca calibrar:</strong> el medidor se descalibra y todo lo que medís es mentira.</li>
+<li><strong>Corregir pH antes de agregar fertilizantes:</strong> se mide y corrige siempre AL FINAL, con todo mezclado.</li>
+<li><strong>Regar con agua de red sin medir:</strong> cloro alto y EC alta queman plantines. Dejá reposar el agua 24h.</li>
+<li><strong>Confundir EC alta con falta de comida</strong> y agregar más fertilizante arriba del bloqueo.</li>
+<li><strong>No medir el drenaje nunca:</strong> es tu radiografía de lo que pasa en la maceta.</li>
+</ol>
+
+<h2>Kit mínimo recomendado</h2>
+<ul>
+<li>Medidor digital de pH + solución de calibración y guardado.</li>
+<li>Medidor de EC (muchos vienen combo pH/EC).</li>
+<li>Corrector pH- y pH+.</li>
+<li>Vaso medidor y anotador: registrá pH/EC de entrada y drenaje, vas a detectar problemas antes de verlos.</li>
+</ul>
+
+<p>En Perrone's INC te conseguimos medidores, calibradores y correctores, y te enseñamos a usarlos. <a href="/contacto">Escribinos</a> o <a href="/productos">ver productos</a>.</p>""",
+        'category': 'Cultivo',
+        'tags': 'ph, ec, medicion, nutrientes, cultivo, cannabis, fertilizacion',
+        'published': True,
+        'featured': True
     }
 ]
 
