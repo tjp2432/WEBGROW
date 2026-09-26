@@ -1050,7 +1050,7 @@ blog_posts_data = [
     {
         'title': 'pH y EC en Cannabis: Cómo Medir y Corregir Paso a Paso',
         'slug': 'medicion-ph-ec-cultivo-cannabis',
-        'image': 'images/blog/nutrients-guide.svg',
+        'image': 'images/blog/phec-medidor-ec.jpg',
         'excerpt': 'Guía de pH y EC en cannabis: rangos ideales en tierra, coco e hidro, tabla por etapa, cómo medir, calibrar y corregir excesos o carencias.',
         'content': """<h2>pH y EC: las dos mediciones que definen tu cosecha</h2>
 <p>Podés tener la mejor genética, el mejor sustrato y los mejores fertilizantes: si el <strong>pH</strong> está mal, la planta <strong>no absorbe</strong> los nutrientes (bloqueo), y si la <strong>EC</strong> está mal, la planta se <strong>quema o pasa hambre</strong>. Medir pH y EC es lo que separa un cultivo flojo de uno profesional, y solo necesitás un medidor barato y 2 minutos por riego.</p>
@@ -1077,6 +1077,7 @@ blog_posts_data = [
 <tr><td><strong>Hidroponía</strong></td><td><strong>5.5 - 6.0</strong> (ideal 5.7)</td></tr>
 </table>
 <p>Fuera de rango aparecen carencias <strong>aunque fertilices bien</strong>: con pH alto se bloquean hierro, zinc y manganeso (hojas amarillas con nervaduras verdes); con pH bajo se bloquean calcio y magnesio y se libera aluminio tóxico.</p>
+<figure class="blog-figure"><img src="/static/images/blog/phec-tabla-ph.jpg" alt="Tabla de absorción de nutrientes según el pH" loading="lazy"><figcaption>Cómo el pH afecta la absorción: cada nutriente tiene su ventana. Por eso el rango 6.0-6.8 en tierra cubre casi todo.</figcaption></figure>
 
 <h2>Tabla de EC por etapa (mS/cm)</h2>
 <table>
@@ -1097,6 +1098,7 @@ blog_posts_data = [
 <li><strong>Medí pH después</strong> (los fertilizantes lo cambian) y corregí gota a gota.</li>
 <li><strong>Regá y medí el drenaje</strong> cada tanto: si la EC del drenaje sale mucho más alta que la de entrada, hay acumulación de sales: regá solo con agua + pH en el próximo riego.</li>
 </ol>
+<figure class="blog-figure vertical"><img src="/static/images/blog/phec-medidor-ph.jpg" alt="Medidor digital de pH en vaso con agua" loading="lazy" style="max-width:380px;"><figcaption>Medidor digital de pH: sumergí el electrodo, esperá la lectura estable y enjuagá después de cada uso.</figcaption></figure>
 
 <h2>Cómo corregir el pH</h2>
 <ul>
@@ -1129,6 +1131,7 @@ blog_posts_data = [
 <li>Corrector pH- y pH+.</li>
 <li>Vaso medidor y anotador: registrá pH/EC de entrada y drenaje, vas a detectar problemas antes de verlos.</li>
 </ul>
+<figure class="blog-figure vertical"><img src="/static/images/blog/phec-medidor-ec.jpg" alt="Medidor digital 3 en 1 de TDS, EC y temperatura" loading="lazy" style="max-width:380px;"><figcaption>Medidor 3 en 1 (TDS/EC/temperatura): ideal para controlar las sales del riego y del drenaje.</figcaption></figure>
 
 <p>Con medidor, calibradores y correctores ya podés medir y corregir como un profesional.</p>""",
         'category': 'Cultivo',
