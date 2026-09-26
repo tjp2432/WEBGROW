@@ -446,10 +446,7 @@ blog_posts_data = [
 <li><strong>Sobrefertilizar:</strong> Menos es más. Sigue las dosis recomendadas.</li>
 <li><strong>No medir pH:</strong> Mantén el pH entre 6.0 y 6.8 en tierra.</li>
 <li><strong>Fugas de luz:</strong> Durante la floración, cualquier fuga de luz puede causar estrés.</li>
-</ol>
-
-<h2>Equipo Recomendado para Empezar</h2>
-<p>En Perrone's INC tenemos todo lo que necesitas para tu primer cultivo. Desde paneles LED hasta kits de fertilizantes. Visita nuestra sección de <a href="/productos">productos</a> para ver nuestro catálogo completo.</p>""",
+</ol>""",
         'category': 'Cultivo',
         'tags': 'cultivo, indoor, principiantes, guia, marihuana',
         'published': True,
@@ -494,8 +491,8 @@ blog_posts_data = [
 <tr><td><strong>Flujo de aire</strong></td><td>Regulable para personalizar la experiencia</td></tr>
 </table>
 
-<h2>Recomendación Perrone's INC</h2>
-<p>Para quienes empiezan, recomendamos el XVAPE Starry 4.0: calidad-precio inmejorable. Para los más exigentes, el Arizer Extreme Q es el rey de los vaporizadores de escritorio.</p>""",
+<h2>Consejo Final</h2>
+<p>Para quienes empiezan, lo ideal es un vaporizador con control preciso de temperatura y fácil limpieza. Los más exigentes suelen preferir los de escritorio por su potencia y capacidad.</p>""",
         'category': 'Vaporización',
         'tags': 'vaporizador, vape, hierbas, salud',
         'published': True,
@@ -530,7 +527,7 @@ blog_posts_data = [
 <h2>La Cultura Hoy</h2>
 <p>La cultura moderna es diversa e inclusiva. Desde growers que comparten conocimientos en redes sociales, hasta chefs que crean experiencias gastronómicas, pasando por la moda y el arte.</p>
 
-<p>En Perrone's INC celebramos esta cultura con respeto y pasión. Nuestro objetivo es ofrecer productos de calidad mientras educamos y construimos una comunidad responsable.</p>""",
+<p>Celebremos esta cultura con respeto y pasión, educando y construyendo una comunidad responsable.</p>""",
         'category': 'Cultura',
         'tags': 'historia, cultura, cannabis, legalizacion',
         'published': True,
@@ -583,7 +580,7 @@ blog_posts_data = [
 <li>Cambia el agua del bong después de cada sesión</li>
 </ul>
 
-<p>En nuestro catálogo encontrarás kits de limpieza profesionales para mantener tus accesorios en perfecto estado. <a href="/productos/accesorios">Ver accesorios de limpieza</a></p>""",
+<p>Con un kit de limpieza dedicado y constancia, tus accesorios se mantienen en perfecto estado por años.</p>""",
         'category': 'Accesorios',
         'tags': 'limpieza, mantenimiento, bongs, pipas, grinders',
         'published': True,
@@ -604,7 +601,7 @@ blog_posts_data = [
 <li><strong>Fósforo (P):</strong> Medio - Desarrollo radicular</li>
 <li><strong>Potasio (K):</strong> Medio - Transporte de nutrientes</li>
 </ul>
-<p>Usa fertilizante de vegetación con alta relación N. Recomendamos Top Veg de Top Crop.</p>
+<p>Usa un fertilizante de vegetación con alta relación de nitrógeno (N).</p>
 
 <h2>Etapa de Floración</h2>
 <h3>Cambio de Perfil:</h3>
@@ -633,8 +630,8 @@ blog_posts_data = [
 <tr><td><strong>Manchas marrones</strong></td><td>Posible deficiencia de Calcio/Magnesio</td></tr>
 </table>
 
-<h2>Recomendación Perrone's INC</h2>
-<p>Nuestro kit Top Crop 3x1L tiene todo lo necesario para el ciclo completo. Ideal para principiantes y expertos.</p>""",
+<h2>Consejo Final</h2>
+<p>Un kit básico de crecimiento, flora y engorde cubre el ciclo completo, tanto para principiantes como para expertos.</p>""",
         'category': 'Cultivo',
         'tags': 'nutrientes, fertilizantes, cultivo, floracion, vegetacion',
         'published': True,
@@ -683,7 +680,6 @@ blog_posts_data = [
 <li><strong>Ambiente caluroso:</strong> los tricomas se derriten y tapan la malla.</li>
 </ol>
 
-<p>En Perrone's INC conseguís tamices, grinders recolectores y prensas manuales para llevar tu dry sift al siguiente nivel. <a href="/productos">Ver accesorios</a></p>
 <p class="img-credit">Foto de portada: 1 g de kief tamizado. Mjpresson, Wikimedia Commons (CC BY 3.0).</p>""",
         'category': 'Extracciones',
         'tags': 'extraccion, seco, dry sift, kief, hash, sin solventes',
@@ -753,7 +749,6 @@ blog_posts_data = [
 <h2>Cómo Consumirlo</h2>
 <p>En pipa, bong, espolvoreado o dabbeado a baja temperatura (170-190°C). El full melt de 73u se puede dabear puro.</p>
 
-<p>Consultanos por bubble bags, lavadoras de hash, mallas de secado y frascos herméticos en nuestra <a href="/productos">tienda</a>.</p>
 <p class="img-credit">Fotos del proceso: gentileza Perrone's INC. Foto de portada: hash prensado por extracción con hielo. Mjpresson, Wikimedia Commons.</p>""",
         'category': 'Extracciones',
         'tags': 'extraccion, bubble hash, agua, hielo, hash, sin solventes',
@@ -903,7 +898,7 @@ blog_posts_data = [
 <h2>Seguridad</h2>
 <p>Las placas queman (100°C+). Usá guantes, no toques las placas y trabajá en superficie estable. Desenchufá al terminar.</p>
 
-<p>En Perrone's INC te asesoramos con prensas, bolsas de micraje, papeles y frascos para tu primera prensada. <a href="/contacto">Escribinos</a> o <a href="/productos">ver productos</a>.</p>
+<p>Con prensa, bolsas de micraje, papeles y frascos estás listo para tu primera prensada.</p>
 <p class="img-credit">Fotos de esta guía: material propio Perrone's INC.</p>""",
         'category': 'Extracciones',
         'tags': 'extraccion, rosin, prensa, flower rosin, hash rosin, live rosin, sin solventes',
@@ -1045,7 +1040,7 @@ blog_posts_data = [
 <li><strong>ABR-MAY:</strong> cosecha escalonada, secado y curado.</li>
 </ul>
 
-<p>En Perrone's INC te armamos el kit outdoor: sustrato, macetas geotextil, micorrizas, neem, jabón potásico, fertilizantes vege/flora y lupas para cosecha. <a href="/contacto">Escribinos</a> o <a href="/productos">ver productos</a>.</p>
+<p>Con sustrato, macetas geotextil, micorrizas, neem, jabón potásico, fertilizantes vege/flora y lupa ya tenés el kit outdoor completo.</p>
 <p class="img-credit">Fotos de esta guía: material propio Perrone's INC.</p>""",
         'category': 'Cultivo',
         'tags': 'cultivo, outdoor, exterior, argentina, calendario, semilla, principiantes',
@@ -1135,7 +1130,7 @@ blog_posts_data = [
 <li>Vaso medidor y anotador: registrá pH/EC de entrada y drenaje, vas a detectar problemas antes de verlos.</li>
 </ul>
 
-<p>En Perrone's INC te conseguimos medidores, calibradores y correctores, y te enseñamos a usarlos. <a href="/contacto">Escribinos</a> o <a href="/productos">ver productos</a>.</p>""",
+<p>Con medidor, calibradores y correctores ya podés medir y corregir como un profesional.</p>""",
         'category': 'Cultivo',
         'tags': 'ph, ec, medicion, nutrientes, cultivo, cannabis, fertilizacion',
         'published': True,
