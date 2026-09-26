@@ -1356,6 +1356,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Medida realista:</strong> 80x80 para 2-4 plantas, 100x100 para 4-6. Más grande sin más luz es peor: la luz se diluye.</li>
 <li><strong>Piso y orden:</strong> bandeja o lona impermeable abajo, nada apoyado directo (higiene y derrames). Todo colgado o en estantes: balastros, timers y fertilizantes fuera del área de riego.</li>
 <li><strong>Hermeticidad lumínica:</strong> en flora, cero fugas: cierres, velcros y mangas bien ajustados. Una luz prendida de afuera en flora arruina cogollos.</li>
+<li><strong>En coco/turba (inerte):</strong> sumá bandejas con rejilla bajo cada maceta: el inerte drena mucho y vas a regar seguido. Dejá salida del drenaje a mano (bomba o manguera) porque sacar bandejas llenas todos los días cansa.</li>
 <li><strong>Intracción y extracción:</strong> extracción arriba (el calor sube) con filtro de carbón, intracción pasiva abajo del lado opuesto. El flujo cruzado se tiene que sentir con la mano.</li>
 </ul>
 
@@ -1365,6 +1366,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Altura y potencia:</strong> arrancá alto y al 50%, acercá y subí progresivo mirando las puntas: si se blanquean o se doblan hacia abajo, te pasaste.</li>
 <li><strong>Fotoperíodo:</strong> vege 18/6 fijo con timer (nunca a mano), flora 12/12 estricto. Un corte de luz en flora se compensa; una luz prendida de más, no.</li>
 <li><strong>Todo el ciclo con la misma lámpara:</strong> los full spectrum modernos sirven para vege y flora: no hace falta cambiar de equipo.</li>
+<li><strong>En coco/turba (inerte):</strong> la planta crece más rápido y pide un 10-15% más de luz que en tierra para el mismo tamaño. Si ves hojas claras y tallos largos con buena comida, subí un punto la potencia antes de culpar al fertilizante.</li>
 </ul>
 
 <h2>3. Clima: temperatura y humedad por etapa</h2>
@@ -1377,13 +1379,15 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <ul>
 <li><strong>Termohigrómetro a altura de canopia:</strong> el clima se mide donde están las plantas, no en la pared.</li>
 <li><strong>Humedad alta en flora = hongos:</strong> si no bajás con extracción, deshumidificá o achicá riego. En flora tardía, 45% es tu techo.</li>
+<li><strong>En coco/turba (inerte):</strong> regás más seguido y el sustrato húmedo suma humedad ambiente: ventilá más y no dejes charcos en bandejas. La tabla de arriba vale igual; el ajuste es sacar el agua sobrante siempre.</li>
 </ul>
 
 <h2>4. Sustrato y trasplantes</h2>
 <ul>
 <li><strong>Mezcla intermedia:</strong> turba + compost/humus + perlita + vermiculita, suelta y aireada. En coco, riego más seguido y pH 5.8.</li>
 <li><strong>Trasplantes progresivos:</strong> 1L → 5L → 10-15L final (foto) o 20L si la vege es larga. Cada trasplante renueva comida y aire.</li>
-<li><strong>pH del riego:</strong> 6.0-6.8 en tierra. Medilo siempre: la mitad de los problemas intermedios son pH. Detalles en la <a href="/blog/medicion-ph-ec-cultivo-cannabis">guía de pH y EC</a>.</li>
+<li><strong>En coco/turba (inerte):</strong> coco lavado y buferado + 30% perlita, macetas con mucho drenaje. El coco <strong>no se deja secar del todo nunca</strong>: cuando seca acumula sales y el pH se dispara. Regá cuando la capa de arriba apenas aclara, no cuando está seco abajo. pH 5.5-6.0 y la turba rubia sola se trata igual que el coco (inerte total).</li>
+<li><strong>pH del riego:</strong> 6.0-6.8 en tierra, 5.5-6.0 en coco/turba. Medilo siempre: la mitad de los problemas intermedios son pH. Detalles en la <a href="/blog/medicion-ph-ec-cultivo-cannabis">guía de pH y EC</a>.</li>
 </ul>
 
 <h2>5. Nutrición por etapas</h2>
@@ -1392,6 +1396,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Transición (1ª semana 12/12):</strong> mitad y mitad una semana, después base de flora.</li>
 <li><strong>Flora y engorde:</strong> fósforo y potasio + melaza o té de compost. Últimas 1-2 semanas: solo agua (lavado).</li>
 <li><strong>Menos es más:</strong> el error intermedio típico es sobrefertilizar por ansiedad. Ante la duda, agua.</li>
+<li><strong>En coco/turba (inerte):</strong> acá se fertiliza <strong>en cada riego</strong> (fertirriego), porque el medio no aporta nada: vege EC 1.0-1.4, flora 1.6-2.0, siempre con 10-20% de drenaje para lavar sales. Sumá calcio/magnesio si tu agua es blanda (EC base menor a 0.3) y pH 5.5-6.0. Si no hay drenaje, la EC del sustrato sube sola y quema puntas aunque la de entrada esté bien.</li>
 </ul>
 
 <h2>6. Podas y SCROG básico</h2>
@@ -1399,6 +1404,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Apical + LST:</strong> la base para abrir la planta y frenar altura. Una técnica por vez con 7-10 días de recupero.</li>
 <li><strong>SCROG de una red:</strong> red a 20-30 cm sobre la maceta, entrelazá puntas en vege hasta llenar el 70% y pasá a flora: la red se termina de llenar sola.</li>
 <li><strong>Limpieza de bajos:</strong> sacá lo que no llega a la luz: mejora aire y concentra energía arriba.</li>
+<li><strong>En coco/turba (inerte):</strong> las plantas responden más rápido a cada poda (crecen más veloz), así que podés ser un poco más agresivo con la limpieza, pero respetá igual los 7-10 días de recupero antes de la próxima.</li>
 </ul>
 
 <h2>7. Plagas indoor</h2>
@@ -1406,6 +1412,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Prevención:</strong> neem + jabón potásico cada 10-15 días en vege, malla en intracción, no entrar con ropa de exterior a la carpa.</li>
 <li><strong>Revisá el envés</strong> de las hojas una vez por semana: trips, arañuela y mosca del sustrato se agarran a tiempo o te ganan.</li>
 <li><strong>En flora no pulverices cogollos:</strong> cortá lo afectado y ventilá.</li>
+<li><strong>En coco/turba (inerte):</strong> la superficie siempre húmeda invita algas y mosca del sustrato: cubrí con una capa seca de perlita o arlita y dejá secar solo lo de arriba entre riegos. Mosquitero en intracción, igual que en tierra.</li>
 </ul>
 
 <h2>8. Floración, cosecha y secado</h2>
@@ -1413,6 +1420,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Cuándo cortar:</strong> lupa 60x, mayoría de tricomas lechosos + 10-20% ámbar.</li>
 <li><strong>Secado:</strong> 7-14 días a oscuras, 18-22°C y 50-60% HR, colgado con aire suave.</li>
 <li><strong>Curado:</strong> frascos 3/4, abrir 10 min diarios la primera semana, mínimo 2-4 semanas. Acá se define el sabor final.</li>
+<li><strong>En coco/turba (inerte):</strong> el lavado final es más corto porque no hay nutrientes retenidos: 5-7 días de solo agua alcanzan (en tierra son 10-14). Cortá en el mismo punto de tricomas.</li>
 </ul>
 
 <h2>Errores típicos del intermedio</h2>
