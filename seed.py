@@ -1070,12 +1070,18 @@ blog_posts_data = [
 </ul>
 <p>En corto: <strong>medir pH y EC es lo más barato que podés hacer por tu cosecha</strong>. Un medidor se paga solo con lo que ahorrás en fertilizantes y en la primera cosecha que no perdés.</p>
 
-<h2>Rangos ideales de pH</h2>
+<h2>Rangos de pH por etapa: no hay un único ideal</h2>
+<p>El error más común es buscar <strong>un</strong> pH perfecto y clavarlo siempre. La planta necesita <strong>distintos nutrientes en cada etapa</strong>, y cada nutriente se absorbe mejor a distinto pH (mirá la tabla de la foto). La técnica correcta es <strong>moverte dentro del rango</strong> según la etapa, e incluso variar un poco riego a riego para barrer toda la ventana de absorción.</p>
 <table>
-<tr><td><strong>Tierra / sustrato</strong></td><td><strong>6.0 - 6.8</strong> (ideal 6.3)</td></tr>
-<tr><td><strong>Coco</strong></td><td><strong>5.5 - 6.2</strong> (ideal 5.8)</td></tr>
-<tr><td><strong>Hidroponía</strong></td><td><strong>5.5 - 6.0</strong> (ideal 5.7)</td></tr>
+<tr><td><strong>Tierra - plantín / vege temprana</strong></td><td><strong>6.0 - 6.3</strong> (nitrógeno y micros a full)</td></tr>
+<tr><td><strong>Tierra - vegetación plena</strong></td><td><strong>6.2 - 6.5</strong></td></tr>
+<tr><td><strong>Tierra - flora / engorde</strong></td><td><strong>6.3 - 6.8</strong> (fósforo, potasio y calcio entran mejor arriba)</td></tr>
+<tr><td><strong>Coco - vege</strong></td><td><strong>5.5 - 5.9</strong></td></tr>
+<tr><td><strong>Coco - flora</strong></td><td><strong>5.8 - 6.2</strong></td></tr>
+<tr><td><strong>Hidro - vege</strong></td><td><strong>5.5 - 5.8</strong></td></tr>
+<tr><td><strong>Hidro - flora</strong></td><td><strong>5.7 - 6.1</strong></td></tr>
 </table>
+<p>Tip de cultivador: si regás siempre a 6.3 clavado, los nutrientes de los extremos (hierro abajo, molibdeno arriba) entran a medias. Alterná, por ejemplo, 6.1 - 6.4 - 6.6 durante la semana y cubrís todo el espectro.</p>
 <p>Fuera de rango aparecen carencias <strong>aunque fertilices bien</strong>: con pH alto se bloquean hierro, zinc y manganeso (hojas amarillas con nervaduras verdes); con pH bajo se bloquean calcio y magnesio y se libera aluminio tóxico.</p>
 <figure class="blog-figure"><img src="/static/images/blog/phec-tabla-ph.jpg" alt="Tabla de absorción de nutrientes según el pH" loading="lazy"><figcaption>Cómo el pH afecta la absorción: cada nutriente tiene su ventana. Por eso el rango 6.0-6.8 en tierra cubre casi todo.</figcaption></figure>
 
