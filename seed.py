@@ -1224,7 +1224,7 @@ blog_posts_data = [
     {
         'title': 'Hidroponía Indoor Avanzada: Guía Completa por Etapas',
         'slug': 'guia-avanzada-hidroponia-indoor',
-        'image': 'images/blog/grow-guide.svg',
+        'image': 'images/blog/hidro-portada.jpg',
         'excerpt': 'Hidroponía avanzada: racks y bateas, iluminación y PPFD, CO2, EC, pH, VPD, fertilización y ventilación regulados por etapa.',
         'content': """<h2>Hidroponía avanzada: de qué trata esta guía</h2>
 <p>Esta no es una guía para Germinar tu primera semilla: es para quien ya cultiva y quiere montar una <strong>sala hidropónica seria</strong> (DWC/RDWC, NFT, ebb & flow o goteo en racks) y exprimirla con <strong>parámetros medidos por etapa</strong>. Acá no se adivina: se mide PPFD, EC, pH, temperatura, humedad y CO2, y se corrige con criterio.</p>
@@ -1339,7 +1339,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
     {
         'title': 'Indoor Intermedio: De Tu Primera Cosecha al Cultivo Controlado',
         'slug': 'guia-intermedia-cultivo-indoor',
-        'image': 'images/blog/grow-guide.svg',
+        'image': 'images/blog/intermedia-portada.jpg',
         'excerpt': 'Pasá de principiante a intermedio: carpa armada, LED y fotoperíodo, clima, nutrición por etapas, podas, SCROG y cosecha completa.',
         'content': """<h2>De principiante a intermedio: qué cambia</h2>
 <p>Ya sacaste tu primera cosecha. Ahora dejás de improvisar y pasás a <strong>controlar</strong>: carpa armada como corresponde, luz medida, clima estable, comida por etapas y técnicas para llenar la carpa. No es hidroponía avanzada ni CO2: es sacarle el 100% a un indoor en tierra o coco con criterio.</p>
