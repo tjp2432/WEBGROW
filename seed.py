@@ -1154,7 +1154,7 @@ blog_posts_data = [
         'content': """<h2>Qué es dabbear</h2>
 <p><strong>Dabbear</strong> es vaporizar una pequeña dosis de concentrado (<em>dab</em>) sobre una superficie caliente e inhalar el vapor. En vez de quemar medio gramo de flor, ponés una porción del tamaño de un grano de arroz de rosin, shatter, wax o live resin sobre un clavo o banger caliente: se vaporiza al instante y lo inhalás filtrado en agua o directo.</p>
 <p>Sale de la cultura del hash pero explotó con los concentrados modernos: es la forma más directa de probar el <strong>sabor real de una genética</strong>, sin humo de combustión en el medio.</p>
-<figure class="blog-figure vertical"><img src="/static/images/blog/rosin-recoleccion.webp" alt="Dabber con rosin listo para dabbear" loading="lazy" style="max-width:380px;"><figcaption>Un dab del tamaño de un grano de arroz alcanza: los concentrados son mucho más potentes que la flor.</figcaption></figure>
+<figure class="blog-figure"><img src="/static/images/blog/dab-rosin-jam.webp" alt="Rosin jam en dabber listo para dabbear" loading="lazy"><figcaption>Rosin jam: un dab del tamaño de un grano de arroz alcanza, los concentrados son mucho más potentes que la flor.</figcaption></figure>
 
 <h2>Beneficios vs fumar la flor</h2>
 <ul>
