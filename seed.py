@@ -1220,6 +1220,121 @@ blog_posts_data = [
         'tags': 'dab, dabbear, concentrados, dab rig, e-rig, vaporizador, banger',
         'published': True,
         'featured': True
+    },
+    {
+        'title': 'Hidroponía Indoor Avanzada: Guía Completa por Etapas',
+        'slug': 'guia-avanzada-hidroponia-indoor',
+        'image': 'images/blog/grow-guide.svg',
+        'excerpt': 'Hidroponía avanzada: canastitas, racks y bateas, iluminación y PPFD, CO2, EC, pH, VPD, fertilización y ventilación regulados por etapa.',
+        'content': """<h2>Hidroponía avanzada: de qué trata esta guía</h2>
+<p>Esta no es una guía para Germinar tu primera semilla: es para quien ya cultiva y quiere montar una <strong>sala hidropónica seria</strong> (DWC/RDWC, NFT, ebb & flow o goteo en racks) y exprimirla con <strong>parámetros medidos por etapa</strong>. Acá no se adivina: se mide PPFD, EC, pH, temperatura, humedad y CO2, y se corrige con criterio.</p>
+<p>Si venís de tierra, primero leé la <a href="/blog/guia-completa-cultivo-indoor-principiantes">guía indoor para principiantes</a> y la <a href="/blog/medicion-ph-ec-cultivo-cannabis">guía de pH y EC</a>: acá damos por sabido lo básico.</p>
+
+<h2>1. Estructura: sala, racks y bateas</h2>
+<ul>
+<li><strong>Cuarto sellado o carpa grande:</strong> para CO2 y control climático necesitás un espacio que puedas <strong>cerrar</strong>: paredes reflectantes (mylar o blanco mate), piso impermeable con desnivel a desagote y puerta con burlete.</li>
+<li><strong>Racks verticales (2 niveles):</strong> el estándar avanzado. Cada nivel lleva su batea (flood table) con desagüe al depósito. Dejá 40-60 cm entre batea y luminaria para trabajar y que el calor no queme puntas.</li>
+<li><strong>Bateas y drenaje:</strong> bateas de 10-15 cm con pendiente 2% hacia el drenaje, mangueras de 25mm mínimo (las finas se tapan con raíces) y depósito <strong>fuera de la sala</strong> si podés: el agua suma calor y humedad.</li>
+<li><strong>Seguridad eléctrica y de agua:</strong> disyuntor diferencial dedicado, enchufes altos (nunca al ras del piso), bandejas anti-derrame bajo cada conexión y un sensor de inundación con alarma: baratos y salvan cosechas.</li>
+</ul>
+
+<h2>2. La canastita: net pot y sustrato inerte</h2>
+<ul>
+<li><strong>Canastita (net pot) 3-4":</strong> la planta vive ahí todo el ciclo. Que sea calada para que las raíces salgan al agua/niebla.</li>
+<li><strong>Arlita expandida (hydroton):</strong> el relleno estándar. Lavala y estabilizá el pH (remojo 24h a pH 5.5) antes de usar: nueva suele venir alcalina.</li>
+<li><strong>Arranque:</strong> germiná en taco de lana de roca o turba, y cuando asoman raíces por abajo, pasá el taco a la canastita con arlita. El nivel de agua al inicio debe <strong>rozar la base</strong> de la canastita (no ahogarla).</li>
+<li><strong>Oxígeno es todo:</strong> en hidro las raíces no tienen tierra que las airee: dependen del oxígeno disuelto. Piedra difusora grande por planta + bomba de aire sobredimensionada (mínimo 1W por cada 4-5L).</li>
+</ul>
+
+<h2>3. Hardware: el equipo que sostiene el sistema</h2>
+<ul>
+<li><strong>Bomba de agua:</strong> 1 recambio total del depósito por hora como mínimo en recirculantes. Siempre tené una <strong>bomba de repuesto</strong>: si falla 6 horas en flora, perdés plantas.</li>
+<li><strong>Bomba de aire + difusores:</strong> de diafragma, silenciosa, con válvula antirretorno. Más burbujas = más oxígeno = más crecimiento.</li>
+<li><strong>Chiller / calentador:</strong> el agua debe estar a <strong>18-22°C</strong>. Arriba de 24°C baja el oxígeno y aparece pythium (raíz marrón babosa). El chiller es caro pero es el seguro de la sala.</li>
+<li><strong>Medidores continuos:</strong> pH y EC en línea con alarmas te avisan antes del desastre. El medidor de mano queda para calibrar y medir drenaje.</li>
+<li><strong>Temporizadores y contactores:</strong> luz, bombas y riego con timer digital + contactor (nunca conectes una luminaria grande directo al timer).</li>
+<li><strong>Backup eléctrico:</strong> al menos la bomba de aire en UPS o grupo: 2 horas sin oxígeno matan raíces en agua caliente.</li>
+</ul>
+
+<h2>4. Iluminación y PPFD por etapa</h2>
+<p>En hidro la planta come más rápido, así que pide <strong>más luz</strong> que en tierra. Medilo con sensor (los de celular sirven de referencia, uno cuántico es ideal).</p>
+<table>
+<tr><td><strong>Plantín / esqueje</strong></td><td><strong>200 - 300 PPFD</strong>, 18/6</td></tr>
+<tr><td><strong>Vegetación</strong></td><td><strong>400 - 600 PPFD</strong>, 18/6</td></tr>
+<tr><td><strong>Preflora (1ª semana 12/12)</strong></td><td><strong>600 - 800 PPFD</strong></td></tr>
+<tr><td><strong>Flora sin CO2</strong></td><td><strong>800 - 1000 PPFD</strong>, 12/12</td></tr>
+<tr><td><strong>Flora con CO2</strong></td><td><strong>1000 - 1500 PPFD</strong>, 12/12</td></tr>
+</table>
+<ul>
+<li><strong>Uniformidad:</strong> medí PPFD en 5 puntos (centro + esquinas) a altura de canopia. Si los bordes reciben la mitad, subí la lámpara y la potencia o agregá barras laterales.</li>
+<li><strong>Distancia:</strong> seguí la del fabricante y validá con el dorso de la mano: si quema tu piel en 30 segundos, quema las puntas.</li>
+<li><strong>DLI orientativo:</strong> vege 25-35, flora 40-55 (hasta 65 con CO2). Subí la intensidad <strong>progresivo</strong> 10% cada 3-4 días, nunca de golpe.</li>
+</ul>
+
+<h2>5. Inyección de CO2: cuándo y cuánto</h2>
+<ul>
+<li><strong>Solo rinde con todo lo demás al máximo:</strong> CO2 sin PPFD 1000+ es tirar plata. Primero luz, clima y comida; el CO2 es el último 15-20% extra.</li>
+<li><strong>Niveles por etapa:</strong> vege 800-1000 ppm, flora 1000-1200 ppm (hasta 1500 solo con PPFD 1300+ y todo dializado). Ambiente normal: ~400 ppm.</li>
+<li><strong>Controladora con sensor:</strong> obligatoria. Dosifica con solenoide y apagá la inyección de noche y con extracción prendida (sacarías el CO2 a la calle).</li>
+<li><strong>Sellado:</strong> con CO2 la extracción pasa a mínimo (solo control de temperatura/humedad) y el aire acondicionado + deshumidificador hacen el clima.</li>
+<li><strong>Seguridad:</strong> 1500 ppm es el techo de trabajo seguro; ventilá antes de entrar si dosificás fuerte y nunca duermas en la sala.</li>
+</ul>
+
+<h2>6. Clima por etapa: temperatura, humedad y VPD</h2>
+<table>
+<tr><td><strong>Plantín</strong></td><td>24-26°C día / 20-22 noche</td><td>65-75% HR (VPD 0.4-0.8)</td></tr>
+<tr><td><strong>Vegetación</strong></td><td>24-28°C / 20-22</td><td>55-65% HR (VPD 0.8-1.2)</td></tr>
+<tr><td><strong>Flora temprana</strong></td><td>23-26°C / 19-21</td><td>45-55% HR (VPD 1.0-1.4)</td></tr>
+<tr><td><strong>Flora tardía</strong></td><td>22-25°C / 18-20</td><td>40-45% HR (VPD 1.2-1.6, anti-hongos)</td></tr>
+<tr><td><strong>Con CO2</strong></td><td>+2-3°C sobre cada rango (la planta lo tolera comiendo más)</td><td>igual tabla</td></tr>
+</table>
+<ul>
+<li><strong>VPD manda:</strong> si la humedad se dispara en flora tardía, el botrytis arruina cogollos en días. Deshumidificador dimensionado al riego diario.</li>
+<li><strong>Noche:</strong> que no caiga más de 5-6°C respecto al día ni la humedad se dispare: programá extracción mínima nocturna.</li>
+</ul>
+
+<h2>7. Agua: pH, EC y temperatura por etapa</h2>
+<table>
+<tr><td><strong>Plantín</strong></td><td>pH 5.5-5.8</td><td>EC 0.3-0.6</td><td>Agua 20-22°C</td></tr>
+<tr><td><strong>Vege</strong></td><td>pH 5.6-6.0</td><td>EC 1.2-1.6</td><td>Agua 18-22°C</td></tr>
+<tr><td><strong>Flora temprana</strong></td><td>pH 5.7-6.0</td><td>EC 1.6-1.9</td><td>Agua 18-21°C</td></tr>
+<tr><td><strong>Flora tardía / engorde</strong></td><td>pH 5.8-6.1</td><td>EC 1.9-2.3</td><td>Agua 18-20°C</td></tr>
+<tr><td><strong>Lavado final</strong></td><td>pH 5.8</td><td>EC 0.0-0.3</td><td>7-10 días solo agua</td></tr>
+</table>
+<ul>
+<li><strong>Deriva diaria:</strong> el pH sube y la EC baja a medida que comen: es normal. Corregí todos los días un poco, no una vez por semana mucho.</li>
+<li><strong>Cambio de solución:</strong> cada 7-10 días en vege, cada 5-7 en flora. Vaciar, limpiar depósito y arrancar receta fresca rinde más que "rellenar y ajustar" eternamente.</li>
+<li><strong>Oxígeno:</strong> agua fría + muchas burbujas. Raíces blancas = todo bien; marrones y babosas = pythium: bajá temp, subí aireación, esterilizá.</li>
+</ul>
+
+<h2>8. Fertilización hidropónica por etapa</h2>
+<ul>
+<li><strong>Base A+B de hidro:</strong> siempre A primero, mezclar, después B. Nunca juntes concentrados entre sí.</li>
+<li><strong>Orden de mezcla:</strong> agua → corrector de EC base → calcio/magnesio si tu agua es blanda → A → B → aditivos (enraizante, enzimas, PK) → medir EC → corregir pH al final.</li>
+<li><strong>Vege:</strong> base alta en N + enraizante las 2 primeras semanas + sílice para tallos fuertes.</li>
+<li><strong>Flora temprana:</strong> transición: mitad vege/mitad flora 1 semana, después base de flora + estimulador.</li>
+<li><strong>Engorde:</strong> PK extra semanas 4-6 + carbohidratos. No pases la EC de tabla: más no es más.</li>
+<li><strong>Subí dosis 10-15% por vez</strong> y mirá puntas 48h: si queman, volvé atrás. Cada genética tiene su techo.</li>
+</ul>
+
+<h2>9. Ventilación y filtración</h2>
+<ul>
+<li><strong>Sin CO2:</strong> renovación total cada 1-3 minutos + filtro de carbón a la salida (el olor en flora es mucho).</li>
+<li><strong>Con CO2:</strong> extracción mínima por temperatura/humedad, el clima lo hacen el aire y el deshumidificador. El filtro de carbón igual va.</li>
+<li><strong>Circulación interna siempre:</strong> ventiladores oscilantes que muevan las copas sin azotarlas: tallos fuertes y cero microclimas con hongos.</li>
+<li><strong>Entrada de aire:</strong> filtrada con malla antiplagas y trampa de luz si la sala no es 100% oscura en flora.</li>
+</ul>
+
+<h2>10. Rutina semanal y errores caros</h2>
+<ul>
+<li><strong>Todos los días:</strong> pH, EC, temp agua y aire, humedad, CO2. 5 minutos.</li>
+<li><strong>Cada semana:</strong> calibrar medidores, revisar raíces, limpiar prefiltros, chequear desagües y mangueras.</li>
+<li><strong>Errores que salen caros:</strong> chiller chico para el verano; bomba sin repuesto; subir PPFD y EC de golpe; inyectar CO2 con extracción prendida; no medir VPD en flora tardía; programar todo y no mirar la sala 3 días.</li>
+</ul>""",
+        'category': 'Cultivo',
+        'tags': 'hidroponia, indoor, avanzado, ppfd, co2, ec, ph, vpd, racks, iluminacion',
+        'published': True,
+        'featured': True
     }
 ]
 
