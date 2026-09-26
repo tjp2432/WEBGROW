@@ -1096,6 +1096,8 @@ blog_posts_data = [
 </table>
 <p>Medí siempre la EC <strong>del agua base primero</strong> y restala: si tu agua de red ya trae 0.7, tenés menos margen para fertilizante. En Argentina el agua corriente suele estar entre 0.3 y 0.8 según la zona: si supera 0.8, conviene mezclar con agua de lluvia, destilada u ósmosis.</p>
 
+<figure class="blog-figure vertical"><img src="/static/images/blog/phec-medidor-ec.jpg" alt="Medidor digital 3 en 1 de TDS, EC y temperatura" loading="lazy" style="max-width:380px;"><figcaption>Medidor 3 en 1 (TDS/EC/temperatura): con esto controlás las sales del riego y del drenaje.</figcaption></figure>
+
 <h2>Cómo medir paso a paso</h2>
 <ol>
 <li><strong>Calibrá el medidor:</strong> 1 vez por mes con solución buffer (pH 7.0 y 4.0). Un medidor descalibrado miente y es peor que no medir.</li>
@@ -1137,7 +1139,6 @@ blog_posts_data = [
 <li>Corrector pH- y pH+.</li>
 <li>Vaso medidor y anotador: registrá pH/EC de entrada y drenaje, vas a detectar problemas antes de verlos.</li>
 </ul>
-<figure class="blog-figure vertical"><img src="/static/images/blog/phec-medidor-ec.jpg" alt="Medidor digital 3 en 1 de TDS, EC y temperatura" loading="lazy" style="max-width:380px;"><figcaption>Medidor 3 en 1 (TDS/EC/temperatura): ideal para controlar las sales del riego y del drenaje.</figcaption></figure>
 
 <p>Con medidor, calibradores y correctores ya podés medir y corregir como un profesional.</p>""",
         'category': 'Cultivo',
