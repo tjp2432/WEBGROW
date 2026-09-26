@@ -1233,7 +1233,7 @@ blog_posts_data = [
 <h2>1. Estructura: sala, racks y bateas</h2>
 <ul>
 <li><strong>Cuarto sellado o carpa grande:</strong> para CO2 y control climático necesitás un espacio que puedas <strong>cerrar</strong>: paredes reflectantes (mylar o blanco mate), piso impermeable con desnivel a desagote y puerta con burlete.</li>
-<li><strong>Racks verticales (2 niveles):</strong> el estándar avanzado. Cada nivel lleva su batea (flood table) con desagüe al depósito. Dejá 40-60 cm entre batea y luminaria para trabajar y que el calor no queme puntas.</li>
+<li><strong>Racks verticales (2 niveles):</strong> el estándar avanzado. Pueden ser <strong>racks simples</strong> (estructura + 2 o más pisos) justamente para dar lugar a <strong>2 o más etapas de SCROG</strong>: cada piso lleva su batea (flood table) con desagüe al depósito y su propia red, así trabajás una red por nivel y multiplicás la canopia en el mismo metro cuadrado. Dejá 40-60 cm entre batea y luminaria para trabajar y que el calor no queme puntas.</li>
 <li><strong>Bateas y drenaje:</strong> bateas de 10-15 cm con pendiente 2% hacia el drenaje, mangueras de 25mm mínimo (las finas se tapan con raíces) y depósito <strong>fuera de la sala</strong> si podés: el agua suma calor y humedad.</li>
 <li><strong>Seguridad eléctrica y de agua:</strong> disyuntor diferencial dedicado, enchufes altos (nunca al ras del piso), bandejas anti-derrame bajo cada conexión y un sensor de inundación con alarma: baratos y salvan cosechas.</li>
 </ul>
