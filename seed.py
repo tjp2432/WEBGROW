@@ -403,7 +403,7 @@ blog_posts_data = [
         'title': 'Guía Completa para Principiantes en el Cultivo Indoor',
         'slug': 'guia-completa-cultivo-indoor-principiantes',
         'image': 'images/products/guia-completa-cultivo-indoor-principiantes.jpg',
-        'image': 'images/blog/guia-principiantes.jpg',
+        'image': 'images/blog/principiante-portada.jpg',
         'excerpt': 'Todo lo que necesitas saber para empezar tu primer cultivo indoor: espacio, luces, ventilación y nutrientes.',
         'content': """<h2>Introducción al Cultivo Indoor</h2>
 <p>El cultivo indoor te permite tener control total sobre el ambiente de tus plantas. Ya no dependes de las estaciones ni del clima exterior. Con el equipo adecuado, puedes obtener cosechas de alta calidad durante todo el año.</p>
