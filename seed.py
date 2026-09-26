@@ -1149,7 +1149,7 @@ blog_posts_data = [
     {
         'title': 'Dabbear: Qué Es, Beneficios y Todas las Formas de Hacerlo',
         'slug': 'que-es-dabbear-guia-consumo-concentrados',
-        'image': 'images/blog/rosin-recoleccion.webp',
+        'image': 'images/blog/dab-portada.webp',
         'excerpt': 'Qué es dabbear, por qué muchos lo prefieren a fumar flor, y guía de dab rigs, e-rigs, vaporizadores, nectar collectors y más.',
         'content': """<h2>Qué es dabbear</h2>
 <p><strong>Dabbear</strong> es vaporizar una pequeña dosis de concentrado (<em>dab</em>) sobre una superficie caliente e inhalar el vapor. En vez de quemar medio gramo de flor, ponés una porción del tamaño de un grano de arroz de rosin, shatter, wax o live resin sobre un clavo o banger caliente: se vaporiza al instante y lo inhalás filtrado en agua o directo.</p>
