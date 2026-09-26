@@ -1233,7 +1233,12 @@ blog_posts_data = [
 <h2>1. Estructura: sala, racks y bateas</h2>
 <ul>
 <li><strong>Cuarto sellado o carpa grande:</strong> para CO2 y control climático necesitás un espacio que puedas <strong>cerrar</strong>: paredes reflectantes (mylar o blanco mate), piso impermeable con desnivel a desagote y puerta con burlete.</li>
-<li><strong>Racks verticales (2 niveles):</strong> el estándar avanzado. Pueden ser <strong>racks simples</strong> (estructura + 2 o más pisos) justamente para dar lugar a <strong>2 o más etapas de SCROG</strong>: cada piso lleva su batea (flood table) con desagüe al depósito y su propia red, así trabajás una red por nivel y multiplicás la canopia en el mismo metro cuadrado. Dejá 40-60 cm entre batea y luminaria para trabajar y que el calor no queme puntas.</li>
+<li><strong>Racks: ojo, son 2 cosas distintas, no las mezcles:</strong>
+<ul>
+<li><strong>Opción A - 2 niveles de bateas con plantas arriba y abajo:</strong> dos pisos productivos, cada uno con su batea, su luminaria y su riego. Duplicás plantas por m² pero cada nivel necesita su altura completa (planta + 40-60 cm a la lámpara).</li>
+<li><strong>Opción B - bateas solo abajo con 2 o más SCROG arriba:</strong> un solo piso productivo y, sobre las mismas plantas, 2 o más redes apiladas en vertical para ir guiando el crecimiento hacia arriba por etapas. Acá no hay plantas arriba: las redes de arriba son todas para las plantas de abajo.</li>
+</ul>
+Los racks pueden ser <strong>simples</strong> (estructura + pisos regulables) y sirven para cualquiera de las dos opciones: agregás bateas o redes según lo que armes. Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y bateas, porque cambian las alturas, el riego y la cantidad de luminarias.</li>
 <li><strong>Bateas y drenaje:</strong> bateas de 10-15 cm con pendiente 2% hacia el drenaje, mangueras de 25mm mínimo (las finas se tapan con raíces) y depósito <strong>fuera de la sala</strong> si podés: el agua suma calor y humedad.</li>
 <li><strong>Seguridad eléctrica y de agua:</strong> disyuntor diferencial dedicado, enchufes altos (nunca al ras del piso), bandejas anti-derrame bajo cada conexión y un sensor de inundación con alarma: baratos y salvan cosechas.</li>
 </ul>
