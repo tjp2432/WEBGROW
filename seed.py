@@ -1050,7 +1050,7 @@ blog_posts_data = [
     {
         'title': 'pH y EC en Cannabis: Cómo Medir y Corregir Paso a Paso',
         'slug': 'medicion-ph-ec-cultivo-cannabis',
-        'image': 'images/blog/phec-medidor-ec.jpg',
+        'image': 'images/blog/phec-portada.jpg',
         'excerpt': 'Guía de pH y EC en cannabis: rangos ideales en tierra, coco e hidro, tabla por etapa, cómo medir, calibrar y corregir excesos o carencias.',
         'content': """<h2>pH y EC: las dos mediciones que definen tu cosecha</h2>
 <p>Podés tener la mejor genética, el mejor sustrato y los mejores fertilizantes: si el <strong>pH</strong> está mal, la planta <strong>no absorbe</strong> los nutrientes (bloqueo), y si la <strong>EC</strong> está mal, la planta se <strong>quema o pasa hambre</strong>. Medir pH y EC es lo que separa un cultivo flojo de uno profesional, y solo necesitás un medidor barato y 2 minutos por riego.</p>
