@@ -1396,7 +1396,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Transición (1ª semana 12/12):</strong> mitad y mitad una semana, después base de flora.</li>
 <li><strong>Flora y engorde:</strong> fósforo y potasio + melaza o té de compost. Últimas 1-2 semanas: solo agua (lavado).</li>
 <li><strong>Menos es más:</strong> el error intermedio típico es sobrefertilizar por ansiedad. Ante la duda, agua.</li>
-<li><strong>En coco/turba (inerte):</strong> acá se fertiliza <strong>en cada riego</strong> (fertirriego), porque el medio no aporta nada: vege EC 1.0-1.4, flora 1.6-2.0, siempre con 10-20% de drenaje para lavar sales. Sumá calcio/magnesio si tu agua es blanda (EC base menor a 0.3) y pH 5.5-6.0. Si no hay drenaje, la EC del sustrato sube sola y quema puntas aunque la de entrada esté bien.</li>
+<li><strong>En coco/turba (inerte):</strong> acá se fertiliza <strong>en cada riego</strong> (fertirriego), porque el medio no aporta nada: vege EC 1.0-1.4, flora 1.6-2.0, siempre con 10-20% de drenaje para lavar sales. Sumá calcio/magnesio si tu agua es blanda (EC base menor a 0.3) y pH 5.5-6.0. Si no hay drenaje, la EC del sustrato sube sola y quema puntas aunque la de entrada esté bien. Para el lavado final (limpieza de sales de la raíz y el sustrato) alcanzan 5-7 días de solo agua, porque el inerte no retiene nutrientes (en tierra son 10-14 días).</li>
 </ul>
 
 <h2>6. Podas y SCROG básico</h2>
@@ -1420,7 +1420,7 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <li><strong>Cuándo cortar:</strong> lupa 60x, mayoría de tricomas lechosos + 10-20% ámbar.</li>
 <li><strong>Secado:</strong> 7-14 días a oscuras, 18-22°C y 50-60% HR, colgado con aire suave.</li>
 <li><strong>Curado:</strong> frascos 3/4, abrir 10 min diarios la primera semana, mínimo 2-4 semanas. Acá se define el sabor final.</li>
-<li><strong>En coco/turba (inerte):</strong> el lavado final es más corto porque no hay nutrientes retenidos: 5-7 días de solo agua alcanzan (en tierra son 10-14). Cortá en el mismo punto de tricomas.</li>
+
 </ul>
 
 <h2>Errores típicos del intermedio</h2>
