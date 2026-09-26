@@ -1145,6 +1145,75 @@ blog_posts_data = [
         'tags': 'ph, ec, medicion, nutrientes, cultivo, cannabis, fertilizacion',
         'published': True,
         'featured': True
+    },
+    {
+        'title': 'Dabbear: Qué Es, Beneficios y Todas las Formas de Hacerlo',
+        'slug': 'que-es-dabbear-guia-consumo-concentrados',
+        'image': 'images/blog/rosin-recoleccion.webp',
+        'excerpt': 'Qué es dabbear, por qué muchos lo prefieren a fumar flor, y guía de dab rigs, e-rigs, vaporizadores, nectar collectors y más.',
+        'content': """<h2>Qué es dabbear</h2>
+<p><strong>Dabbear</strong> es vaporizar una pequeña dosis de concentrado (<em>dab</em>) sobre una superficie caliente e inhalar el vapor. En vez de quemar medio gramo de flor, ponés una porción del tamaño de un grano de arroz de rosin, shatter, wax o live resin sobre un clavo o banger caliente: se vaporiza al instante y lo inhalás filtrado en agua o directo.</p>
+<p>Sale de la cultura del hash pero explotó con los concentrados modernos: es la forma más directa de probar el <strong>sabor real de una genética</strong>, sin humo de combustión en el medio.</p>
+<figure class="blog-figure vertical"><img src="/static/images/blog/rosin-recoleccion.webp" alt="Dabber con rosin listo para dabbear" loading="lazy" style="max-width:380px;"><figcaption>Un dab del tamaño de un grano de arroz alcanza: los concentrados son mucho más potentes que la flor.</figcaption></figure>
+
+<h2>Beneficios vs fumar la flor</h2>
+<ul>
+<li><strong>Sin combustión:</strong> no quemás materia vegetal, evitás alquitrán, monóxido y el humo áspero. Es vapor, no humo.</li>
+<li><strong>Más sabor:</strong> a baja temperatura los terpenos llegan intactos. Un live rosin dabbeado a 180°C sabe a la planta viva; fumado, gran parte de ese sabor se quema.</li>
+<li><strong>Más eficiente:</strong> los concentrados rondan 60-90% de cannabinoides contra 15-25% de la flor. Menos material para el mismo efecto.</li>
+<li><strong>Menos olor y más discreto:</strong> el vapor se disipa rápido y no impregna como el porro.</li>
+<li><strong>Efecto limpio y graduable:</strong> con un e-rig a temperatura exacta repetís la misma experiencia siempre.</li>
+</ul>
+<p>Ojo: esa potencia es también su riesgo. Si venís de fumar flor, <strong>empezá con la mitad de un dab chico</strong> y esperá 15 minutos. La tolerancia sube rápido si dabbeás todos los días.</p>
+
+<h2>Formas de dabbear: todos los medios</h2>
+<h3>1. Dab rig clásico (vidrio + banger + soplete)</h3>
+<p>El método original: un rig de vidrio chico con <strong>banger</strong> (cazoleta de cuarzo), soplete para calentarlo y dabber. Barato de entrar, vapor excelente, pero hay que agarrarle la mano a la temperatura y el soplete exige cuidado.</p>
+<h3>2. E-rig eléctrico (tipo Puffco y similares)</h3>
+<p>Rig portátil con cámara y <strong>control de temperatura por botón</strong>: apretás, espera, ponés el dab. Cero soplete, dabs perfectos y repetibles. La opción más cómoda y segura, aunque más cara.</p>
+<h3>3. E-nail (clavo electrónico)</h3>
+<p>Resistencia eléctrica que mantiene el banger de tu rig <strong>siempre a la temperatura elegida</strong>. Ideal para sesiones largas o compartidas, sin andar prendiendo el soplete a cada rato.</p>
+<h3>4. Vaporizadores de concentrados / wax pens</h3>
+<p>Bolígrafos o portátiles con cámara cerámica o de cuarzo para wax y shatter. Ultra discretos y portátiles, aunque con menos sabor que un rig y hay que limpiarlos seguido.</p>
+<h3>5. Vaporizadores de hierbas con modo concentrados</h3>
+<p>Muchos vapos portátiles y de escritorio traen almohadilla o cápsula para concentrados: una sola compra para flor y dabs. Prácticos si ya tenés uno.</p>
+<h3>6. Nectar collector</h3>
+<p>Tubo con punta de cuarzo/titanio que calentás y <strong>apoyás directo sobre el concentrado</strong> mientras aspirás. Simple, barato e ideal para probar, aunque menos preciso con la temperatura.</p>
+<h3>7. Bong adaptado</h3>
+<p>Un bong común con banger en vez de cazoleta funciona como dab rig. Si ya tenés un buen bong, con un banger del calibre justo lo convertís sin comprar un rig nuevo.</p>
+
+<h2>La clave: la temperatura</h2>
+<ul>
+<li><strong>Dabs a baja temperatura (160-200°C):</strong> máximo sabor y vapor suave. El estándar para disfrutar terpenos.</li>
+<li><strong>Temperatura media (200-230°C):</strong> equilibrio sabor/pegada.</li>
+<li><strong>Alta temperatura (230°C+):</strong> más fuerte y áspero, se pierden terpenos. Evitalo si buscás sabor.</li>
+</ul>
+<p>Truco con soplete: calentá el banger 20-30 segundos, esperá 30-45 segundos (o medí con termómetro infrarrojo) y recién ahí poné el dab. Banger al rojo = demasiado caliente.</p>
+
+<h2>Cómo dabbear paso a paso (rig clásico)</h2>
+<ol>
+<li>Cargá agua limpia en el rig (poca, que burbujee sin salpicar a la boca).</li>
+<li>Prepará el dab en el dabber y dejalo a mano.</li>
+<li>Calentá el banger parejo con el soplete 20-30 segundos.</li>
+<li>Esperá 30-45 segundos a que baje a rango sabroso.</li>
+<li>Apoyá el dab girando el dabber, tapá con el carb cap e inhalá suave.</li>
+<li>Exhalá, y pasale un hisopo con alcohol isopropílico al banger en caliente: queda limpio para la próxima.</li>
+</ol>
+
+<h2>Limpieza y cuidado</h2>
+<ul>
+<li><strong>Hisopado en caliente</strong> después de cada dab: 10 segundos y el banger queda nuevo.</li>
+<li><strong>Cambiá el agua</strong> del rig en cada sesión: el agua sucia arruina el sabor.</li>
+<li><strong>Limpieza profunda:</strong> alcohol isopropílico + sal gruesa para vidrio, remojo para piezas de cuarzo.</li>
+<li><strong>Guardá los concentrados</strong> en frasco hermético, oscuro y frío: el calor y el aire los oscurecen y les matan el sabor en días.</li>
+</ul>
+
+<h2>Qué concentrado usar</h2>
+<p>Cualquiera sirve, pero se nota la diferencia: <strong>rosin, hash rosin y live rosin/resin</strong> son los reyes del dab por sabor. Shatter y wax rinden muy bien también. Si querés entender de dónde sale cada uno, mirá nuestra guía de <a href="/blog/extraccion-prensa-rosin-casera">rosin con prensa</a>.</p>""",
+        'category': 'Vaporización',
+        'tags': 'dab, dabbear, concentrados, dab rig, e-rig, vaporizador, banger',
+        'published': True,
+        'featured': True
     }
 ]
 
