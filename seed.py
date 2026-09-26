@@ -1169,16 +1169,22 @@ blog_posts_data = [
 <h2>Formas de dabbear: todos los medios</h2>
 <h3>1. Dab rig clásico (vidrio + banger + soplete)</h3>
 <p>El método original: un rig de vidrio chico con <strong>banger</strong> (cazoleta de cuarzo), soplete para calentarlo y dabber. Barato de entrar, vapor excelente, pero hay que agarrarle la mano a la temperatura y el soplete exige cuidado.</p>
+<figure class="blog-figure vertical"><img src="/static/images/blog/dab-rig.webp" alt="Dab rig de vidrio con banger de cuarzo" loading="lazy" style="max-width:380px;"><figcaption>Dab rig clásico: vidrio chico, banger de cuarzo y carb cap. Simple y rendidor.</figcaption></figure>
 <h3>2. E-rig eléctrico (tipo Puffco y similares)</h3>
 <p>Rig portátil con cámara y <strong>control de temperatura por botón</strong>: apretás, espera, ponés el dab. Cero soplete, dabs perfectos y repetibles. La opción más cómoda y segura, aunque más cara.</p>
+<figure class="blog-figure"><img src="/static/images/blog/dab-erig.webp" alt="E-rig eléctrico portátil para dabs" loading="lazy"><figcaption>E-rig: temperatura exacta con un botón, sin soplete ni termómetro.</figcaption></figure>
 <h3>3. E-nail (clavo electrónico)</h3>
 <p>Resistencia eléctrica que mantiene el banger de tu rig <strong>siempre a la temperatura elegida</strong>. Ideal para sesiones largas o compartidas, sin andar prendiendo el soplete a cada rato.</p>
+<figure class="blog-figure"><img src="/static/images/blog/dab-enail.jpg" alt="E-nail con controlador digital de temperatura" loading="lazy"><figcaption>E-nail: el controlador mantiene el clavo a la temperatura exacta toda la sesión.</figcaption></figure>
 <h3>4. Vaporizadores de concentrados / wax pens</h3>
 <p>Bolígrafos o portátiles con cámara cerámica o de cuarzo para wax y shatter. Ultra discretos y portátiles, aunque con menos sabor que un rig y hay que limpiarlos seguido.</p>
+<figure class="blog-figure"><img src="/static/images/blog/dab-waxpen.jpg" alt="Wax pens para concentrados" loading="lazy"><figcaption>Wax pens: discretos y portátiles, ideales para llevar.</figcaption></figure>
 <h3>5. Vaporizadores de hierbas con modo concentrados</h3>
 <p>Muchos vapos portátiles y de escritorio traen almohadilla o cápsula para concentrados: una sola compra para flor y dabs. Prácticos si ya tenés uno.</p>
+<figure class="blog-figure"><img src="/static/images/blog/dab-vapos.webp" alt="Vaporizadores portátiles con control de temperatura" loading="lazy"><figcaption>Vaporizadores con control de temperatura: varios sirven para flor y concentrados.</figcaption></figure>
 <h3>6. Nectar collector</h3>
 <p>Tubo con punta de cuarzo/titanio que calentás y <strong>apoyás directo sobre el concentrado</strong> mientras aspirás. Simple, barato e ideal para probar, aunque menos preciso con la temperatura.</p>
+<figure class="blog-figure"><img src="/static/images/blog/dab-nectar.jpg" alt="Nectar collector con plato para dab" loading="lazy"><figcaption>Nectar collector: calentás la punta y la apoyás sobre el dab mientras aspirás.</figcaption></figure>
 <h3>7. Bong adaptado</h3>
 <p>Un bong común con banger en vez de cazoleta funciona como dab rig. Si ya tenés un buen bong, con un banger del calibre justo lo convertís sin comprar un rig nuevo.</p>
 
