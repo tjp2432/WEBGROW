@@ -1308,6 +1308,8 @@ Definí cuál de las dos vas a usar <strong>antes</strong> de comprar luces y ba
 <tr><td><strong>Lavado final</strong></td><td>pH 5.8</td><td>EC 0.0-0.3</td><td>7-10 días solo agua</td></tr>
 </table>
 <ul>
+<li><strong>Dureza del agua:</strong> es el calcio y magnesio que ya trae tu agua (se mide en ppm de CaCO3 o grados). Agua blanda (menos de 100 ppm): tenés que <strong>sumar CalMag</strong> sí o sí, si no aparecen carencias aunque fertilices. Agua dura (más de 200-250 ppm): te come el margen de EC, bloquea micros y deja sarro en bombas y goteros. Con agua dura, la EC de entrada ya arranca alta y tenés poco resto para comida.</li>
+<li><strong>Filtro de ósmosis inversa (RO):</strong> saca el 90-98% de las sales y te deja agua en EC 0.0-0.1: un lienzo en blanco para armar tu receta exacta. Obligatorio si tu agua de red supera EC 0.4-0.5 o es muy dura. Detalles: produce 1L limpio cada 3-4L de rechazo (ese agua sirve para lavar o riego común), el agua de ósmosis <strong>sola no sirve</strong>: siempre hay que remineralizar con CalMag primero y después la base, y el pH se corrige al final como siempre.</li>
 <li><strong>Deriva diaria:</strong> el pH sube y la EC baja a medida que comen: es normal. Corregí todos los días un poco, no una vez por semana mucho.</li>
 <li><strong>Cambio de solución:</strong> cada 7-10 días en vege, cada 5-7 en flora. Vaciar, limpiar depósito y arrancar receta fresca rinde más que "rellenar y ajustar" eternamente.</li>
 <li><strong>Oxígeno:</strong> agua fría + muchas burbujas. Raíces blancas = todo bien; marrones y babosas = pythium: bajá temp, subí aireación, esterilizá.</li>
