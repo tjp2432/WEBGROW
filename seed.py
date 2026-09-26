@@ -1234,6 +1234,7 @@ blog_posts_data = [
 <ul>
 <li><strong>Cuarto sellado o carpa grande:</strong> para CO2 y control climático necesitás un espacio que puedas <strong>cerrar</strong>: paredes reflectantes (mylar o blanco mate), piso impermeable con desnivel a desagote y puerta con burlete.</li>
 <li><strong>Racks (2 configuraciones posibles):</strong>
+<p>El rack es la estructura metálica que sostiene todo el cultivo. Cumple dos funciones: <strong>separar las plantas del piso por higiene</strong> (el piso junta agua, suciedad y patógenos: nada puede apoyar directo) y darte una <strong>estructura firme de donde sostener la planta</strong> según la técnica que hagas: atar ramas (LST), apoyar redes de SCROG o colgar tutores y luminarias.</p>
 <ul>
 <li><strong>Opción A - 2 niveles de bateas con plantas arriba y abajo:</strong> dos pisos productivos, cada uno con su batea, su luminaria y su riego. Duplicás plantas por m² pero cada nivel necesita su altura completa (planta + 40-60 cm a la lámpara).</li>
 <li><strong>Opción B - bateas solo abajo con 1, 2 o más SCROG arriba:</strong> un solo piso productivo y, sobre las mismas plantas, 1, 2 o más redes apiladas en vertical para ir guiando el crecimiento hacia arriba por etapas. Acá no hay plantas arriba: las redes de arriba son todas para las plantas de abajo.</li>
