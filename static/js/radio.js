@@ -1,6 +1,6 @@
 /* Radio Grow: radios por género (API pública Radio Browser, sin claves). */
 (function () {
-    var API = 'https://de1.api.radio-browser.info/json/stations/bytag/';
+    var API = 'https://de1.api.radio-browser.info/json/stations/search';
     var fab = document.getElementById('radioFab');
     var widget = document.getElementById('radioWidget');
     var closeBtn = document.getElementById('radioClose');
@@ -51,22 +51,26 @@
         var btn = e.target.closest('button[data-tag]');
         if (!btn) return;
         var tag = btn.getAttribute('data-tag');
+        var country = btn.getAttribute('data-country') || '';
+        var key = tag + '|' + country;
         Array.prototype.forEach.call(genres.children, function (b) {
             b.classList.toggle('active', b === btn);
         });
-        if (cache[tag]) {
-            stations = cache[tag];
+        if (cache[key]) {
+            stations = cache[key];
             playStation(0);
             return;
         }
         now.textContent = 'Buscando radios...';
-        fetch(API + encodeURIComponent(tag) + '?hidebroken=true&order=votes&reverse=true&limit=20')
+        var url = API + '?hidebroken=true&order=votes&reverse=true&limit=20&tag=' + encodeURIComponent(tag);
+        if (country) url += '&country=' + encodeURIComponent(country);
+        fetch(url)
             .then(function (r) { return r.json(); })
             .then(function (list) {
                 stations = (list || []).filter(function (s) {
                     return s.url_resolved && s.url_resolved.indexOf('https://') === 0;
                 });
-                cache[tag] = stations;
+                cache[key] = stations;
                 if (!stations.length) {
                     now.textContent = 'Sin radios HTTPS, probá otro género';
                     return;
