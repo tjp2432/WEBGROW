@@ -48,7 +48,7 @@
     }
 
     genres.addEventListener('click', function (e) {
-        var btn = e.target.closest('button[data-tag]');
+        var btn = e.target.closest('#radioGenres button');
         if (!btn) return;
         var stream = btn.getAttribute('data-stream');
         if (stream) {
