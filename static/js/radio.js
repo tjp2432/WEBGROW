@@ -50,6 +50,15 @@
     genres.addEventListener('click', function (e) {
         var btn = e.target.closest('button[data-tag]');
         if (!btn) return;
+        var stream = btn.getAttribute('data-stream');
+        if (stream) {
+            Array.prototype.forEach.call(genres.children, function (b) {
+                b.classList.toggle('active', b === btn);
+            });
+            stations = [{ name: btn.getAttribute('data-name') || 'Radio en vivo', url_resolved: stream }];
+            playStation(0);
+            return;
+        }
         var tag = btn.getAttribute('data-tag');
         var country = btn.getAttribute('data-country') || '';
         var key = tag + '|' + country;
