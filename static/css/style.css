@@ -886,12 +886,9 @@ img { max-width: 100%; height: auto; }
 .radio-controls { padding-right: 2.2rem; }
 .radio-controls input[type="range"] {
     position: absolute;
-    right: 0.9rem;
-    top: 0.8rem;
-    writing-mode: vertical-lr;
-    direction: rtl;
-    width: 8px;
-    height: 60%;
+    right: 2.6rem;
+    top: 1.05rem;
+    width: 110px;
     accent-color: var(--accent);
 }
 @media (max-width: 767px) {
