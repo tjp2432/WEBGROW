@@ -882,15 +882,17 @@ img { max-width: 100%; height: auto; }
     cursor: pointer;
 }
 .radio-controls button:hover { background: rgba(255, 255, 255, 0.22); }
+.radio-panel { position: relative; }
+.radio-controls { padding-right: 2.2rem; }
 .radio-controls input[type="range"] {
-    order: 1;
+    position: absolute;
+    right: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
     writing-mode: vertical-lr;
     direction: rtl;
     width: 8px;
-    height: 96px;
-    flex-shrink: 0;
-    margin-left: auto;
-    align-self: center;
+    height: 70%;
     accent-color: var(--accent);
 }
 @media (max-width: 767px) {
