@@ -882,7 +882,15 @@ img { max-width: 100%; height: auto; }
     cursor: pointer;
 }
 .radio-controls button:hover { background: rgba(255, 255, 255, 0.22); }
-.radio-controls input[type="range"] { flex: 1; accent-color: var(--accent); }
+.radio-controls input[type="range"] {
+    order: 1;
+    writing-mode: vertical-lr;
+    direction: rtl;
+    width: 8px;
+    height: 96px;
+    flex-shrink: 0;
+    accent-color: var(--accent);
+}
 @media (max-width: 767px) {
     .radio-fab { bottom: 5.5rem; left: 1rem; width: 48px; height: 48px; }
     .radio-widget { bottom: 9rem; left: 1rem; right: 1rem; }

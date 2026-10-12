@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=144">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=145">
     <style>.navbar .navbar-brand img{transition:transform .3s ease;transform-origin:top center}.navbar .navbar-brand:hover img{transform:scale(3)}</style>
     {% block extra_css %}{% endblock %}
 </head>
@@ -167,7 +167,7 @@
                 <button id="radioPrev" title="Anterior"><i class="bi bi-skip-backward-fill"></i></button>
                 <button id="radioPlay" title="Play/Pausa"><i class="bi bi-play-fill"></i></button>
                 <button id="radioNext" title="Siguiente"><i class="bi bi-skip-forward-fill"></i></button>
-                <input id="radioVol" type="range" min="0" max="100" value="80" title="Volumen">
+                <input id="radioVol" type="range" min="0" max="100" value="80" title="Volumen" orient="vertical">
             </div>
             <audio id="radioAudio" preload="none"></audio>
         </div>
