@@ -68,26 +68,7 @@
                         <span class="cart-badge" id="cartBadge">{{ cart_count }}</span>
                     </a>
                     {% endif %}
-                    {% if current_user.is_authenticated %}
-                    <div class="dropdown">
-                        <a href="#" class="account-icon dropdown-toggle" role="button" data-bs-toggle="dropdown">
-                            <i class="bi bi-person-circle fs-5"></i>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end account-menu">
-                            <li><h6 class="dropdown-header">{{ current_user.username }}</h6></li>
-                            <li><a class="dropdown-item" href="{{ url_for('account') }}">Mi Cuenta</a></li>
-                            {% if current_user.is_admin %}
-                            <li><a class="dropdown-item" href="{{ url_for('admin_dashboard') }}">Panel Admin</a></li>
-                            {% endif %}
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="{{ url_for('logout') }}">Cerrar Sesión</a></li>
-                        </ul>
-                    </div>
-                    {% else %}
-                    <a href="{{ url_for('login') }}" class="account-icon" title="Ingresar">
-                        <i class="bi bi-person fs-5"></i>
-                    </a>
-                    {% endif %}
+
                 </div>
             </div>
         </div>
