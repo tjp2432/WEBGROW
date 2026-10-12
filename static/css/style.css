@@ -887,12 +887,11 @@ img { max-width: 100%; height: auto; }
 .radio-controls input[type="range"] {
     position: absolute;
     right: 0.9rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0.8rem;
     writing-mode: vertical-lr;
     direction: rtl;
     width: 8px;
-    height: 70%;
+    height: 60%;
     accent-color: var(--accent);
 }
 @media (max-width: 767px) {
